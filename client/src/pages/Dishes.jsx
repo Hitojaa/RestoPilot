@@ -115,8 +115,8 @@ export default function Dishes() {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         {[
           { label: 'Bestsellers', count: rows.filter((r) => r.status === 'bestseller').length, color: 'text-accent-green' },
-          { label: 'Moyens', count: rows.filter((r) => r.status === 'moyen').length, color: 'text-accent-amber' },
-          { label: 'En déclin', count: rows.filter((r) => r.status === 'déclin').length, color: 'text-accent-red' },
+          { label: 'En hausse',   count: rows.filter((r) => r.status === 'en-hausse').length,  color: 'text-teal-400' },
+          { label: 'En déclin',   count: rows.filter((r) => r.status === 'déclin').length,      color: 'text-accent-red' },
           { label: 'Faux bons plats', count: rows.filter((r) => r.status === 'faux-bon').length, color: 'text-accent-purple' },
         ].map(({ label, count, color }) => (
           <div key={label} className="card px-4 py-3 flex items-center gap-3">

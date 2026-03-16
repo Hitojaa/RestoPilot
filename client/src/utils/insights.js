@@ -175,7 +175,15 @@ export function generateInsights(sales, menu, startDate) {
 
 /**
  * Calcule le statut d'un plat (pour les badges)
- * @returns {'bestseller'|'moyen'|'déclin'|'faux-bon'}
+ *
+ * Priorité d'évaluation (ordre important) :
+ * 1. bestseller  — pilier du CA (>15% du total)
+ * 2. déclin      — baisse >15% sur 2 semaines consécutives
+ * 3. faux-bon    — top 3 réputation mais faible volume
+ * 4. en-hausse   — tendance dernière semaine > +5 %
+ * 5. stable      — tout le reste (neutre, non péjoratif)
+ *
+ * @returns {'bestseller'|'en-hausse'|'stable'|'déclin'|'faux-bon'}
  */
 export function getDishStatus(dish, sales, menu, weeks) {
   const allTime = sales;
@@ -183,17 +191,17 @@ export function getDishStatus(dish, sales, menu, weeks) {
   const dishRevenue = getRevenue(allTime, dish.id, menu);
   const dishVolume = getVolume(allTime, dish.id);
 
-  // Bestseller: >15% du CA total
-  if (dishRevenue / totalRevenue > 0.15) return 'bestseller';
+  // 1. Bestseller : >15% du CA total sur 4 semaines
+  if (totalRevenue > 0 && dishRevenue / totalRevenue > 0.15) return 'bestseller';
 
-  // En déclin: baisse >15% sur 2 semaines consécutives
+  // 2. En déclin : baisse >15% sur 2 semaines consécutives
   if (weeks.length >= 4) {
     const t12 = trendPercent(weeks[1], weeks[2], dish.id);
     const t23 = trendPercent(weeks[2], weeks[3], dish.id);
     if (t12 < -15 && t23 < -15) return 'déclin';
   }
 
-  // Faux bon plat: top 3 réputation mais volume faible
+  // 3. Faux bon plat : top 3 réputation mais volume < 70% de la médiane
   const allVolumes = menu.map((d) => getVolume(allTime, d.id)).sort((a, b) => a - b);
   const medianVol = allVolumes[Math.floor(allVolumes.length / 2)];
   const topReputation = [...menu].sort((a, b) => b.reputation - a.reputation).slice(0, 3);
@@ -201,5 +209,13 @@ export function getDishStatus(dish, sales, menu, weeks) {
     return 'faux-bon';
   }
 
-  return 'moyen';
+  // 4. En hausse : tendance semaine 3→4 > +5%
+  // Seuil bas intentionnel : même une petite croissance mérite d'être valorisée
+  if (weeks.length >= 4) {
+    const lastTrend = trendPercent(weeks[2], weeks[3], dish.id);
+    if (lastTrend > 5) return 'en-hausse';
+  }
+
+  // 5. Stable : ni en crise, ni en décollage notable
+  return 'stable';
 }

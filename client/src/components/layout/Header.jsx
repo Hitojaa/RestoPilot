@@ -1,4 +1,5 @@
 import { MapPin, Calendar, Menu } from 'lucide-react';
+import { useSettings } from '../../hooks/useSettings';
 
 const MONTHS_FR = [
   'janvier','février','mars','avril','mai','juin',
@@ -15,12 +16,13 @@ function formatDateFr(date) {
 
 export default function Header({ title, onMenuOpen }) {
   const today = new Date();
+  const { settings } = useSettings();
 
   return (
     <header className="h-14 border-b border-bg-border bg-bg-primary/80 backdrop-blur-sm flex items-center px-4 sm:px-6 sticky top-0 z-20">
       <div className="flex items-center justify-between w-full gap-3">
 
-        {/* Hamburger (mobile only) + titre */}
+        {/* Hamburger (mobile only) + titre page */}
         <div className="flex items-center gap-3 min-w-0">
           <button
             onClick={onMenuOpen}
@@ -32,20 +34,19 @@ export default function Header({ title, onMenuOpen }) {
           <h1 className="text-sm font-semibold text-text-primary truncate">{title}</h1>
         </div>
 
-        {/* Restaurant info — masqué sur très petit écran */}
+        {/* Restaurant info */}
         <div className="flex items-center gap-3 sm:gap-5 flex-shrink-0">
-          {/* Date — cachée sur mobile xs */}
           <div className="hidden sm:flex items-center gap-1.5 text-text-secondary text-xs">
             <Calendar size={13} />
             <span className="whitespace-nowrap">{formatDateFr(today)}</span>
           </div>
-          {/* Nom restaurant */}
           <div className="flex items-center gap-1.5">
             <div className="w-1.5 h-1.5 rounded-full bg-accent-green animate-pulse flex-shrink-0" />
             <div className="flex items-center gap-1 text-xs text-text-secondary">
               <MapPin size={12} className="flex-shrink-0" />
+              {/* Nom lu depuis les paramètres — se met à jour en temps réel */}
               <span className="font-medium text-text-primary whitespace-nowrap text-[11px] sm:text-xs">
-                Le Marais
+                {settings.restaurantName}
               </span>
             </div>
           </div>

@@ -72,4 +72,16 @@
     @apply bg-accent-purple/15 text-accent-purple border border-accent-purple/30
            text-xs font-medium px-2 py-0.5 rounded-full;
   }
+
+  /* Vert clair — en hausse (distinct du vert bestseller) */
+  .badge-teal {
+    @apply bg-teal-500/15 text-teal-400 border border-teal-500/30
+           text-xs font-medium px-2 py-0.5 rounded-full;
+  }
+
+  /* Gris neutre — stable (remplace le jaune péjoratif "moyen") */
+  .badge-neutral {
+    @apply bg-slate-700/50 text-slate-400 border border-slate-600/40
+           text-xs font-medium px-2 py-0.5 rounded-full;
+  }
 }
