@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    background-color: #0f1117;
+    color: #e2e8f0;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0f1117;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2a2d3e;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3a3d50;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-bg-card rounded-xl border border-bg-border shadow-card;
+  }
+
+  .card-hover {
+    @apply hover:shadow-card-hover hover:border-accent-blue/20 transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-accent-blue text-white px-4 py-2 rounded-lg font-medium text-sm
+           hover:bg-blue-500 transition-colors duration-150 active:scale-95;
+  }
+
+  .btn-ghost {
+    @apply text-text-secondary px-3 py-1.5 rounded-lg text-sm
+           hover:bg-bg-hover hover:text-text-primary transition-colors duration-150;
+  }
+
+  .badge-green {
+    @apply bg-accent-green/15 text-accent-green border border-accent-green/30
+           text-xs font-medium px-2 py-0.5 rounded-full;
+  }
+
+  .badge-yellow {
+    @apply bg-accent-amber/15 text-accent-amber border border-accent-amber/30
+           text-xs font-medium px-2 py-0.5 rounded-full;
+  }
+
+  .badge-red {
+    @apply bg-accent-red/15 text-accent-red border border-accent-red/30
+           text-xs font-medium px-2 py-0.5 rounded-full;
+  }
+
+  .badge-purple {
+    @apply bg-accent-purple/15 text-accent-purple border border-accent-purple/30
+           text-xs font-medium px-2 py-0.5 rounded-full;
+  }
+}

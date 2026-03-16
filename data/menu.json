@@ -1,0 +1,148 @@
+{
+  "dishes": [
+    {
+      "id": "d001",
+      "name": "Tartare de bœuf",
+      "category": "entrées",
+      "price": 16,
+      "reputation": 4.7,
+      "description": "Tartare de bœuf haché au couteau, câpres, cornichons, moutarde"
+    },
+    {
+      "id": "d002",
+      "name": "Soupe à l'oignon",
+      "category": "entrées",
+      "price": 9,
+      "reputation": 4.5,
+      "description": "Soupe à l'oignon gratinée, croûtons, fromage fondu"
+    },
+    {
+      "id": "d003",
+      "name": "Salade niçoise",
+      "category": "entrées",
+      "price": 12,
+      "reputation": 4.2,
+      "description": "Salade niçoise, thon, olives, anchois, œufs durs"
+    },
+    {
+      "id": "d004",
+      "name": "Terrine du chef",
+      "category": "entrées",
+      "price": 8,
+      "reputation": 4.0,
+      "description": "Terrine maison, cornichons, pain de campagne"
+    },
+    {
+      "id": "d005",
+      "name": "Entrecôte frites",
+      "category": "plats",
+      "price": 26,
+      "reputation": 4.8,
+      "description": "Entrecôte 250g, frites maison, sauce béarnaise"
+    },
+    {
+      "id": "d006",
+      "name": "Croque-monsieur",
+      "category": "plats",
+      "price": 11,
+      "reputation": 3.8,
+      "description": "Croque-monsieur jambon fromage, salade verte"
+    },
+    {
+      "id": "d007",
+      "name": "Coq au vin",
+      "category": "plats",
+      "price": 22,
+      "reputation": 4.6,
+      "description": "Coq au vin traditionnel, légumes de saison, pommes vapeur"
+    },
+    {
+      "id": "d008",
+      "name": "Steak tartare",
+      "category": "plats",
+      "price": 24,
+      "reputation": 4.4,
+      "description": "Steak tartare façon bistrot, frites ou salade"
+    },
+    {
+      "id": "d009",
+      "name": "Formule midi",
+      "category": "plats",
+      "price": 15,
+      "reputation": 4.1,
+      "description": "Plat du jour + dessert ou entrée + plat"
+    },
+    {
+      "id": "d010",
+      "name": "Moules marinières",
+      "category": "plats",
+      "price": 18,
+      "reputation": 4.3,
+      "description": "Moules de bouchot, vin blanc, crème fraîche, frites"
+    },
+    {
+      "id": "d011",
+      "name": "Bavette à l'échalote",
+      "category": "plats",
+      "price": 21,
+      "reputation": 4.2,
+      "description": "Bavette d'aloyau, échalotes confites, frites maison"
+    },
+    {
+      "id": "d012",
+      "name": "Tarte Tatin",
+      "category": "desserts",
+      "price": 8,
+      "reputation": 4.7,
+      "description": "Tarte Tatin pommes caramélisées, crème fraîche"
+    },
+    {
+      "id": "d013",
+      "name": "Crème brûlée",
+      "category": "desserts",
+      "price": 7,
+      "reputation": 4.5,
+      "description": "Crème brûlée vanille Bourbon, sucre caramélisé"
+    },
+    {
+      "id": "d014",
+      "name": "Profiteroles",
+      "category": "desserts",
+      "price": 8,
+      "reputation": 4.3,
+      "description": "Profiteroles, glace vanille, sauce chocolat chaud"
+    },
+    {
+      "id": "d015",
+      "name": "Mousse au chocolat",
+      "category": "desserts",
+      "price": 6,
+      "reputation": 4.1,
+      "description": "Mousse au chocolat noir 70%, tuile croustillante"
+    },
+    {
+      "id": "d016",
+      "name": "Verre de Bordeaux",
+      "category": "boissons",
+      "price": 7,
+      "reputation": 4.4,
+      "description": "Château Meyney, Saint-Estèphe rouge 2020"
+    },
+    {
+      "id": "d017",
+      "name": "Kir royal",
+      "category": "boissons",
+      "price": 9,
+      "reputation": 4.2,
+      "description": "Champagne brut, crème de cassis de Dijon"
+    },
+    {
+      "id": "d018",
+      "name": "Café gourmand",
+      "category": "boissons",
+      "price": 5,
+      "reputation": 4.0,
+      "description": "Café expresso, mignardises maison"
+    }
+  ]
+}
