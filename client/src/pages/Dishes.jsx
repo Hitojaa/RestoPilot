@@ -76,35 +76,37 @@ export default function Dishes() {
   );
 
   return (
-    <div className="space-y-5 max-w-[1400px]">
+    <div className="space-y-4 sm:space-y-5 max-w-[1400px]">
       {/* Filters */}
-      <div className="flex flex-col sm:flex-row gap-3 items-start sm:items-center justify-between">
-        {/* Category tabs */}
-        <div className="flex gap-1 p-1 bg-bg-card rounded-lg border border-bg-border">
-          {CATEGORIES.map((cat) => (
-            <button
-              key={cat}
-              onClick={() => setCategory(cat)}
-              className={`px-3 py-1.5 text-xs font-medium rounded-md transition-colors duration-150
-                ${category === cat
-                  ? 'bg-accent-blue text-white'
-                  : 'text-text-secondary hover:text-text-primary'}`}
-            >
-              {cat === 'Toutes' ? 'Toutes' : CAT_LABELS[cat]}
-            </button>
-          ))}
+      <div className="flex flex-col gap-3">
+        {/* Category tabs — scroll horizontal sur mobile */}
+        <div className="overflow-x-auto -mx-4 sm:mx-0 px-4 sm:px-0">
+          <div className="flex gap-1 p-1 bg-bg-card rounded-lg border border-bg-border w-max sm:w-auto">
+            {CATEGORIES.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setCategory(cat)}
+                className={`px-3 py-1.5 text-xs font-medium rounded-md transition-colors duration-150 whitespace-nowrap
+                  ${category === cat
+                    ? 'bg-accent-blue text-white'
+                    : 'text-text-secondary hover:text-text-primary'}`}
+              >
+                {cat === 'Toutes' ? 'Toutes' : CAT_LABELS[cat]}
+              </button>
+            ))}
+          </div>
         </div>
 
-        {/* Search */}
-        <div className="relative">
+        {/* Search — pleine largeur sur mobile */}
+        <div className="relative w-full sm:w-52">
           <Search size={13} className="absolute left-3 top-1/2 -translate-y-1/2 text-text-muted" />
           <input
             type="text"
             placeholder="Rechercher un plat..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="bg-bg-card border border-bg-border rounded-lg pl-8 pr-3 py-2 text-xs text-text-primary
-                       placeholder:text-text-muted focus:outline-none focus:border-accent-blue/50 w-52"
+            className="w-full bg-bg-card border border-bg-border rounded-lg pl-8 pr-3 py-2 text-xs text-text-primary
+                       placeholder:text-text-muted focus:outline-none focus:border-accent-blue/50"
           />
         </div>
       </div>

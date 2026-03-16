@@ -100,7 +100,7 @@ export default function Pricing() {
   }
 
   return (
-    <div className="space-y-5 max-w-[1400px]">
+    <div className="space-y-4 sm:space-y-5 max-w-[1400px]">
       {/* Ticket moyen par semaine */}
       <div className="card p-5">
         <h2 className="text-sm font-semibold text-text-primary mb-1">Ticket moyen — évolution hebdomadaire</h2>

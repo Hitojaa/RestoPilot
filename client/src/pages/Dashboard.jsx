@@ -69,9 +69,9 @@ export default function Dashboard() {
   if (!stats) return <LoadingScreen />;
 
   return (
-    <div className="space-y-6 max-w-[1400px]">
+    <div className="space-y-4 sm:space-y-6 max-w-[1400px]">
       {/* KPIs */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         <KPICard
           title="CA cette semaine"
           value={formatEur(stats.weekRevenue)}
@@ -99,6 +99,7 @@ export default function Dashboard() {
         <KPICard
           title="Plat #1"
           value={stats.top?.name ?? '—'}
+          smallValue
           icon={Star}
           iconColor="bg-accent-amber/10"
           subtitle={stats.top ? `${formatEur(getRevenue(sales, stats.top.id, menu))} générés (4 sem.)` : ''}

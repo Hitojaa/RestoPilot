@@ -1,24 +1,18 @@
 import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
 
-/**
- * Carte KPI générique
- * @param {string}  title     - Titre de la métrique
- * @param {string}  value     - Valeur principale (déjà formatée)
- * @param {string}  subtitle  - Sous-texte (optionnel)
- * @param {number}  trend     - Variation en % vs période précédente (optionnel)
- * @param {React.ReactNode} icon  - Icône Lucide
- * @param {string}  iconColor - Couleur bg de l'icône (ex: 'bg-blue-500/15')
- */
-export default function KPICard({ title, value, subtitle, trend, icon: Icon, iconColor = 'bg-accent-blue/10' }) {
+export default function KPICard({ title, value, subtitle, trend, icon: Icon, iconColor = 'bg-accent-blue/10', smallValue }) {
   const hasTrend = trend !== undefined && trend !== null;
   const isUp = hasTrend && trend > 0;
   const isDown = hasTrend && trend < 0;
 
+  // smallValue : force une taille de texte réduite pour les valeurs longues (ex: nom de plat)
+  const valueSize = smallValue ? 'text-base sm:text-lg font-semibold leading-tight' : 'text-xl sm:text-2xl font-bold';
+
   return (
-    <div className="card card-hover p-5 flex flex-col gap-3 animate-slide-up">
+    <div className="card card-hover p-4 sm:p-5 flex flex-col gap-3 animate-slide-up">
       <div className="flex items-start justify-between">
-        <div className={`w-9 h-9 rounded-lg ${iconColor} flex items-center justify-center flex-shrink-0`}>
-          {Icon && <Icon size={18} className="text-accent-blue" />}
+        <div className={`w-8 h-8 sm:w-9 sm:h-9 rounded-lg ${iconColor} flex items-center justify-center flex-shrink-0`}>
+          {Icon && <Icon size={16} className="text-accent-blue" />}
         </div>
         {hasTrend && (
           <div className={`flex items-center gap-1 text-xs font-medium px-2 py-0.5 rounded-full
@@ -29,13 +23,13 @@ export default function KPICard({ title, value, subtitle, trend, icon: Icon, ico
         )}
       </div>
 
-      <div>
-        <p className="text-2xl font-bold text-text-primary tracking-tight">{value}</p>
+      <div className="min-w-0">
+        <p className={`${valueSize} text-text-primary tracking-tight truncate`}>{value}</p>
         <p className="text-xs text-text-muted mt-0.5">{title}</p>
       </div>
 
       {subtitle && (
-        <p className="text-xs text-text-secondary border-t border-bg-border pt-2">{subtitle}</p>
+        <p className="text-xs text-text-secondary border-t border-bg-border pt-2 truncate">{subtitle}</p>
       )}
     </div>
   );

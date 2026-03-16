@@ -66,7 +66,7 @@ export default function Schedule() {
   const maxDayCover = Math.max(...stats.dayData.map((d) => d.covers));
 
   return (
-    <div className="space-y-5 max-w-[1400px]">
+    <div className="space-y-4 sm:space-y-5 max-w-[1400px]">
       {/* Highlight cards */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div className="card p-4">
