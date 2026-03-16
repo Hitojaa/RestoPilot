@@ -5,15 +5,20 @@ import {
   UtensilsCrossed,
   Clock,
   TrendingUp,
+  Settings,
   ChefHat,
   X,
 } from 'lucide-react';
 
 const NAV_ITEMS = [
-  { to: '/',         icon: LayoutDashboard, label: 'Dashboard' },
-  { to: '/dishes',   icon: UtensilsCrossed, label: 'Mes Plats' },
-  { to: '/schedule', icon: Clock,           label: 'Heures & Jours' },
-  { to: '/pricing',  icon: TrendingUp,      label: 'Prix & Revenus' },
+  { to: '/',          icon: LayoutDashboard, label: 'Dashboard' },
+  { to: '/dishes',    icon: UtensilsCrossed, label: 'Mes Plats' },
+  { to: '/schedule',  icon: Clock,           label: 'Heures & Jours' },
+  { to: '/pricing',   icon: TrendingUp,      label: 'Prix & Revenus' },
+];
+
+const BOTTOM_ITEMS = [
+  { to: '/settings',  icon: Settings,        label: 'Paramètres' },
 ];
 
 /**
@@ -94,8 +99,26 @@ export default function Sidebar({ isOpen, onClose }) {
           ))}
         </nav>
 
-        <div className="px-4 py-4 border-t border-bg-border">
-          <p className="text-[10px] text-text-muted text-center">v0.1.0 — MVP</p>
+        {/* Paramètres en bas */}
+        <div className="px-3 pb-3 space-y-0.5 border-t border-bg-border pt-3">
+          {BOTTOM_ITEMS.map(({ to, icon: Icon, label }) => (
+            <NavLink
+              key={to}
+              to={to}
+              onClick={onClose}
+              className={({ isActive }) =>
+                `flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-150
+                 ${isActive
+                   ? 'bg-accent-blue/10 text-accent-blue border border-accent-blue/20'
+                   : 'text-text-secondary hover:bg-bg-hover hover:text-text-primary'
+                 }`
+              }
+            >
+              <Icon size={17} className="flex-shrink-0" />
+              {label}
+            </NavLink>
+          ))}
+          <p className="text-[10px] text-text-muted text-center pt-2">v0.1.0 — MVP</p>
         </div>
       </aside>
     </>

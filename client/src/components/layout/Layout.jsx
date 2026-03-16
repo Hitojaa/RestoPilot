@@ -4,10 +4,11 @@ import Sidebar from './Sidebar';
 import Header from './Header';
 
 const PAGE_TITLES = {
-  '/':         'Dashboard',
-  '/dishes':   'Mes Plats',
-  '/schedule': 'Heures & Jours',
-  '/pricing':  'Prix & Revenus',
+  '/':          'Dashboard',
+  '/dishes':    'Mes Plats',
+  '/schedule':  'Heures & Jours',
+  '/pricing':   'Prix & Revenus',
+  '/settings':  'Paramètres',
 };
 
 export default function Layout({ children }) {

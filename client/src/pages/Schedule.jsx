@@ -1,12 +1,12 @@
 import { useMemo } from 'react';
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell,
-  Legend,
 } from 'recharts';
 import { useData } from '../hooks/useData';
+import { useSettings } from '../hooks/useSettings';
 import Heatmap from '../components/schedule/Heatmap';
 import {
-  groupByDayOfWeek, groupByHour, totalCovers, formatNum,
+  groupByDayOfWeek, groupByHour, formatNum,
   DAYS_FR, ALL_HOURS, LUNCH_HOURS, DINNER_HOURS,
 } from '../utils/dataUtils';
 
@@ -22,6 +22,7 @@ function CustomTooltip({ active, payload, label }) {
 
 export default function Schedule() {
   const { menu, sales, loading, derived } = useData();
+  const { settings } = useSettings();
 
   const stats = useMemo(() => {
     if (!menu.length || !sales.length || !derived) return null;
@@ -30,17 +31,27 @@ export default function Schedule() {
     const platIds = new Set(menu.filter((d) => d.category === 'plats').map((d) => d.id));
     const platSales = sales.filter((s) => platIds.has(s.dishId));
 
-    // Couverts par jour de la semaine (moyennés sur 4 semaines)
+    // Couverts par jour de la semaine
     const byDow = groupByDayOfWeek(platSales);
     const dayData = DAYS_FR.map((name, dow) => ({
       name: name.slice(0, 3) + '.',
       covers: byDow[dow].reduce((s, e) => s + e.quantity, 0),
+      isOpen: settings.openDays[dow] !== false,
     }));
-    const avgDayCover = dayData.reduce((s, d) => s + d.covers, 0) / 7;
 
-    // Meilleur jour / jour le plus faible
-    const bestDay = dayData.reduce((a, b) => (a.covers > b.covers ? a : b));
-    const worstDay = dayData.reduce((a, b) => (a.covers < b.covers ? a : b));
+    // Calculs excluant les jours fermés
+    const openDayData = dayData.filter((d) => d.isOpen);
+    const avgDayCover = openDayData.length
+      ? openDayData.reduce((s, d) => s + d.covers, 0) / openDayData.length
+      : 0;
+
+    // Meilleur jour / jour le plus faible (parmi les jours ouverts)
+    const bestDay = openDayData.length
+      ? openDayData.reduce((a, b) => (a.covers > b.covers ? a : b))
+      : dayData[0];
+    const worstDay = openDayData.length
+      ? openDayData.reduce((a, b) => (a.covers < b.covers ? a : b))
+      : dayData[0];
 
     // Heures par service
     const hourGroups = groupByHour(sales);
@@ -107,7 +118,13 @@ export default function Schedule() {
                 {stats.dayData.map((entry) => (
                   <Cell
                     key={entry.name}
-                    fill={entry.covers === maxDayCover ? '#22c55e' : entry.covers < stats.avgDayCover * 0.6 ? '#ef4444' : '#4F8EF7'}
+                    fill={
+                      !entry.isOpen ? '#2a2d3e'
+                      : entry.covers === maxDayCover ? '#22c55e'
+                      : entry.covers < stats.avgDayCover * 0.6 ? '#ef4444'
+                      : '#4F8EF7'
+                    }
+                    opacity={entry.isOpen ? 1 : 0.4}
                   />
                 ))}
               </Bar>

@@ -1,4 +1,5 @@
-import { DAYS_FR, ALL_HOURS, LUNCH_HOURS } from '../../utils/dataUtils';
+import { DAYS_FR, ALL_HOURS } from '../../utils/dataUtils';
+import { useSettings } from '../../hooks/useSettings';
 
 function getIntensity(value, max) {
   if (max === 0) return 0;
@@ -31,6 +32,7 @@ const LEGEND_COLORS = [
 const CELL = 32;
 
 export default function Heatmap({ heatmapData }) {
+  const { settings } = useSettings();
   const values = Object.values(heatmapData);
   const maxVal = Math.max(...values, 1);
 
@@ -61,43 +63,56 @@ export default function Heatmap({ heatmapData }) {
           </div>
 
           {/* Grille */}
-          {DAYS_FR.map((dayName, dow) => (
-            <div key={dow} className="flex items-center" style={{ marginBottom: 2 }}>
-              {/* Label jour — largeur fixe */}
-              <div
-                className="text-right text-xs text-text-secondary font-medium flex-shrink-0 pr-2"
-                style={{ width: 46 }}
-              >
-                {dayName.slice(0, 3)}.
+          {DAYS_FR.map((dayName, dow) => {
+            const isOpen = settings.openDays[dow] !== false;
+            return (
+              <div key={dow} className="flex items-center" style={{ marginBottom: 2 }}>
+                {/* Label jour */}
+                <div
+                  className="text-right flex-shrink-0 pr-2 flex items-center justify-end gap-1"
+                  style={{ width: 46 }}
+                >
+                  {!isOpen && (
+                    <span style={{ fontSize: 9, color: '#ef4444', fontWeight: 600, lineHeight: 1 }}>FERMÉ</span>
+                  )}
+                  <span
+                    className="text-xs font-medium"
+                    style={{ color: isOpen ? '#94a3b8' : '#4b5563' }}
+                  >
+                    {dayName.slice(0, 3)}.
+                  </span>
+                </div>
+
+                {ALL_HOURS.map((h) => {
+                  const val = heatmapData[`${dow}-${h}`] || 0;
+                  const intensity = getIntensity(val, maxVal);
+                  const bg = isOpen ? heatBg(intensity) : '#1a1d27';
+                  const gapAfter = h === 15;
+
+                  return (
+                    <div
+                      key={h}
+                      title={isOpen ? `${dayName} ${h}h — ${val} ventes` : `${dayName} — jour fermé`}
+                      style={{
+                        width: CELL,
+                        height: CELL,
+                        backgroundColor: bg,
+                        borderRadius: 4,
+                        flexShrink: 0,
+                        marginRight: gapAfter ? 8 : 2,
+                        cursor: 'default',
+                        opacity: isOpen ? 1 : 0.3,
+                        transition: 'filter 0.1s',
+                        backgroundImage: isOpen ? 'none' : 'repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(255,255,255,0.03) 3px, rgba(255,255,255,0.03) 6px)',
+                      }}
+                      onMouseEnter={(e) => { if (isOpen) e.currentTarget.style.filter = 'brightness(1.3)'; }}
+                      onMouseLeave={(e) => { e.currentTarget.style.filter = 'none'; }}
+                    />
+                  );
+                })}
               </div>
-
-              {ALL_HOURS.map((h) => {
-                const val = heatmapData[`${dow}-${h}`] || 0;
-                const intensity = getIntensity(val, maxVal);
-                const bg = heatBg(intensity);
-                const gapAfter = h === 15;
-
-                return (
-                  <div
-                    key={h}
-                    title={`${dayName} ${h}h — ${val} ventes`}
-                    style={{
-                      width: CELL,
-                      height: CELL,
-                      backgroundColor: bg,
-                      borderRadius: 4,
-                      flexShrink: 0,
-                      marginRight: gapAfter ? 8 : 2,
-                      cursor: 'default',
-                      transition: 'filter 0.1s',
-                    }}
-                    onMouseEnter={(e) => { e.currentTarget.style.filter = 'brightness(1.3)'; }}
-                    onMouseLeave={(e) => { e.currentTarget.style.filter = 'none'; }}
-                  />
-                );
-              })}
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
 
