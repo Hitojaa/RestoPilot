@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell,
+  Legend,
 } from 'recharts';
 import { useData } from '../hooks/useData';
 import Heatmap from '../components/schedule/Heatmap';
@@ -114,50 +115,66 @@ export default function Schedule() {
           </ResponsiveContainer>
         </div>
 
-        {/* Services */}
+        {/* Services midi / soir — deux BarCharts Recharts propres */}
         <div className="card p-5">
           <h2 className="text-sm font-semibold text-text-primary mb-1">Midi vs Soir — profil horaire</h2>
           <p className="text-xs text-text-muted mb-4">Ventes cumulées par créneau</p>
 
-          <div className="space-y-4">
+          <div className="space-y-5">
             <div>
               <p className="text-xs font-medium text-accent-amber mb-2">Service Midi (11h–15h)</p>
-              <div className="flex gap-1.5 items-end h-16">
-                {stats.lunchData.map((d) => {
-                  const maxL = Math.max(...stats.lunchData.map((x) => x.quantity));
-                  const pct = maxL > 0 ? (d.quantity / maxL) * 100 : 0;
-                  return (
-                    <div key={d.hour} className="flex-1 flex flex-col items-center gap-1">
-                      <span className="text-[10px] text-text-muted">{d.quantity}</span>
-                      <div
-                        className="w-full bg-accent-amber/70 rounded-sm"
-                        style={{ height: `${Math.max(4, pct * 0.48)}rem` }}
-                      />
-                      <span className="text-[10px] text-text-muted">{d.hour}h</span>
-                    </div>
-                  );
-                })}
-              </div>
+              <ResponsiveContainer width="100%" height={110}>
+                <BarChart data={stats.lunchData} margin={{ top: 4, right: 4, left: 0, bottom: 0 }}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#2a2d3e" vertical={false} />
+                  <XAxis
+                    dataKey="hour"
+                    tickFormatter={(h) => `${h}h`}
+                    tick={{ fill: '#64748b', fontSize: 11 }}
+                    axisLine={false}
+                    tickLine={false}
+                  />
+                  <YAxis tick={{ fill: '#64748b', fontSize: 10 }} axisLine={false} tickLine={false} width={32} />
+                  <Tooltip
+                    content={({ active, payload, label }) =>
+                      active && payload?.length ? (
+                        <div className="bg-bg-card border border-bg-border rounded-lg px-3 py-2 shadow-xl text-xs">
+                          <p className="text-text-muted mb-1">{label}h</p>
+                          <p className="text-white font-semibold">{payload[0].value} ventes</p>
+                        </div>
+                      ) : null
+                    }
+                  />
+                  <Bar dataKey="quantity" fill="#f59e0b" radius={[4, 4, 0, 0]} />
+                </BarChart>
+              </ResponsiveContainer>
             </div>
 
             <div>
               <p className="text-xs font-medium text-accent-blue mb-2">Service Soir (18h–22h)</p>
-              <div className="flex gap-1.5 items-end h-16">
-                {stats.dinnerData.map((d) => {
-                  const maxD = Math.max(...stats.dinnerData.map((x) => x.quantity));
-                  const pct = maxD > 0 ? (d.quantity / maxD) * 100 : 0;
-                  return (
-                    <div key={d.hour} className="flex-1 flex flex-col items-center gap-1">
-                      <span className="text-[10px] text-text-muted">{d.quantity}</span>
-                      <div
-                        className="w-full bg-accent-blue/70 rounded-sm"
-                        style={{ height: `${Math.max(4, pct * 0.48)}rem` }}
-                      />
-                      <span className="text-[10px] text-text-muted">{d.hour}h</span>
-                    </div>
-                  );
-                })}
-              </div>
+              <ResponsiveContainer width="100%" height={110}>
+                <BarChart data={stats.dinnerData} margin={{ top: 4, right: 4, left: 0, bottom: 0 }}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="#2a2d3e" vertical={false} />
+                  <XAxis
+                    dataKey="hour"
+                    tickFormatter={(h) => `${h}h`}
+                    tick={{ fill: '#64748b', fontSize: 11 }}
+                    axisLine={false}
+                    tickLine={false}
+                  />
+                  <YAxis tick={{ fill: '#64748b', fontSize: 10 }} axisLine={false} tickLine={false} width={32} />
+                  <Tooltip
+                    content={({ active, payload, label }) =>
+                      active && payload?.length ? (
+                        <div className="bg-bg-card border border-bg-border rounded-lg px-3 py-2 shadow-xl text-xs">
+                          <p className="text-text-muted mb-1">{label}h</p>
+                          <p className="text-white font-semibold">{payload[0].value} ventes</p>
+                        </div>
+                      ) : null
+                    }
+                  />
+                  <Bar dataKey="quantity" fill="#4F8EF7" radius={[4, 4, 0, 0]} />
+                </BarChart>
+              </ResponsiveContainer>
             </div>
           </div>
         </div>
