@@ -1,5 +1,5 @@
 import { DAYS_FR, ALL_HOURS } from '../../utils/dataUtils';
-import { useSettings } from '../../hooks/useSettings';
+import { useSettings, isHourInService } from '../../hooks/useSettings';
 
 function getIntensity(value, max) {
   if (max === 0) return 0;
@@ -110,29 +110,40 @@ export default function Heatmap({ heatmapData }) {
                 {/* Cellules heures */}
                 {ALL_HOURS.map((h) => {
                   const val = heatmapData[`${dow}-${h}`] || 0;
+                  const schedule = settings.daySchedules[dow];
+                  // Heure hors service pour ce jour spécifique
+                  const inService = isOpen && isHourInService(h, schedule);
                   const intensity = getIntensity(val, maxVal);
-                  const bg = isOpen ? heatBg(intensity) : '#1a1d27';
+
+                  // 3 états visuels :
+                  //   inService    → couleur heatmap normale
+                  //   hors service → fond très sombre, hachuré léger
+                  //   jour fermé   → quasi invisible + hachures
+                  const bg = inService ? heatBg(intensity) : '#161820';
+                  const opacity = inService ? 1 : isOpen ? 0.45 : 0.2;
+                  const hatch = !inService
+                    ? 'repeating-linear-gradient(45deg,transparent,transparent 4px,rgba(255,255,255,0.03) 4px,rgba(255,255,255,0.03) 8px)'
+                    : 'none';
 
                   return (
                     <div
                       key={h}
-                      title={isOpen ? `${dayName} ${h}h — ${val} ventes` : `${dayName} — fermé`}
+                      title={
+                        !isOpen          ? `${dayName} — jour fermé`
+                        : !inService     ? `${dayName} ${h}h — hors service`
+                        :                  `${dayName} ${h}h — ${val} ventes`
+                      }
                       style={{
-                        flex: 1,
-                        minWidth: 24,
-                        height: CELL_H,
+                        flex: 1, minWidth: 24, height: CELL_H,
                         backgroundColor: bg,
-                        borderRadius: 5,
-                        flexShrink: 0,
+                        borderRadius: 5, flexShrink: 0,
                         marginRight: h === 15 ? 8 : 2,
                         cursor: 'default',
-                        opacity: isOpen ? 1 : 0.25,
+                        opacity,
                         transition: 'filter 0.1s',
-                        backgroundImage: isOpen
-                          ? 'none'
-                          : 'repeating-linear-gradient(45deg,transparent,transparent 4px,rgba(255,255,255,0.04) 4px,rgba(255,255,255,0.04) 8px)',
+                        backgroundImage: hatch,
                       }}
-                      onMouseEnter={(e) => { if (isOpen) e.currentTarget.style.filter = 'brightness(1.25)'; }}
+                      onMouseEnter={(e) => { if (inService) e.currentTarget.style.filter = 'brightness(1.25)'; }}
                       onMouseLeave={(e) => { e.currentTarget.style.filter = 'none'; }}
                     />
                   );
@@ -152,7 +163,7 @@ export default function Heatmap({ heatmapData }) {
           ))}
         </div>
         <span className="text-[10px] text-text-muted">Fort</span>
-        <span className="text-[10px] text-text-muted ml-3 opacity-60">· Hachuré = fermé</span>
+        <span className="text-[10px] text-text-muted ml-3 opacity-60">· Hachuré = hors service ou fermé</span>
       </div>
     </div>
   );

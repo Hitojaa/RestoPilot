@@ -194,12 +194,11 @@ export function getDishStatus(dish, sales, menu, weeks) {
   // 1. Bestseller : >15% du CA total sur 4 semaines
   if (totalRevenue > 0 && dishRevenue / totalRevenue > 0.15) return 'bestseller';
 
-  // 2. En déclin : baisse >15% sur 2 semaines consécutives
-  if (weeks.length >= 4) {
-    const t12 = trendPercent(weeks[1], weeks[2], dish.id);
-    const t23 = trendPercent(weeks[2], weeks[3], dish.id);
-    if (t12 < -15 && t23 < -15) return 'déclin';
-  }
+  // Tendance semaine 3 → semaine 4 (la plus récente)
+  const lastTrend = weeks.length >= 4 ? trendPercent(weeks[2], weeks[3], dish.id) : 0;
+
+  // 2. En déclin : dernière semaine < -10%
+  if (lastTrend < -10) return 'déclin';
 
   // 3. Faux bon plat : top 3 réputation mais volume < 70% de la médiane
   const allVolumes = menu.map((d) => getVolume(allTime, d.id)).sort((a, b) => a - b);
@@ -209,13 +208,9 @@ export function getDishStatus(dish, sales, menu, weeks) {
     return 'faux-bon';
   }
 
-  // 4. En hausse : tendance semaine 3→4 > +5%
-  // Seuil bas intentionnel : même une petite croissance mérite d'être valorisée
-  if (weeks.length >= 4) {
-    const lastTrend = trendPercent(weeks[2], weeks[3], dish.id);
-    if (lastTrend > 5) return 'en-hausse';
-  }
+  // 4. En hausse : dernière semaine > +10%
+  if (lastTrend > 10) return 'en-hausse';
 
-  // 5. Stable : ni en crise, ni en décollage notable
+  // 5. Stable : variation entre -10% et +10%
   return 'stable';
 }
