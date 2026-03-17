@@ -10,7 +10,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { splitByWeek, revenueByDay, buildHeatmap } from '../utils/dataUtils';
 
-const START_DATE = '2026-02-16';
+const START_DATE = '2026-02-17';
 
 // Détecte si on doit utiliser les données statiques importées
 // (variable d'env Vite définie dans .env.production ou sur Vercel)
