@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
-import { Euro, Users, ShoppingBag, Star } from 'lucide-react';
+import { Euro, Users, ShoppingBag, Star, Upload, FileText, Printer } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import KPICard from '../components/dashboard/KPICard';
 import RevenueChart from '../components/dashboard/RevenueChart';
@@ -23,8 +24,30 @@ function LoadingScreen() {
   );
 }
 
+function EmptyState() {
+  return (
+    <div className="flex flex-col items-center justify-center h-full min-h-[60vh] text-center px-4">
+      <div className="w-16 h-16 rounded-2xl bg-accent-blue/10 border border-accent-blue/20 flex items-center justify-center mb-5">
+        <FileText size={28} className="text-accent-blue" />
+      </div>
+      <h2 className="text-lg font-bold text-text-primary mb-2">Aucune donnée disponible</h2>
+      <p className="text-sm text-text-muted max-w-sm mb-7 leading-relaxed">
+        Importez l'export de votre caisse (Zelty, Lightspeed, L'Addition…)
+        pour visualiser vos analytics en quelques secondes.
+      </p>
+      <Link
+        to="/import"
+        className="flex items-center gap-2 px-6 py-2.5 bg-accent-blue hover:opacity-90 text-white text-sm font-semibold rounded-xl transition-opacity shadow-lg shadow-accent-blue/20"
+      >
+        <Upload size={15} />
+        Importer mes données
+      </Link>
+    </div>
+  );
+}
+
 export default function Dashboard() {
-  const { menu, sales, loading, error, derived, startDate } = useData();
+  const { menu, sales, loading, error, derived, startDate, hasData } = useData();
 
   const stats = useMemo(() => {
     if (!menu.length || !sales.length || !derived) return null;
@@ -66,10 +89,25 @@ export default function Dashboard() {
 
   if (loading) return <LoadingScreen />;
   if (error) return <div className="text-accent-red text-sm p-4">Erreur : {error}</div>;
+  if (!hasData) return <EmptyState />;
   if (!stats) return <LoadingScreen />;
 
   return (
-    <div className="space-y-4 sm:space-y-6 max-w-[1400px]">
+    <div className="space-y-4 sm:space-y-6 max-w-[1400px] print-container">
+      {/* Titre visible uniquement à l'impression */}
+      <span className="print-title hidden">Rapport RestoPilot — {new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+
+      {/* Bouton export */}
+      <div className="flex justify-end no-print">
+        <button
+          onClick={() => window.print()}
+          className="flex items-center gap-2 px-3 py-2 text-xs font-medium text-text-secondary hover:text-text-primary border border-bg-border hover:border-accent-blue/30 rounded-lg transition-all duration-150"
+        >
+          <Printer size={13} />
+          Exporter PDF
+        </button>
+      </div>
+
       {/* KPIs */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         <KPICard

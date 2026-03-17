@@ -1,0 +1,2213 @@
+Date;Heure;N° Ticket;Article;Famille;Quantité;PU TTC;Total TTC
+2026-02-17;11:59;T-0001;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-17;13:13;T-0002;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-17;11:39;T-0003;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-17;19:52;T-0004;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-17;20:54;T-0005;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-17;14:23;T-0006;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-17;19:13;T-0007;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-17;21:25;T-0008;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-17;19:58;T-0009;Coq au vin;Plats;1;22.00;22.00
+2026-02-17;12:56;T-0010;Coq au vin;Plats;1;22.00;22.00
+2026-02-17;12:51;T-0011;Coq au vin;Plats;1;22.00;22.00
+2026-02-17;20:30;T-0012;Coq au vin;Plats;1;22.00;22.00
+2026-02-17;11:05;T-0013;Coq au vin;Plats;1;22.00;22.00
+2026-02-17;13:24;T-0014;Coq au vin;Plats;1;22.00;22.00
+2026-02-17;13:32;T-0015;Steak tartare;Plats;1;24.00;24.00
+2026-02-17;19:22;T-0016;Steak tartare;Plats;1;24.00;24.00
+2026-02-17;13:40;T-0017;Steak tartare;Plats;1;24.00;24.00
+2026-02-17;13:16;T-0018;Formule midi;Plats;1;15.00;15.00
+2026-02-17;11:22;T-0019;Formule midi;Plats;1;15.00;15.00
+2026-02-17;14:19;T-0020;Formule midi;Plats;1;15.00;15.00
+2026-02-17;13:14;T-0021;Formule midi;Plats;1;15.00;15.00
+2026-02-17;11:33;T-0022;Formule midi;Plats;1;15.00;15.00
+2026-02-17;20:47;T-0023;Moules marinières;Plats;1;18.00;18.00
+2026-02-17;12:48;T-0024;Moules marinières;Plats;1;18.00;18.00
+2026-02-17;20:02;T-0025;Moules marinières;Plats;1;18.00;18.00
+2026-02-17;20:43;T-0026;Moules marinières;Plats;1;18.00;18.00
+2026-02-17;13:51;T-0027;Moules marinières;Plats;1;18.00;18.00
+2026-02-17;12:16;T-0028;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-17;21:47;T-0029;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-17;13:07;T-0030;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-17;11:50;T-0031;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-17;22:26;T-0032;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-17;12:11;T-0033;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-17;12:19;T-0034;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-17;20:05;T-0035;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-17;20:11;T-0036;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-17;22:07;T-0037;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-17;21:07;T-0038;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-17;22:12;T-0039;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-17;21:09;T-0040;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-17;20:15;T-0041;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-17;12:30;T-0042;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-17;22:39;T-0043;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-17;11:44;T-0044;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-17;21:12;T-0045;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-17;13:08;T-0046;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-17;20:02;T-0047;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-17;13:00;T-0048;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-17;20:56;T-0049;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-17;20:39;T-0050;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-17;13:02;T-0051;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-17;14:26;T-0052;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-17;12:02;T-0053;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-17;14:24;T-0054;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-17;12:41;T-0055;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-17;14:01;T-0056;Profiteroles;Desserts;1;8.00;8.00
+2026-02-17;12:38;T-0057;Profiteroles;Desserts;1;8.00;8.00
+2026-02-17;21:34;T-0058;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-17;11:11;T-0059;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-17;20:09;T-0060;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-17;13:18;T-0061;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-17;21:42;T-0062;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-17;20:04;T-0063;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-17;13:55;T-0064;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-17;20:04;T-0065;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-17;19:16;T-0066;Kir royal;Boissons;1;9.00;9.00
+2026-02-17;20:51;T-0067;Kir royal;Boissons;1;9.00;9.00
+2026-02-17;22:15;T-0068;Kir royal;Boissons;1;9.00;9.00
+2026-02-17;20:06;T-0069;Café gourmand;Boissons;1;5.00;5.00
+2026-02-17;21:15;T-0070;Café gourmand;Boissons;1;5.00;5.00
+2026-02-17;21:00;T-0071;Café gourmand;Boissons;1;5.00;5.00
+2026-02-17;13:22;T-0072;Café gourmand;Boissons;1;5.00;5.00
+2026-02-17;21:40;T-0073;Café gourmand;Boissons;1;5.00;5.00
+2026-02-17;19:18;T-0074;Café gourmand;Boissons;1;5.00;5.00
+2026-02-17;13:06;T-0075;Café gourmand;Boissons;1;5.00;5.00
+2026-02-17;20:25;T-0076;Café gourmand;Boissons;1;5.00;5.00
+2026-02-18;22:03;T-0077;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-18;22:06;T-0078;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-18;20:25;T-0079;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-18;22:06;T-0080;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-18;20:03;T-0081;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-18;13:18;T-0082;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-18;14:32;T-0083;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-18;19:20;T-0084;Coq au vin;Plats;1;22.00;22.00
+2026-02-18;12:03;T-0085;Coq au vin;Plats;1;22.00;22.00
+2026-02-18;21:32;T-0086;Coq au vin;Plats;1;22.00;22.00
+2026-02-18;22:36;T-0087;Coq au vin;Plats;1;22.00;22.00
+2026-02-18;11:43;T-0088;Steak tartare;Plats;1;24.00;24.00
+2026-02-18;13:23;T-0089;Steak tartare;Plats;1;24.00;24.00
+2026-02-18;19:44;T-0090;Steak tartare;Plats;1;24.00;24.00
+2026-02-18;12:04;T-0091;Formule midi;Plats;1;15.00;15.00
+2026-02-18;14:59;T-0092;Formule midi;Plats;1;15.00;15.00
+2026-02-18;13:42;T-0093;Formule midi;Plats;1;15.00;15.00
+2026-02-18;14:14;T-0094;Formule midi;Plats;1;15.00;15.00
+2026-02-18;12:15;T-0095;Formule midi;Plats;1;15.00;15.00
+2026-02-18;12:34;T-0096;Formule midi;Plats;1;15.00;15.00
+2026-02-18;14:40;T-0097;Formule midi;Plats;1;15.00;15.00
+2026-02-18;12:21;T-0098;Moules marinières;Plats;1;18.00;18.00
+2026-02-18;12:46;T-0099;Moules marinières;Plats;1;18.00;18.00
+2026-02-18;19:35;T-0100;Moules marinières;Plats;1;18.00;18.00
+2026-02-18;21:13;T-0101;Moules marinières;Plats;1;18.00;18.00
+2026-02-18;20:49;T-0102;Moules marinières;Plats;1;18.00;18.00
+2026-02-18;19:08;T-0103;Moules marinières;Plats;1;18.00;18.00
+2026-02-18;11:20;T-0104;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-18;20:45;T-0105;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-18;21:40;T-0106;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-18;21:28;T-0107;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-18;20:08;T-0108;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-18;12:22;T-0109;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-18;21:22;T-0110;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-18;20:22;T-0111;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-18;11:53;T-0112;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-18;13:43;T-0113;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-18;21:49;T-0114;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-18;19:10;T-0115;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-18;20:02;T-0116;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-18;13:12;T-0117;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-18;20:29;T-0118;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-18;21:46;T-0119;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-18;11:33;T-0120;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-18;13:14;T-0121;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-18;20:36;T-0122;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-18;12:38;T-0123;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-18;13:13;T-0124;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-18;13:36;T-0125;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-18;13:17;T-0126;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-18;22:06;T-0127;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-18;12:23;T-0128;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-18;21:16;T-0129;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-18;12:31;T-0130;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-18;14:16;T-0131;Profiteroles;Desserts;1;8.00;8.00
+2026-02-18;20:42;T-0132;Profiteroles;Desserts;1;8.00;8.00
+2026-02-18;12:42;T-0133;Profiteroles;Desserts;1;8.00;8.00
+2026-02-18;13:11;T-0134;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-18;21:14;T-0135;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-18;21:46;T-0136;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-18;19:51;T-0137;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-18;13:34;T-0138;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-18;11:23;T-0139;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-18;13:52;T-0140;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-18;20:59;T-0141;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-18;20:11;T-0142;Kir royal;Boissons;1;9.00;9.00
+2026-02-18;11:41;T-0143;Kir royal;Boissons;1;9.00;9.00
+2026-02-18;21:30;T-0144;Kir royal;Boissons;1;9.00;9.00
+2026-02-18;22:55;T-0145;Kir royal;Boissons;1;9.00;9.00
+2026-02-18;12:03;T-0146;Café gourmand;Boissons;1;5.00;5.00
+2026-02-18;22:51;T-0147;Café gourmand;Boissons;1;5.00;5.00
+2026-02-18;21:20;T-0148;Café gourmand;Boissons;1;5.00;5.00
+2026-02-18;13:47;T-0149;Café gourmand;Boissons;1;5.00;5.00
+2026-02-18;12:50;T-0150;Café gourmand;Boissons;1;5.00;5.00
+2026-02-18;21:04;T-0151;Café gourmand;Boissons;1;5.00;5.00
+2026-02-18;14:20;T-0152;Café gourmand;Boissons;1;5.00;5.00
+2026-02-19;14:25;T-0153;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-19;13:16;T-0154;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-19;12:42;T-0155;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-19;19:39;T-0156;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-19;19:31;T-0157;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-19;21:00;T-0158;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-19;22:26;T-0159;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-19;12:14;T-0160;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-19;20:26;T-0161;Coq au vin;Plats;1;22.00;22.00
+2026-02-19;21:47;T-0162;Coq au vin;Plats;1;22.00;22.00
+2026-02-19;12:29;T-0163;Coq au vin;Plats;1;22.00;22.00
+2026-02-19;20:36;T-0164;Coq au vin;Plats;1;22.00;22.00
+2026-02-19;21:04;T-0165;Coq au vin;Plats;1;22.00;22.00
+2026-02-19;21:23;T-0166;Steak tartare;Plats;1;24.00;24.00
+2026-02-19;11:23;T-0167;Steak tartare;Plats;1;24.00;24.00
+2026-02-19;20:06;T-0168;Steak tartare;Plats;1;24.00;24.00
+2026-02-19;20:15;T-0169;Steak tartare;Plats;1;24.00;24.00
+2026-02-19;12:57;T-0170;Formule midi;Plats;1;15.00;15.00
+2026-02-19;11:28;T-0171;Formule midi;Plats;1;15.00;15.00
+2026-02-19;13:39;T-0172;Formule midi;Plats;1;15.00;15.00
+2026-02-19;12:45;T-0173;Formule midi;Plats;1;15.00;15.00
+2026-02-19;13:03;T-0174;Formule midi;Plats;1;15.00;15.00
+2026-02-19;13:05;T-0175;Formule midi;Plats;1;15.00;15.00
+2026-02-19;13:32;T-0176;Formule midi;Plats;1;15.00;15.00
+2026-02-19;13:50;T-0177;Formule midi;Plats;1;15.00;15.00
+2026-02-19;12:24;T-0178;Formule midi;Plats;1;15.00;15.00
+2026-02-19;20:42;T-0179;Moules marinières;Plats;1;18.00;18.00
+2026-02-19;13:20;T-0180;Moules marinières;Plats;1;18.00;18.00
+2026-02-19;20:57;T-0181;Moules marinières;Plats;1;18.00;18.00
+2026-02-19;19:44;T-0182;Moules marinières;Plats;1;18.00;18.00
+2026-02-19;12:15;T-0183;Moules marinières;Plats;1;18.00;18.00
+2026-02-19;14:46;T-0184;Moules marinières;Plats;1;18.00;18.00
+2026-02-19;13:06;T-0185;Moules marinières;Plats;1;18.00;18.00
+2026-02-19;12:16;T-0186;Moules marinières;Plats;1;18.00;18.00
+2026-02-19;20:41;T-0187;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-19;22:11;T-0188;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-19;20:49;T-0189;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-19;11:00;T-0190;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-19;12:20;T-0191;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-19;21:55;T-0192;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-19;13:11;T-0193;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-19;21:58;T-0194;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-19;14:17;T-0195;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-19;11:10;T-0196;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-19;12:47;T-0197;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-19;13:03;T-0198;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-19;13:55;T-0199;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-19;21:45;T-0200;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-19;11:53;T-0201;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-19;21:06;T-0202;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-19;11:56;T-0203;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-19;11:20;T-0204;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-19;13:15;T-0205;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-19;21:37;T-0206;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-19;14:22;T-0207;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-19;11:44;T-0208;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-19;21:23;T-0209;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-19;11:42;T-0210;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-19;13:35;T-0211;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-19;19:55;T-0212;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-19;12:02;T-0213;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-19;21:53;T-0214;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-19;13:00;T-0215;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-19;21:22;T-0216;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-19;13:23;T-0217;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-19;12:12;T-0218;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-19;13:11;T-0219;Profiteroles;Desserts;1;8.00;8.00
+2026-02-19;12:54;T-0220;Profiteroles;Desserts;1;8.00;8.00
+2026-02-19;22:32;T-0221;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-19;19:56;T-0222;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-19;12:01;T-0223;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-19;20:06;T-0224;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-19;19:14;T-0225;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-19;22:08;T-0226;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-19;21:35;T-0227;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-19;19:17;T-0228;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-19;20:24;T-0229;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-19;20:50;T-0230;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-19;20:56;T-0231;Kir royal;Boissons;1;9.00;9.00
+2026-02-19;20:58;T-0232;Kir royal;Boissons;1;9.00;9.00
+2026-02-19;20:01;T-0233;Kir royal;Boissons;1;9.00;9.00
+2026-02-19;20:54;T-0234;Café gourmand;Boissons;1;5.00;5.00
+2026-02-19;20:54;T-0235;Café gourmand;Boissons;1;5.00;5.00
+2026-02-19;20:34;T-0236;Café gourmand;Boissons;1;5.00;5.00
+2026-02-19;20:04;T-0237;Café gourmand;Boissons;1;5.00;5.00
+2026-02-19;21:56;T-0238;Café gourmand;Boissons;1;5.00;5.00
+2026-02-19;20:45;T-0239;Café gourmand;Boissons;1;5.00;5.00
+2026-02-19;22:42;T-0240;Café gourmand;Boissons;1;5.00;5.00
+2026-02-19;21:56;T-0241;Café gourmand;Boissons;1;5.00;5.00
+2026-02-19;19:27;T-0242;Café gourmand;Boissons;1;5.00;5.00
+2026-02-20;13:36;T-0243;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-20;11:18;T-0244;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-20;13:59;T-0245;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-20;12:39;T-0246;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-20;20:08;T-0247;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-20;12:31;T-0248;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-20;21:10;T-0249;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-20;12:34;T-0250;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-20;22:52;T-0251;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-20;19:30;T-0252;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-20;13:16;T-0253;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-20;20:24;T-0254;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-20;11:52;T-0255;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-20;14:59;T-0256;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-20;22:16;T-0257;Coq au vin;Plats;1;22.00;22.00
+2026-02-20;21:53;T-0258;Coq au vin;Plats;1;22.00;22.00
+2026-02-20;21:40;T-0259;Coq au vin;Plats;1;22.00;22.00
+2026-02-20;13:20;T-0260;Coq au vin;Plats;1;22.00;22.00
+2026-02-20;14:39;T-0261;Coq au vin;Plats;1;22.00;22.00
+2026-02-20;21:54;T-0262;Coq au vin;Plats;1;22.00;22.00
+2026-02-20;19:56;T-0263;Coq au vin;Plats;1;22.00;22.00
+2026-02-20;13:25;T-0264;Coq au vin;Plats;1;22.00;22.00
+2026-02-20;14:35;T-0265;Coq au vin;Plats;1;22.00;22.00
+2026-02-20;21:03;T-0266;Steak tartare;Plats;1;24.00;24.00
+2026-02-20;11:02;T-0267;Steak tartare;Plats;1;24.00;24.00
+2026-02-20;19:37;T-0268;Steak tartare;Plats;1;24.00;24.00
+2026-02-20;11:26;T-0269;Steak tartare;Plats;1;24.00;24.00
+2026-02-20;20:33;T-0270;Steak tartare;Plats;1;24.00;24.00
+2026-02-20;21:06;T-0271;Steak tartare;Plats;1;24.00;24.00
+2026-02-20;14:48;T-0272;Steak tartare;Plats;1;24.00;24.00
+2026-02-20;12:57;T-0273;Formule midi;Plats;1;15.00;15.00
+2026-02-20;12:56;T-0274;Formule midi;Plats;1;15.00;15.00
+2026-02-20;14:22;T-0275;Formule midi;Plats;1;15.00;15.00
+2026-02-20;13:45;T-0276;Formule midi;Plats;1;15.00;15.00
+2026-02-20;14:59;T-0277;Formule midi;Plats;1;15.00;15.00
+2026-02-20;12:50;T-0278;Formule midi;Plats;1;15.00;15.00
+2026-02-20;13:09;T-0279;Formule midi;Plats;1;15.00;15.00
+2026-02-20;20:43;T-0280;Moules marinières;Plats;1;18.00;18.00
+2026-02-20;12:18;T-0281;Moules marinières;Plats;1;18.00;18.00
+2026-02-20;13:43;T-0282;Moules marinières;Plats;1;18.00;18.00
+2026-02-20;13:45;T-0283;Moules marinières;Plats;1;18.00;18.00
+2026-02-20;11:58;T-0284;Moules marinières;Plats;1;18.00;18.00
+2026-02-20;14:02;T-0285;Moules marinières;Plats;1;18.00;18.00
+2026-02-20;11:28;T-0286;Moules marinières;Plats;1;18.00;18.00
+2026-02-20;20:58;T-0287;Moules marinières;Plats;1;18.00;18.00
+2026-02-20;11:31;T-0288;Moules marinières;Plats;1;18.00;18.00
+2026-02-20;21:52;T-0289;Moules marinières;Plats;1;18.00;18.00
+2026-02-20;12:50;T-0290;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-20;22:43;T-0291;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-20;21:47;T-0292;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-20;12:55;T-0293;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-20;13:30;T-0294;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-20;21:09;T-0295;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-20;19:32;T-0296;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-20;20:23;T-0297;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-20;21:04;T-0298;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-20;22:17;T-0299;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-20;14:18;T-0300;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-20;21:15;T-0301;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-20;12:27;T-0302;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-20;14:41;T-0303;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-20;13:25;T-0304;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-20;14:54;T-0305;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-20;12:27;T-0306;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-20;14:49;T-0307;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-20;21:31;T-0308;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-20;21:30;T-0309;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-20;13:54;T-0310;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-20;20:58;T-0311;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-20;13:09;T-0312;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-20;21:18;T-0313;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-20;21:54;T-0314;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-20;21:04;T-0315;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-20;22:50;T-0316;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-20;12:06;T-0317;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-20;12:38;T-0318;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-20;20:13;T-0319;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-20;13:05;T-0320;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-20;13:42;T-0321;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-20;22:28;T-0322;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-20;12:14;T-0323;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-20;11:55;T-0324;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-20;11:41;T-0325;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-20;20:16;T-0326;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-20;12:38;T-0327;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-20;22:50;T-0328;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-20;19:58;T-0329;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-20;21:16;T-0330;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-20;13:11;T-0331;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-20;21:38;T-0332;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-20;11:18;T-0333;Profiteroles;Desserts;1;8.00;8.00
+2026-02-20;20:06;T-0334;Profiteroles;Desserts;1;8.00;8.00
+2026-02-20;13:14;T-0335;Profiteroles;Desserts;1;8.00;8.00
+2026-02-20;21:33;T-0336;Profiteroles;Desserts;1;8.00;8.00
+2026-02-20;21:46;T-0337;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-20;13:00;T-0338;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-20;20:22;T-0339;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-20;21:55;T-0340;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-20;22:01;T-0341;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-20;14:25;T-0342;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-20;22:09;T-0343;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-20;12:03;T-0344;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-20;12:40;T-0345;Kir royal;Boissons;1;9.00;9.00
+2026-02-20;21:40;T-0346;Kir royal;Boissons;1;9.00;9.00
+2026-02-20;12:26;T-0347;Kir royal;Boissons;1;9.00;9.00
+2026-02-20;20:56;T-0348;Kir royal;Boissons;1;9.00;9.00
+2026-02-20;14:10;T-0349;Kir royal;Boissons;1;9.00;9.00
+2026-02-20;12:59;T-0350;Kir royal;Boissons;1;9.00;9.00
+2026-02-20;13:19;T-0351;Café gourmand;Boissons;1;5.00;5.00
+2026-02-20;13:48;T-0352;Café gourmand;Boissons;1;5.00;5.00
+2026-02-20;13:48;T-0353;Café gourmand;Boissons;1;5.00;5.00
+2026-02-20;13:29;T-0354;Café gourmand;Boissons;1;5.00;5.00
+2026-02-20;13:43;T-0355;Café gourmand;Boissons;1;5.00;5.00
+2026-02-20;20:53;T-0356;Café gourmand;Boissons;1;5.00;5.00
+2026-02-20;21:06;T-0357;Café gourmand;Boissons;1;5.00;5.00
+2026-02-20;12:49;T-0358;Café gourmand;Boissons;1;5.00;5.00
+2026-02-20;19:22;T-0359;Café gourmand;Boissons;1;5.00;5.00
+2026-02-20;20:23;T-0360;Café gourmand;Boissons;1;5.00;5.00
+2026-02-20;21:43;T-0361;Café gourmand;Boissons;1;5.00;5.00
+2026-02-21;12:49;T-0362;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-21;21:18;T-0363;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-21;20:37;T-0364;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-21;12:46;T-0365;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-21;12:18;T-0366;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-21;11:53;T-0367;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-21;20:30;T-0368;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-21;12:24;T-0369;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-21;21:21;T-0370;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-21;14:43;T-0371;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-21;21:15;T-0372;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-21;21:34;T-0373;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-21;12:54;T-0374;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-21;21:21;T-0375;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-21;19:03;T-0376;Coq au vin;Plats;1;22.00;22.00
+2026-02-21;22:09;T-0377;Coq au vin;Plats;1;22.00;22.00
+2026-02-21;13:33;T-0378;Coq au vin;Plats;1;22.00;22.00
+2026-02-21;19:48;T-0379;Coq au vin;Plats;1;22.00;22.00
+2026-02-21;19:18;T-0380;Coq au vin;Plats;1;22.00;22.00
+2026-02-21;12:35;T-0381;Coq au vin;Plats;1;22.00;22.00
+2026-02-21;22:03;T-0382;Coq au vin;Plats;1;22.00;22.00
+2026-02-21;21:37;T-0383;Steak tartare;Plats;1;24.00;24.00
+2026-02-21;20:10;T-0384;Steak tartare;Plats;1;24.00;24.00
+2026-02-21;21:22;T-0385;Steak tartare;Plats;1;24.00;24.00
+2026-02-21;11:43;T-0386;Steak tartare;Plats;1;24.00;24.00
+2026-02-21;13:30;T-0387;Steak tartare;Plats;1;24.00;24.00
+2026-02-21;12:13;T-0388;Steak tartare;Plats;1;24.00;24.00
+2026-02-21;21:43;T-0389;Steak tartare;Plats;1;24.00;24.00
+2026-02-21;20:03;T-0390;Steak tartare;Plats;1;24.00;24.00
+2026-02-21;12:04;T-0391;Formule midi;Plats;1;15.00;15.00
+2026-02-21;13:02;T-0392;Formule midi;Plats;1;15.00;15.00
+2026-02-21;12:53;T-0393;Formule midi;Plats;1;15.00;15.00
+2026-02-21;13:08;T-0394;Formule midi;Plats;1;15.00;15.00
+2026-02-21;11:08;T-0395;Formule midi;Plats;1;15.00;15.00
+2026-02-21;13:28;T-0396;Formule midi;Plats;1;15.00;15.00
+2026-02-21;13:24;T-0397;Formule midi;Plats;1;15.00;15.00
+2026-02-21;13:10;T-0398;Formule midi;Plats;1;15.00;15.00
+2026-02-21;12:05;T-0399;Moules marinières;Plats;1;18.00;18.00
+2026-02-21;12:02;T-0400;Moules marinières;Plats;1;18.00;18.00
+2026-02-21;12:04;T-0401;Moules marinières;Plats;1;18.00;18.00
+2026-02-21;19:28;T-0402;Moules marinières;Plats;1;18.00;18.00
+2026-02-21;12:13;T-0403;Moules marinières;Plats;1;18.00;18.00
+2026-02-21;21:58;T-0404;Moules marinières;Plats;1;18.00;18.00
+2026-02-21;20:31;T-0405;Moules marinières;Plats;1;18.00;18.00
+2026-02-21;21:21;T-0406;Moules marinières;Plats;1;18.00;18.00
+2026-02-21;21:58;T-0407;Moules marinières;Plats;1;18.00;18.00
+2026-02-21;20:18;T-0408;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-21;12:22;T-0409;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-21;14:09;T-0410;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-21;19:15;T-0411;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-21;12:18;T-0412;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-21;14:33;T-0413;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-21;22:36;T-0414;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-21;13:05;T-0415;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-21;12:50;T-0416;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-21;12:30;T-0417;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-21;13:52;T-0418;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-21;20:57;T-0419;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-21;19:21;T-0420;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-21;13:27;T-0421;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-21;13:42;T-0422;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-21;12:40;T-0423;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-21;21:27;T-0424;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-21;22:47;T-0425;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-21;21:45;T-0426;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-21;13:24;T-0427;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-21;12:17;T-0428;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-21;13:06;T-0429;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-21;19:56;T-0430;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-21;21:24;T-0431;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-21;13:49;T-0432;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-21;12:05;T-0433;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-21;12:06;T-0434;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-21;11:37;T-0435;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-21;12:25;T-0436;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-21;20:36;T-0437;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-21;19:01;T-0438;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-21;12:17;T-0439;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-21;20:25;T-0440;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-21;12:28;T-0441;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-21;19:16;T-0442;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-21;12:57;T-0443;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-21;13:39;T-0444;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-21;13:56;T-0445;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-21;20:03;T-0446;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-21;21:59;T-0447;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-21;13:49;T-0448;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-21;21:03;T-0449;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-21;21:39;T-0450;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-21;12:58;T-0451;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-21;11:52;T-0452;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-21;22:26;T-0453;Profiteroles;Desserts;1;8.00;8.00
+2026-02-21;19:12;T-0454;Profiteroles;Desserts;1;8.00;8.00
+2026-02-21;11:56;T-0455;Profiteroles;Desserts;1;8.00;8.00
+2026-02-21;22:30;T-0456;Profiteroles;Desserts;1;8.00;8.00
+2026-02-21;12:34;T-0457;Profiteroles;Desserts;1;8.00;8.00
+2026-02-21;12:42;T-0458;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-21;21:07;T-0459;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-21;21:15;T-0460;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-21;13:29;T-0461;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-21;20:14;T-0462;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-21;21:23;T-0463;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-21;13:18;T-0464;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-21;21:33;T-0465;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-21;11:46;T-0466;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-21;21:33;T-0467;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-21;21:09;T-0468;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-21;20:46;T-0469;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-21;20:40;T-0470;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-21;13:40;T-0471;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-21;20:13;T-0472;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-21;12:08;T-0473;Kir royal;Boissons;1;9.00;9.00
+2026-02-21;12:46;T-0474;Kir royal;Boissons;1;9.00;9.00
+2026-02-21;19:02;T-0475;Kir royal;Boissons;1;9.00;9.00
+2026-02-21;21:42;T-0476;Kir royal;Boissons;1;9.00;9.00
+2026-02-21;22:02;T-0477;Kir royal;Boissons;1;9.00;9.00
+2026-02-21;12:27;T-0478;Kir royal;Boissons;1;9.00;9.00
+2026-02-21;20:44;T-0479;Kir royal;Boissons;1;9.00;9.00
+2026-02-21;20:26;T-0480;Café gourmand;Boissons;1;5.00;5.00
+2026-02-21;21:00;T-0481;Café gourmand;Boissons;1;5.00;5.00
+2026-02-21;21:16;T-0482;Café gourmand;Boissons;1;5.00;5.00
+2026-02-21;21:55;T-0483;Café gourmand;Boissons;1;5.00;5.00
+2026-02-21;21:19;T-0484;Café gourmand;Boissons;1;5.00;5.00
+2026-02-21;22:51;T-0485;Café gourmand;Boissons;1;5.00;5.00
+2026-02-21;21:14;T-0486;Café gourmand;Boissons;1;5.00;5.00
+2026-02-21;22:58;T-0487;Café gourmand;Boissons;1;5.00;5.00
+2026-02-21;21:07;T-0488;Café gourmand;Boissons;1;5.00;5.00
+2026-02-21;13:20;T-0489;Café gourmand;Boissons;1;5.00;5.00
+2026-02-21;20:05;T-0490;Café gourmand;Boissons;1;5.00;5.00
+2026-02-21;11:52;T-0491;Café gourmand;Boissons;1;5.00;5.00
+2026-02-21;20:45;T-0492;Café gourmand;Boissons;1;5.00;5.00
+2026-02-23;19:56;T-0493;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-23;20:52;T-0494;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-23;14:08;T-0495;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-23;13:56;T-0496;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-23;21:32;T-0497;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-23;12:25;T-0498;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-23;11:24;T-0499;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-23;20:28;T-0500;Coq au vin;Plats;1;22.00;22.00
+2026-02-23;21:05;T-0501;Coq au vin;Plats;1;22.00;22.00
+2026-02-23;13:20;T-0502;Coq au vin;Plats;1;22.00;22.00
+2026-02-23;13:27;T-0503;Coq au vin;Plats;1;22.00;22.00
+2026-02-23;12:20;T-0504;Steak tartare;Plats;1;24.00;24.00
+2026-02-23;12:54;T-0505;Steak tartare;Plats;1;24.00;24.00
+2026-02-23;11:37;T-0506;Formule midi;Plats;1;15.00;15.00
+2026-02-23;12:38;T-0507;Formule midi;Plats;1;15.00;15.00
+2026-02-23;13:22;T-0508;Formule midi;Plats;1;15.00;15.00
+2026-02-23;12:53;T-0509;Formule midi;Plats;1;15.00;15.00
+2026-02-23;14:50;T-0510;Formule midi;Plats;1;15.00;15.00
+2026-02-23;13:59;T-0511;Formule midi;Plats;1;15.00;15.00
+2026-02-23;20:29;T-0512;Moules marinières;Plats;1;18.00;18.00
+2026-02-23;21:07;T-0513;Moules marinières;Plats;1;18.00;18.00
+2026-02-23;19:41;T-0514;Moules marinières;Plats;1;18.00;18.00
+2026-02-23;21:31;T-0515;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-23;22:59;T-0516;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-23;21:50;T-0517;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-23;13:17;T-0518;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-23;12:27;T-0519;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-23;20:01;T-0520;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-23;22:39;T-0521;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-23;12:11;T-0522;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-23;22:49;T-0523;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-23;13:41;T-0524;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-23;13:09;T-0525;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-23;21:02;T-0526;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-23;13:23;T-0527;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-23;22:03;T-0528;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-23;21:47;T-0529;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-23;22:28;T-0530;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-23;22:48;T-0531;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-23;21:46;T-0532;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-23;12:42;T-0533;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-23;11:46;T-0534;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-23;11:19;T-0535;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-23;20:06;T-0536;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-23;20:41;T-0537;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-23;19:43;T-0538;Profiteroles;Desserts;1;8.00;8.00
+2026-02-23;12:08;T-0539;Profiteroles;Desserts;1;8.00;8.00
+2026-02-23;14:13;T-0540;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-23;12:40;T-0541;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-23;22:24;T-0542;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-23;13:57;T-0543;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-23;21:30;T-0544;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-23;13:34;T-0545;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-23;11:45;T-0546;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-23;12:26;T-0547;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-23;21:22;T-0548;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-23;13:30;T-0549;Kir royal;Boissons;1;9.00;9.00
+2026-02-23;13:47;T-0550;Kir royal;Boissons;1;9.00;9.00
+2026-02-23;22:48;T-0551;Café gourmand;Boissons;1;5.00;5.00
+2026-02-23;21:10;T-0552;Café gourmand;Boissons;1;5.00;5.00
+2026-02-23;13:53;T-0553;Café gourmand;Boissons;1;5.00;5.00
+2026-02-23;19:16;T-0554;Café gourmand;Boissons;1;5.00;5.00
+2026-02-23;22:46;T-0555;Café gourmand;Boissons;1;5.00;5.00
+2026-02-23;20:12;T-0556;Café gourmand;Boissons;1;5.00;5.00
+2026-02-23;12:30;T-0557;Café gourmand;Boissons;1;5.00;5.00
+2026-02-23;20:09;T-0558;Café gourmand;Boissons;1;5.00;5.00
+2026-02-24;20:25;T-0559;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-24;19:03;T-0560;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-24;12:25;T-0561;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-24;12:48;T-0562;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-24;21:34;T-0563;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-24;20:36;T-0564;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-24;13:30;T-0565;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-24;20:37;T-0566;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-24;21:39;T-0567;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-24;12:10;T-0568;Coq au vin;Plats;1;22.00;22.00
+2026-02-24;12:43;T-0569;Coq au vin;Plats;1;22.00;22.00
+2026-02-24;14:37;T-0570;Coq au vin;Plats;1;22.00;22.00
+2026-02-24;13:58;T-0571;Coq au vin;Plats;1;22.00;22.00
+2026-02-24;11:45;T-0572;Coq au vin;Plats;1;22.00;22.00
+2026-02-24;20:55;T-0573;Coq au vin;Plats;1;22.00;22.00
+2026-02-24;22:22;T-0574;Coq au vin;Plats;1;22.00;22.00
+2026-02-24;12:54;T-0575;Steak tartare;Plats;1;24.00;24.00
+2026-02-24;11:04;T-0576;Steak tartare;Plats;1;24.00;24.00
+2026-02-24;21:00;T-0577;Steak tartare;Plats;1;24.00;24.00
+2026-02-24;19:57;T-0578;Steak tartare;Plats;1;24.00;24.00
+2026-02-24;12:29;T-0579;Formule midi;Plats;1;15.00;15.00
+2026-02-24;13:54;T-0580;Formule midi;Plats;1;15.00;15.00
+2026-02-24;12:18;T-0581;Formule midi;Plats;1;15.00;15.00
+2026-02-24;12:44;T-0582;Formule midi;Plats;1;15.00;15.00
+2026-02-24;14:50;T-0583;Formule midi;Plats;1;15.00;15.00
+2026-02-24;11:48;T-0584;Formule midi;Plats;1;15.00;15.00
+2026-02-24;13:38;T-0585;Formule midi;Plats;1;15.00;15.00
+2026-02-24;12:31;T-0586;Formule midi;Plats;1;15.00;15.00
+2026-02-24;14:54;T-0587;Formule midi;Plats;1;15.00;15.00
+2026-02-24;20:47;T-0588;Moules marinières;Plats;1;18.00;18.00
+2026-02-24;13:07;T-0589;Moules marinières;Plats;1;18.00;18.00
+2026-02-24;21:43;T-0590;Moules marinières;Plats;1;18.00;18.00
+2026-02-24;21:33;T-0591;Moules marinières;Plats;1;18.00;18.00
+2026-02-24;12:07;T-0592;Moules marinières;Plats;1;18.00;18.00
+2026-02-24;11:32;T-0593;Moules marinières;Plats;1;18.00;18.00
+2026-02-24;13:41;T-0594;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-24;19:24;T-0595;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-24;20:22;T-0596;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-24;21:27;T-0597;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-24;20:29;T-0598;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-24;20:46;T-0599;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-24;19:44;T-0600;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-24;11:56;T-0601;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-24;13:18;T-0602;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-24;20:12;T-0603;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-24;20:05;T-0604;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-24;11:30;T-0605;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-24;12:28;T-0606;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-24;21:24;T-0607;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-24;22:51;T-0608;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-24;13:14;T-0609;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-24;19:32;T-0610;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-24;21:14;T-0611;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-24;21:44;T-0612;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-24;20:11;T-0613;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-24;13:13;T-0614;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-24;22:27;T-0615;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-24;13:32;T-0616;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-24;12:10;T-0617;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-24;12:35;T-0618;Profiteroles;Desserts;1;8.00;8.00
+2026-02-24;11:18;T-0619;Profiteroles;Desserts;1;8.00;8.00
+2026-02-24;11:48;T-0620;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-24;13:24;T-0621;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-24;21:07;T-0622;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-24;21:09;T-0623;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-24;21:00;T-0624;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-24;20:07;T-0625;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-24;13:40;T-0626;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-24;22:54;T-0627;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-24;12:39;T-0628;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-24;21:46;T-0629;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-24;14:56;T-0630;Kir royal;Boissons;1;9.00;9.00
+2026-02-24;14:35;T-0631;Kir royal;Boissons;1;9.00;9.00
+2026-02-24;20:30;T-0632;Kir royal;Boissons;1;9.00;9.00
+2026-02-24;19:43;T-0633;Café gourmand;Boissons;1;5.00;5.00
+2026-02-24;20:00;T-0634;Café gourmand;Boissons;1;5.00;5.00
+2026-02-24;12:25;T-0635;Café gourmand;Boissons;1;5.00;5.00
+2026-02-24;20:26;T-0636;Café gourmand;Boissons;1;5.00;5.00
+2026-02-24;22:02;T-0637;Café gourmand;Boissons;1;5.00;5.00
+2026-02-24;12:59;T-0638;Café gourmand;Boissons;1;5.00;5.00
+2026-02-24;13:04;T-0639;Café gourmand;Boissons;1;5.00;5.00
+2026-02-24;20:26;T-0640;Café gourmand;Boissons;1;5.00;5.00
+2026-02-24;19:00;T-0641;Café gourmand;Boissons;1;5.00;5.00
+2026-02-25;14:19;T-0642;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-25;13:16;T-0643;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-25;20:21;T-0644;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-25;12:50;T-0645;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-25;20:06;T-0646;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-25;20:51;T-0647;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-25;12:44;T-0648;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-25;21:47;T-0649;Coq au vin;Plats;1;22.00;22.00
+2026-02-25;13:59;T-0650;Coq au vin;Plats;1;22.00;22.00
+2026-02-25;11:18;T-0651;Coq au vin;Plats;1;22.00;22.00
+2026-02-25;21:32;T-0652;Coq au vin;Plats;1;22.00;22.00
+2026-02-25;11:19;T-0653;Coq au vin;Plats;1;22.00;22.00
+2026-02-25;14:10;T-0654;Steak tartare;Plats;1;24.00;24.00
+2026-02-25;12:35;T-0655;Steak tartare;Plats;1;24.00;24.00
+2026-02-25;13:39;T-0656;Steak tartare;Plats;1;24.00;24.00
+2026-02-25;12:49;T-0657;Steak tartare;Plats;1;24.00;24.00
+2026-02-25;11:08;T-0658;Steak tartare;Plats;1;24.00;24.00
+2026-02-25;19:34;T-0659;Steak tartare;Plats;1;24.00;24.00
+2026-02-25;13:10;T-0660;Formule midi;Plats;1;15.00;15.00
+2026-02-25;13:47;T-0661;Formule midi;Plats;1;15.00;15.00
+2026-02-25;13:22;T-0662;Formule midi;Plats;1;15.00;15.00
+2026-02-25;13:13;T-0663;Formule midi;Plats;1;15.00;15.00
+2026-02-25;14:22;T-0664;Formule midi;Plats;1;15.00;15.00
+2026-02-25;13:47;T-0665;Formule midi;Plats;1;15.00;15.00
+2026-02-25;11:43;T-0666;Formule midi;Plats;1;15.00;15.00
+2026-02-25;14:33;T-0667;Formule midi;Plats;1;15.00;15.00
+2026-02-25;14:59;T-0668;Formule midi;Plats;1;15.00;15.00
+2026-02-25;20:22;T-0669;Moules marinières;Plats;1;18.00;18.00
+2026-02-25;22:22;T-0670;Moules marinières;Plats;1;18.00;18.00
+2026-02-25;12:53;T-0671;Moules marinières;Plats;1;18.00;18.00
+2026-02-25;14:42;T-0672;Moules marinières;Plats;1;18.00;18.00
+2026-02-25;20:32;T-0673;Moules marinières;Plats;1;18.00;18.00
+2026-02-25;11:43;T-0674;Moules marinières;Plats;1;18.00;18.00
+2026-02-25;13:25;T-0675;Moules marinières;Plats;1;18.00;18.00
+2026-02-25;13:54;T-0676;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-25;14:13;T-0677;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-25;13:08;T-0678;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-25;22:29;T-0679;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-25;21:07;T-0680;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-25;20:50;T-0681;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-25;21:03;T-0682;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-25;11:12;T-0683;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-25;21:53;T-0684;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-25;20:50;T-0685;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-25;12:22;T-0686;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-25;13:54;T-0687;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-25;14:39;T-0688;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-25;21:02;T-0689;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-25;20:50;T-0690;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-25;20:33;T-0691;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-25;22:36;T-0692;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-25;12:02;T-0693;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-25;11:24;T-0694;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-25;20:14;T-0695;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-25;20:02;T-0696;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-25;19:51;T-0697;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-25;21:33;T-0698;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-25;11:47;T-0699;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-25;21:41;T-0700;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-25;21:44;T-0701;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-25;12:49;T-0702;Profiteroles;Desserts;1;8.00;8.00
+2026-02-25;21:03;T-0703;Profiteroles;Desserts;1;8.00;8.00
+2026-02-25;13:17;T-0704;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-25;13:16;T-0705;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-25;13:00;T-0706;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-25;21:55;T-0707;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-25;21:08;T-0708;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-25;19:51;T-0709;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-25;22:43;T-0710;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-25;22:25;T-0711;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-25;19:41;T-0712;Kir royal;Boissons;1;9.00;9.00
+2026-02-25;21:44;T-0713;Kir royal;Boissons;1;9.00;9.00
+2026-02-25;21:19;T-0714;Kir royal;Boissons;1;9.00;9.00
+2026-02-25;20:30;T-0715;Café gourmand;Boissons;1;5.00;5.00
+2026-02-25;12:35;T-0716;Café gourmand;Boissons;1;5.00;5.00
+2026-02-25;21:34;T-0717;Café gourmand;Boissons;1;5.00;5.00
+2026-02-25;21:02;T-0718;Café gourmand;Boissons;1;5.00;5.00
+2026-02-25;12:25;T-0719;Café gourmand;Boissons;1;5.00;5.00
+2026-02-25;14:48;T-0720;Café gourmand;Boissons;1;5.00;5.00
+2026-02-25;12:50;T-0721;Café gourmand;Boissons;1;5.00;5.00
+2026-02-25;12:31;T-0722;Café gourmand;Boissons;1;5.00;5.00
+2026-02-25;20:21;T-0723;Café gourmand;Boissons;1;5.00;5.00
+2026-02-25;21:17;T-0724;Café gourmand;Boissons;1;5.00;5.00
+2026-02-26;20:13;T-0725;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-26;21:49;T-0726;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-26;12:47;T-0727;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-26;19:44;T-0728;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-26;13:37;T-0729;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-26;20:23;T-0730;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-26;19:32;T-0731;Coq au vin;Plats;1;22.00;22.00
+2026-02-26;12:16;T-0732;Coq au vin;Plats;1;22.00;22.00
+2026-02-26;12:41;T-0733;Coq au vin;Plats;1;22.00;22.00
+2026-02-26;12:00;T-0734;Coq au vin;Plats;1;22.00;22.00
+2026-02-26;20:39;T-0735;Coq au vin;Plats;1;22.00;22.00
+2026-02-26;12:59;T-0736;Coq au vin;Plats;1;22.00;22.00
+2026-02-26;13:07;T-0737;Steak tartare;Plats;1;24.00;24.00
+2026-02-26;22:31;T-0738;Steak tartare;Plats;1;24.00;24.00
+2026-02-26;12:03;T-0739;Steak tartare;Plats;1;24.00;24.00
+2026-02-26;19:59;T-0740;Steak tartare;Plats;1;24.00;24.00
+2026-02-26;12:04;T-0741;Steak tartare;Plats;1;24.00;24.00
+2026-02-26;20:43;T-0742;Steak tartare;Plats;1;24.00;24.00
+2026-02-26;14:57;T-0743;Formule midi;Plats;1;15.00;15.00
+2026-02-26;12:10;T-0744;Formule midi;Plats;1;15.00;15.00
+2026-02-26;14:32;T-0745;Formule midi;Plats;1;15.00;15.00
+2026-02-26;13:56;T-0746;Formule midi;Plats;1;15.00;15.00
+2026-02-26;12:01;T-0747;Formule midi;Plats;1;15.00;15.00
+2026-02-26;12:18;T-0748;Formule midi;Plats;1;15.00;15.00
+2026-02-26;14:02;T-0749;Formule midi;Plats;1;15.00;15.00
+2026-02-26;21:29;T-0750;Moules marinières;Plats;1;18.00;18.00
+2026-02-26;13:44;T-0751;Moules marinières;Plats;1;18.00;18.00
+2026-02-26;14:16;T-0752;Moules marinières;Plats;1;18.00;18.00
+2026-02-26;20:28;T-0753;Moules marinières;Plats;1;18.00;18.00
+2026-02-26;21:58;T-0754;Moules marinières;Plats;1;18.00;18.00
+2026-02-26;12:20;T-0755;Moules marinières;Plats;1;18.00;18.00
+2026-02-26;22:48;T-0756;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-26;14:27;T-0757;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-26;21:00;T-0758;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-26;14:02;T-0759;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-26;12:41;T-0760;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-26;12:50;T-0761;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-26;12:13;T-0762;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-26;21:24;T-0763;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-26;12:56;T-0764;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-26;14:27;T-0765;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-26;21:41;T-0766;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-26;12:55;T-0767;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-26;20:10;T-0768;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-26;13:43;T-0769;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-26;21:57;T-0770;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-26;20:22;T-0771;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-26;13:13;T-0772;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-26;13:42;T-0773;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-26;12:02;T-0774;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-26;20:10;T-0775;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-26;11:40;T-0776;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-26;20:51;T-0777;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-26;20:12;T-0778;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-26;20:19;T-0779;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-26;22:17;T-0780;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-26;19:43;T-0781;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-26;13:08;T-0782;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-26;12:04;T-0783;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-26;22:19;T-0784;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-26;22:57;T-0785;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-26;12:49;T-0786;Profiteroles;Desserts;1;8.00;8.00
+2026-02-26;20:21;T-0787;Profiteroles;Desserts;1;8.00;8.00
+2026-02-26;12:32;T-0788;Profiteroles;Desserts;1;8.00;8.00
+2026-02-26;20:17;T-0789;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-26;11:57;T-0790;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-26;20:34;T-0791;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-26;20:37;T-0792;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-26;12:54;T-0793;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-26;20:10;T-0794;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-26;20:03;T-0795;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-26;12:49;T-0796;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-26;13:17;T-0797;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-26;22:18;T-0798;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-26;21:28;T-0799;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-26;13:44;T-0800;Kir royal;Boissons;1;9.00;9.00
+2026-02-26;21:42;T-0801;Kir royal;Boissons;1;9.00;9.00
+2026-02-26;22:54;T-0802;Kir royal;Boissons;1;9.00;9.00
+2026-02-26;21:01;T-0803;Kir royal;Boissons;1;9.00;9.00
+2026-02-26;21:08;T-0804;Kir royal;Boissons;1;9.00;9.00
+2026-02-26;20:58;T-0805;Café gourmand;Boissons;1;5.00;5.00
+2026-02-26;21:11;T-0806;Café gourmand;Boissons;1;5.00;5.00
+2026-02-26;13:04;T-0807;Café gourmand;Boissons;1;5.00;5.00
+2026-02-26;21:45;T-0808;Café gourmand;Boissons;1;5.00;5.00
+2026-02-26;21:51;T-0809;Café gourmand;Boissons;1;5.00;5.00
+2026-02-26;13:19;T-0810;Café gourmand;Boissons;1;5.00;5.00
+2026-02-26;12:20;T-0811;Café gourmand;Boissons;1;5.00;5.00
+2026-02-27;20:35;T-0812;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-27;20:49;T-0813;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-27;21:52;T-0814;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-27;19:03;T-0815;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-27;13:48;T-0816;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-27;12:17;T-0817;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-27;12:17;T-0818;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-27;21:11;T-0819;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-27;11:42;T-0820;Coq au vin;Plats;1;22.00;22.00
+2026-02-27;20:59;T-0821;Coq au vin;Plats;1;22.00;22.00
+2026-02-27;20:17;T-0822;Coq au vin;Plats;1;22.00;22.00
+2026-02-27;22:57;T-0823;Coq au vin;Plats;1;22.00;22.00
+2026-02-27;12:58;T-0824;Coq au vin;Plats;1;22.00;22.00
+2026-02-27;21:34;T-0825;Coq au vin;Plats;1;22.00;22.00
+2026-02-27;12:47;T-0826;Coq au vin;Plats;1;22.00;22.00
+2026-02-27;13:10;T-0827;Coq au vin;Plats;1;22.00;22.00
+2026-02-27;13:03;T-0828;Steak tartare;Plats;1;24.00;24.00
+2026-02-27;11:30;T-0829;Steak tartare;Plats;1;24.00;24.00
+2026-02-27;12:22;T-0830;Steak tartare;Plats;1;24.00;24.00
+2026-02-27;19:46;T-0831;Steak tartare;Plats;1;24.00;24.00
+2026-02-27;20:51;T-0832;Steak tartare;Plats;1;24.00;24.00
+2026-02-27;21:06;T-0833;Steak tartare;Plats;1;24.00;24.00
+2026-02-27;14:29;T-0834;Formule midi;Plats;1;15.00;15.00
+2026-02-27;11:26;T-0835;Formule midi;Plats;1;15.00;15.00
+2026-02-27;13:20;T-0836;Formule midi;Plats;1;15.00;15.00
+2026-02-27;14:19;T-0837;Formule midi;Plats;1;15.00;15.00
+2026-02-27;13:33;T-0838;Formule midi;Plats;1;15.00;15.00
+2026-02-27;14:04;T-0839;Formule midi;Plats;1;15.00;15.00
+2026-02-27;13:10;T-0840;Formule midi;Plats;1;15.00;15.00
+2026-02-27;13:32;T-0841;Formule midi;Plats;1;15.00;15.00
+2026-02-27;13:33;T-0842;Formule midi;Plats;1;15.00;15.00
+2026-02-27;14:23;T-0843;Formule midi;Plats;1;15.00;15.00
+2026-02-27;13:34;T-0844;Formule midi;Plats;1;15.00;15.00
+2026-02-27;13:55;T-0845;Moules marinières;Plats;1;18.00;18.00
+2026-02-27;21:49;T-0846;Moules marinières;Plats;1;18.00;18.00
+2026-02-27;13:04;T-0847;Moules marinières;Plats;1;18.00;18.00
+2026-02-27;20:41;T-0848;Moules marinières;Plats;1;18.00;18.00
+2026-02-27;14:04;T-0849;Moules marinières;Plats;1;18.00;18.00
+2026-02-27;21:37;T-0850;Moules marinières;Plats;1;18.00;18.00
+2026-02-27;12:08;T-0851;Moules marinières;Plats;1;18.00;18.00
+2026-02-27;19:17;T-0852;Moules marinières;Plats;1;18.00;18.00
+2026-02-27;21:09;T-0853;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-27;21:50;T-0854;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-27;21:58;T-0855;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-27;13:15;T-0856;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-27;20:54;T-0857;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-27;21:14;T-0858;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-27;12:37;T-0859;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-27;12:18;T-0860;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-27;20:26;T-0861;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-27;20:32;T-0862;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-27;20:36;T-0863;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-27;12:46;T-0864;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-27;22:48;T-0865;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-27;11:33;T-0866;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-27;20:19;T-0867;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-27;13:35;T-0868;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-27;19:44;T-0869;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-27;13:18;T-0870;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-27;12:16;T-0871;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-27;21:51;T-0872;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-27;21:05;T-0873;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-27;21:21;T-0874;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-27;12:27;T-0875;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-27;22:34;T-0876;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-27;13:05;T-0877;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-27;20:15;T-0878;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-27;21:25;T-0879;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-27;12:15;T-0880;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-27;13:16;T-0881;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-27;14:18;T-0882;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-27;12:04;T-0883;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-27;13:45;T-0884;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-27;22:54;T-0885;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-27;11:44;T-0886;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-27;12:48;T-0887;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-27;13:28;T-0888;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-27;20:51;T-0889;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-27;21:22;T-0890;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-27;21:40;T-0891;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-27;22:47;T-0892;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-27;21:19;T-0893;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-27;12:45;T-0894;Profiteroles;Desserts;1;8.00;8.00
+2026-02-27;21:20;T-0895;Profiteroles;Desserts;1;8.00;8.00
+2026-02-27;20:12;T-0896;Profiteroles;Desserts;1;8.00;8.00
+2026-02-27;21:25;T-0897;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-27;21:52;T-0898;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-27;21:51;T-0899;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-27;21:45;T-0900;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-27;21:54;T-0901;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-27;14:33;T-0902;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-27;12:52;T-0903;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-27;21:44;T-0904;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-27;19:46;T-0905;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-27;20:10;T-0906;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-27;21:27;T-0907;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-27;20:20;T-0908;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-27;21:16;T-0909;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-27;19:22;T-0910;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-27;12:12;T-0911;Kir royal;Boissons;1;9.00;9.00
+2026-02-27;13:02;T-0912;Kir royal;Boissons;1;9.00;9.00
+2026-02-27;22:37;T-0913;Kir royal;Boissons;1;9.00;9.00
+2026-02-27;14:50;T-0914;Café gourmand;Boissons;1;5.00;5.00
+2026-02-27;19:41;T-0915;Café gourmand;Boissons;1;5.00;5.00
+2026-02-27;21:13;T-0916;Café gourmand;Boissons;1;5.00;5.00
+2026-02-27;21:06;T-0917;Café gourmand;Boissons;1;5.00;5.00
+2026-02-27;21:58;T-0918;Café gourmand;Boissons;1;5.00;5.00
+2026-02-27;21:15;T-0919;Café gourmand;Boissons;1;5.00;5.00
+2026-02-27;20:47;T-0920;Café gourmand;Boissons;1;5.00;5.00
+2026-02-27;20:06;T-0921;Café gourmand;Boissons;1;5.00;5.00
+2026-02-27;20:05;T-0922;Café gourmand;Boissons;1;5.00;5.00
+2026-02-27;13:51;T-0923;Café gourmand;Boissons;1;5.00;5.00
+2026-02-27;21:54;T-0924;Café gourmand;Boissons;1;5.00;5.00
+2026-02-27;21:38;T-0925;Café gourmand;Boissons;1;5.00;5.00
+2026-02-27;11:26;T-0926;Café gourmand;Boissons;1;5.00;5.00
+2026-02-27;13:35;T-0927;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;19:05;T-0928;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-28;12:39;T-0929;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-28;21:48;T-0930;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-28;11:31;T-0931;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-28;12:28;T-0932;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-28;21:39;T-0933;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-28;20:19;T-0934;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-28;21:39;T-0935;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-28;22:17;T-0936;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-28;12:06;T-0937;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-28;22:23;T-0938;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-28;20:27;T-0939;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-28;13:31;T-0940;Entrecôte frites;Plats;1;26.00;26.00
+2026-02-28;21:38;T-0941;Coq au vin;Plats;1;22.00;22.00
+2026-02-28;11:23;T-0942;Coq au vin;Plats;1;22.00;22.00
+2026-02-28;13:59;T-0943;Coq au vin;Plats;1;22.00;22.00
+2026-02-28;20:14;T-0944;Coq au vin;Plats;1;22.00;22.00
+2026-02-28;21:14;T-0945;Coq au vin;Plats;1;22.00;22.00
+2026-02-28;20:19;T-0946;Coq au vin;Plats;1;22.00;22.00
+2026-02-28;21:58;T-0947;Coq au vin;Plats;1;22.00;22.00
+2026-02-28;12:12;T-0948;Coq au vin;Plats;1;22.00;22.00
+2026-02-28;21:33;T-0949;Steak tartare;Plats;1;24.00;24.00
+2026-02-28;12:04;T-0950;Steak tartare;Plats;1;24.00;24.00
+2026-02-28;21:36;T-0951;Steak tartare;Plats;1;24.00;24.00
+2026-02-28;21:22;T-0952;Steak tartare;Plats;1;24.00;24.00
+2026-02-28;21:08;T-0953;Steak tartare;Plats;1;24.00;24.00
+2026-02-28;12:53;T-0954;Steak tartare;Plats;1;24.00;24.00
+2026-02-28;20:08;T-0955;Steak tartare;Plats;1;24.00;24.00
+2026-02-28;20:40;T-0956;Steak tartare;Plats;1;24.00;24.00
+2026-02-28;13:41;T-0957;Formule midi;Plats;1;15.00;15.00
+2026-02-28;13:07;T-0958;Formule midi;Plats;1;15.00;15.00
+2026-02-28;11:44;T-0959;Formule midi;Plats;1;15.00;15.00
+2026-02-28;13:10;T-0960;Formule midi;Plats;1;15.00;15.00
+2026-02-28;13:13;T-0961;Formule midi;Plats;1;15.00;15.00
+2026-02-28;13:33;T-0962;Formule midi;Plats;1;15.00;15.00
+2026-02-28;12:29;T-0963;Formule midi;Plats;1;15.00;15.00
+2026-02-28;13:36;T-0964;Formule midi;Plats;1;15.00;15.00
+2026-02-28;13:30;T-0965;Formule midi;Plats;1;15.00;15.00
+2026-02-28;21:25;T-0966;Moules marinières;Plats;1;18.00;18.00
+2026-02-28;13:19;T-0967;Moules marinières;Plats;1;18.00;18.00
+2026-02-28;12:18;T-0968;Moules marinières;Plats;1;18.00;18.00
+2026-02-28;20:11;T-0969;Moules marinières;Plats;1;18.00;18.00
+2026-02-28;20:45;T-0970;Moules marinières;Plats;1;18.00;18.00
+2026-02-28;21:33;T-0971;Moules marinières;Plats;1;18.00;18.00
+2026-02-28;14:18;T-0972;Moules marinières;Plats;1;18.00;18.00
+2026-02-28;11:01;T-0973;Moules marinières;Plats;1;18.00;18.00
+2026-02-28;20:35;T-0974;Moules marinières;Plats;1;18.00;18.00
+2026-02-28;21:25;T-0975;Moules marinières;Plats;1;18.00;18.00
+2026-02-28;13:39;T-0976;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-28;12:28;T-0977;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-28;12:32;T-0978;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-28;14:44;T-0979;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-02-28;21:27;T-0980;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-28;20:40;T-0981;Croque-monsieur;Plats;1;11.00;11.00
+2026-02-28;21:12;T-0982;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-28;14:58;T-0983;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-28;22:21;T-0984;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-28;21:15;T-0985;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-28;20:58;T-0986;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-28;13:49;T-0987;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-28;21:20;T-0988;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-28;12:20;T-0989;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-02-28;21:47;T-0990;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-28;21:56;T-0991;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-28;12:48;T-0992;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-28;12:45;T-0993;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-02-28;14:31;T-0994;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-28;19:52;T-0995;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-28;13:56;T-0996;Salade niçoise;Entrées;1;12.00;12.00
+2026-02-28;11:27;T-0997;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-28;14:35;T-0998;Terrine du chef;Entrées;1;8.00;8.00
+2026-02-28;19:58;T-0999;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-28;22:30;T-1000;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-28;12:05;T-1001;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-28;21:02;T-1002;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-28;20:53;T-1003;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-28;13:54;T-1004;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-28;20:32;T-1005;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-28;22:45;T-1006;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-28;13:30;T-1007;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-28;19:22;T-1008;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-28;13:23;T-1009;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-28;11:14;T-1010;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-28;21:03;T-1011;Tarte Tatin;Desserts;1;8.00;8.00
+2026-02-28;20:30;T-1012;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-28;13:01;T-1013;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-28;12:50;T-1014;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-28;19:59;T-1015;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-28;21:12;T-1016;Crème brûlée;Desserts;1;7.00;7.00
+2026-02-28;20:41;T-1017;Profiteroles;Desserts;1;8.00;8.00
+2026-02-28;20:43;T-1018;Profiteroles;Desserts;1;8.00;8.00
+2026-02-28;14:20;T-1019;Profiteroles;Desserts;1;8.00;8.00
+2026-02-28;13:05;T-1020;Profiteroles;Desserts;1;8.00;8.00
+2026-02-28;21:17;T-1021;Profiteroles;Desserts;1;8.00;8.00
+2026-02-28;12:23;T-1022;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-28;20:23;T-1023;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-02-28;13:24;T-1024;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-28;13:33;T-1025;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-28;21:42;T-1026;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-28;20:50;T-1027;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-28;21:49;T-1028;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-28;13:53;T-1029;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-28;12:43;T-1030;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-28;20:31;T-1031;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-28;21:30;T-1032;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-28;20:52;T-1033;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-28;20:30;T-1034;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-28;21:34;T-1035;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-28;14:09;T-1036;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-02-28;20:23;T-1037;Kir royal;Boissons;1;9.00;9.00
+2026-02-28;20:37;T-1038;Kir royal;Boissons;1;9.00;9.00
+2026-02-28;11:20;T-1039;Kir royal;Boissons;1;9.00;9.00
+2026-02-28;21:11;T-1040;Kir royal;Boissons;1;9.00;9.00
+2026-02-28;20:25;T-1041;Kir royal;Boissons;1;9.00;9.00
+2026-02-28;20:05;T-1042;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;22:00;T-1043;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;19:06;T-1044;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;19:00;T-1045;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;13:47;T-1046;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;11:13;T-1047;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;20:13;T-1048;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;21:02;T-1049;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;12:01;T-1050;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;20:28;T-1051;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;11:08;T-1052;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;12:45;T-1053;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;12:16;T-1054;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;20:14;T-1055;Café gourmand;Boissons;1;5.00;5.00
+2026-02-28;21:11;T-1056;Café gourmand;Boissons;1;5.00;5.00
+2026-03-02;20:21;T-1057;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-02;22:38;T-1058;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-02;19:36;T-1059;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-02;21:14;T-1060;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-02;12:31;T-1061;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-02;21:43;T-1062;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-02;13:05;T-1063;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-02;12:40;T-1064;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-02;21:28;T-1065;Coq au vin;Plats;1;22.00;22.00
+2026-03-02;11:32;T-1066;Coq au vin;Plats;1;22.00;22.00
+2026-03-02;22:09;T-1067;Coq au vin;Plats;1;22.00;22.00
+2026-03-02;12:46;T-1068;Coq au vin;Plats;1;22.00;22.00
+2026-03-02;21:24;T-1069;Steak tartare;Plats;1;24.00;24.00
+2026-03-02;20:31;T-1070;Steak tartare;Plats;1;24.00;24.00
+2026-03-02;21:02;T-1071;Steak tartare;Plats;1;24.00;24.00
+2026-03-02;21:42;T-1072;Steak tartare;Plats;1;24.00;24.00
+2026-03-02;11:16;T-1073;Formule midi;Plats;1;15.00;15.00
+2026-03-02;12:04;T-1074;Formule midi;Plats;1;15.00;15.00
+2026-03-02;11:55;T-1075;Formule midi;Plats;1;15.00;15.00
+2026-03-02;14:11;T-1076;Formule midi;Plats;1;15.00;15.00
+2026-03-02;11:03;T-1077;Formule midi;Plats;1;15.00;15.00
+2026-03-02;13:19;T-1078;Formule midi;Plats;1;15.00;15.00
+2026-03-02;14:16;T-1079;Formule midi;Plats;1;15.00;15.00
+2026-03-02;12:19;T-1080;Moules marinières;Plats;1;18.00;18.00
+2026-03-02;19:09;T-1081;Moules marinières;Plats;1;18.00;18.00
+2026-03-02;21:51;T-1082;Moules marinières;Plats;1;18.00;18.00
+2026-03-02;12:32;T-1083;Moules marinières;Plats;1;18.00;18.00
+2026-03-02;12:08;T-1084;Moules marinières;Plats;1;18.00;18.00
+2026-03-02;13:43;T-1085;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-02;21:10;T-1086;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-02;11:17;T-1087;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-02;21:12;T-1088;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-02;11:19;T-1089;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-02;12:26;T-1090;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-02;14:40;T-1091;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-02;21:45;T-1092;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-02;13:29;T-1093;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-02;21:45;T-1094;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-02;11:45;T-1095;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-02;14:25;T-1096;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-02;12:12;T-1097;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-02;12:49;T-1098;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-02;12:25;T-1099;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-02;12:27;T-1100;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-02;20:52;T-1101;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-02;22:16;T-1102;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-02;20:54;T-1103;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-02;20:03;T-1104;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-02;21:04;T-1105;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-02;12:53;T-1106;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-02;20:02;T-1107;Profiteroles;Desserts;1;8.00;8.00
+2026-03-02;21:07;T-1108;Profiteroles;Desserts;1;8.00;8.00
+2026-03-02;12:36;T-1109;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-02;12:54;T-1110;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-02;12:00;T-1111;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-02;11:13;T-1112;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-02;20:03;T-1113;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-02;13:15;T-1114;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-02;21:08;T-1115;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-02;19:24;T-1116;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-02;13:09;T-1117;Kir royal;Boissons;1;9.00;9.00
+2026-03-02;21:04;T-1118;Kir royal;Boissons;1;9.00;9.00
+2026-03-02;20:32;T-1119;Kir royal;Boissons;1;9.00;9.00
+2026-03-02;20:59;T-1120;Café gourmand;Boissons;1;5.00;5.00
+2026-03-02;20:29;T-1121;Café gourmand;Boissons;1;5.00;5.00
+2026-03-02;21:38;T-1122;Café gourmand;Boissons;1;5.00;5.00
+2026-03-02;13:19;T-1123;Café gourmand;Boissons;1;5.00;5.00
+2026-03-02;20:12;T-1124;Café gourmand;Boissons;1;5.00;5.00
+2026-03-02;21:48;T-1125;Café gourmand;Boissons;1;5.00;5.00
+2026-03-02;21:55;T-1126;Café gourmand;Boissons;1;5.00;5.00
+2026-03-03;21:30;T-1127;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-03;13:22;T-1128;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-03;22:38;T-1129;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-03;21:17;T-1130;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-03;21:13;T-1131;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-03;13:54;T-1132;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-03;12:11;T-1133;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-03;21:42;T-1134;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-03;22:05;T-1135;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-03;21:47;T-1136;Coq au vin;Plats;1;22.00;22.00
+2026-03-03;13:18;T-1137;Coq au vin;Plats;1;22.00;22.00
+2026-03-03;21:18;T-1138;Coq au vin;Plats;1;22.00;22.00
+2026-03-03;12:32;T-1139;Coq au vin;Plats;1;22.00;22.00
+2026-03-03;12:29;T-1140;Coq au vin;Plats;1;22.00;22.00
+2026-03-03;21:18;T-1141;Steak tartare;Plats;1;24.00;24.00
+2026-03-03;13:25;T-1142;Steak tartare;Plats;1;24.00;24.00
+2026-03-03;13:12;T-1143;Steak tartare;Plats;1;24.00;24.00
+2026-03-03;13:31;T-1144;Steak tartare;Plats;1;24.00;24.00
+2026-03-03;22:53;T-1145;Steak tartare;Plats;1;24.00;24.00
+2026-03-03;11:25;T-1146;Formule midi;Plats;1;15.00;15.00
+2026-03-03;12:50;T-1147;Formule midi;Plats;1;15.00;15.00
+2026-03-03;11:22;T-1148;Formule midi;Plats;1;15.00;15.00
+2026-03-03;12:30;T-1149;Formule midi;Plats;1;15.00;15.00
+2026-03-03;12:40;T-1150;Formule midi;Plats;1;15.00;15.00
+2026-03-03;21:19;T-1151;Moules marinières;Plats;1;18.00;18.00
+2026-03-03;21:14;T-1152;Moules marinières;Plats;1;18.00;18.00
+2026-03-03;21:30;T-1153;Moules marinières;Plats;1;18.00;18.00
+2026-03-03;12:11;T-1154;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-03;20:36;T-1155;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-03;12:29;T-1156;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-03;13:05;T-1157;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-03;20:48;T-1158;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-03;21:11;T-1159;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-03;22:28;T-1160;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-03;20:01;T-1161;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-03;22:45;T-1162;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-03;12:20;T-1163;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-03;13:16;T-1164;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-03;21:03;T-1165;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-03;14:41;T-1166;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-03;19:52;T-1167;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-03;13:25;T-1168;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-03;21:22;T-1169;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-03;20:26;T-1170;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-03;14:27;T-1171;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-03;20:47;T-1172;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-03;14:14;T-1173;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-03;22:43;T-1174;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-03;12:31;T-1175;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-03;13:15;T-1176;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-03;11:18;T-1177;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-03;20:12;T-1178;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-03;12:34;T-1179;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-03;13:10;T-1180;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-03;12:07;T-1181;Profiteroles;Desserts;1;8.00;8.00
+2026-03-03;13:30;T-1182;Profiteroles;Desserts;1;8.00;8.00
+2026-03-03;12:39;T-1183;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-03;13:12;T-1184;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-03;21:34;T-1185;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-03;13:14;T-1186;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-03;13:17;T-1187;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-03;22:46;T-1188;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-03;13:13;T-1189;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-03;13:44;T-1190;Kir royal;Boissons;1;9.00;9.00
+2026-03-03;14:32;T-1191;Kir royal;Boissons;1;9.00;9.00
+2026-03-03;12:58;T-1192;Kir royal;Boissons;1;9.00;9.00
+2026-03-03;21:48;T-1193;Café gourmand;Boissons;1;5.00;5.00
+2026-03-03;21:15;T-1194;Café gourmand;Boissons;1;5.00;5.00
+2026-03-03;13:16;T-1195;Café gourmand;Boissons;1;5.00;5.00
+2026-03-03;12:59;T-1196;Café gourmand;Boissons;1;5.00;5.00
+2026-03-03;13:25;T-1197;Café gourmand;Boissons;1;5.00;5.00
+2026-03-04;21:06;T-1198;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-04;13:16;T-1199;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-04;22:06;T-1200;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-04;14:35;T-1201;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-04;19:07;T-1202;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-04;12:27;T-1203;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-04;12:21;T-1204;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-04;13:50;T-1205;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-04;20:37;T-1206;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-04;22:13;T-1207;Coq au vin;Plats;1;22.00;22.00
+2026-03-04;21:29;T-1208;Coq au vin;Plats;1;22.00;22.00
+2026-03-04;13:28;T-1209;Coq au vin;Plats;1;22.00;22.00
+2026-03-04;11:21;T-1210;Coq au vin;Plats;1;22.00;22.00
+2026-03-04;12:48;T-1211;Coq au vin;Plats;1;22.00;22.00
+2026-03-04;22:48;T-1212;Coq au vin;Plats;1;22.00;22.00
+2026-03-04;11:32;T-1213;Coq au vin;Plats;1;22.00;22.00
+2026-03-04;11:02;T-1214;Coq au vin;Plats;1;22.00;22.00
+2026-03-04;20:20;T-1215;Steak tartare;Plats;1;24.00;24.00
+2026-03-04;13:51;T-1216;Steak tartare;Plats;1;24.00;24.00
+2026-03-04;14:09;T-1217;Steak tartare;Plats;1;24.00;24.00
+2026-03-04;20:54;T-1218;Steak tartare;Plats;1;24.00;24.00
+2026-03-04;12:08;T-1219;Formule midi;Plats;1;15.00;15.00
+2026-03-04;12:52;T-1220;Formule midi;Plats;1;15.00;15.00
+2026-03-04;12:06;T-1221;Formule midi;Plats;1;15.00;15.00
+2026-03-04;11:39;T-1222;Formule midi;Plats;1;15.00;15.00
+2026-03-04;14:55;T-1223;Formule midi;Plats;1;15.00;15.00
+2026-03-04;20:23;T-1224;Moules marinières;Plats;1;18.00;18.00
+2026-03-04;11:43;T-1225;Moules marinières;Plats;1;18.00;18.00
+2026-03-04;20:28;T-1226;Moules marinières;Plats;1;18.00;18.00
+2026-03-04;13:07;T-1227;Moules marinières;Plats;1;18.00;18.00
+2026-03-04;12:48;T-1228;Moules marinières;Plats;1;18.00;18.00
+2026-03-04;12:19;T-1229;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-04;21:25;T-1230;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-04;21:29;T-1231;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-04;12:19;T-1232;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-04;13:18;T-1233;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-04;11:20;T-1234;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-04;20:30;T-1235;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-04;13:21;T-1236;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-04;22:37;T-1237;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-04;19:56;T-1238;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-04;11:34;T-1239;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-04;13:04;T-1240;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-04;12:42;T-1241;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-04;21:42;T-1242;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-04;13:13;T-1243;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-04;13:07;T-1244;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-04;12:53;T-1245;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-04;21:17;T-1246;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-04;21:36;T-1247;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-04;13:23;T-1248;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-04;20:36;T-1249;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-04;13:42;T-1250;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-04;21:47;T-1251;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-04;14:08;T-1252;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-04;21:00;T-1253;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-04;20:53;T-1254;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-04;20:34;T-1255;Profiteroles;Desserts;1;8.00;8.00
+2026-03-04;22:29;T-1256;Profiteroles;Desserts;1;8.00;8.00
+2026-03-04;21:35;T-1257;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-04;21:15;T-1258;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-04;13:16;T-1259;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-04;21:15;T-1260;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-04;12:59;T-1261;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-04;12:35;T-1262;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-04;12:59;T-1263;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-04;11:50;T-1264;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-04;20:16;T-1265;Kir royal;Boissons;1;9.00;9.00
+2026-03-04;22:43;T-1266;Kir royal;Boissons;1;9.00;9.00
+2026-03-04;20:18;T-1267;Café gourmand;Boissons;1;5.00;5.00
+2026-03-04;19:17;T-1268;Café gourmand;Boissons;1;5.00;5.00
+2026-03-04;20:47;T-1269;Café gourmand;Boissons;1;5.00;5.00
+2026-03-04;21:03;T-1270;Café gourmand;Boissons;1;5.00;5.00
+2026-03-04;21:06;T-1271;Café gourmand;Boissons;1;5.00;5.00
+2026-03-04;21:02;T-1272;Café gourmand;Boissons;1;5.00;5.00
+2026-03-05;13:01;T-1273;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-05;21:44;T-1274;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-05;13:30;T-1275;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-05;21:55;T-1276;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-05;12:19;T-1277;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-05;22:21;T-1278;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-05;20:29;T-1279;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-05;12:52;T-1280;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-05;20:12;T-1281;Coq au vin;Plats;1;22.00;22.00
+2026-03-05;12:07;T-1282;Coq au vin;Plats;1;22.00;22.00
+2026-03-05;11:06;T-1283;Coq au vin;Plats;1;22.00;22.00
+2026-03-05;20:43;T-1284;Coq au vin;Plats;1;22.00;22.00
+2026-03-05;12:18;T-1285;Coq au vin;Plats;1;22.00;22.00
+2026-03-05;14:51;T-1286;Coq au vin;Plats;1;22.00;22.00
+2026-03-05;13:32;T-1287;Steak tartare;Plats;1;24.00;24.00
+2026-03-05;19:35;T-1288;Steak tartare;Plats;1;24.00;24.00
+2026-03-05;12:11;T-1289;Steak tartare;Plats;1;24.00;24.00
+2026-03-05;12:40;T-1290;Steak tartare;Plats;1;24.00;24.00
+2026-03-05;12:22;T-1291;Formule midi;Plats;1;15.00;15.00
+2026-03-05;12:07;T-1292;Formule midi;Plats;1;15.00;15.00
+2026-03-05;11:37;T-1293;Formule midi;Plats;1;15.00;15.00
+2026-03-05;11:23;T-1294;Formule midi;Plats;1;15.00;15.00
+2026-03-05;12:51;T-1295;Formule midi;Plats;1;15.00;15.00
+2026-03-05;12:24;T-1296;Formule midi;Plats;1;15.00;15.00
+2026-03-05;12:31;T-1297;Formule midi;Plats;1;15.00;15.00
+2026-03-05;12:22;T-1298;Formule midi;Plats;1;15.00;15.00
+2026-03-05;14:19;T-1299;Moules marinières;Plats;1;18.00;18.00
+2026-03-05;12:47;T-1300;Moules marinières;Plats;1;18.00;18.00
+2026-03-05;12:56;T-1301;Moules marinières;Plats;1;18.00;18.00
+2026-03-05;11:27;T-1302;Moules marinières;Plats;1;18.00;18.00
+2026-03-05;11:13;T-1303;Moules marinières;Plats;1;18.00;18.00
+2026-03-05;21:36;T-1304;Moules marinières;Plats;1;18.00;18.00
+2026-03-05;11:36;T-1305;Moules marinières;Plats;1;18.00;18.00
+2026-03-05;20:48;T-1306;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-05;12:49;T-1307;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-05;11:20;T-1308;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-05;21:54;T-1309;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-05;12:03;T-1310;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-05;20:13;T-1311;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-05;13:53;T-1312;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-05;12:24;T-1313;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-05;13:12;T-1314;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-05;14:57;T-1315;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-05;22:26;T-1316;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-05;22:06;T-1317;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-05;20:39;T-1318;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-05;11:11;T-1319;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-05;20:14;T-1320;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-05;12:58;T-1321;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-05;20:24;T-1322;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-05;13:57;T-1323;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-05;21:45;T-1324;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-05;12:20;T-1325;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-05;12:52;T-1326;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-05;19:18;T-1327;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-05;20:58;T-1328;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-05;22:46;T-1329;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-05;21:37;T-1330;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-05;20:09;T-1331;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-05;12:32;T-1332;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-05;22:16;T-1333;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-05;20:46;T-1334;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-05;20:25;T-1335;Profiteroles;Desserts;1;8.00;8.00
+2026-03-05;19:57;T-1336;Profiteroles;Desserts;1;8.00;8.00
+2026-03-05;20:06;T-1337;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-05;21:21;T-1338;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-05;13:41;T-1339;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-05;12:25;T-1340;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-05;13:30;T-1341;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-05;21:23;T-1342;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-05;20:28;T-1343;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-05;20:06;T-1344;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-05;20:20;T-1345;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-05;12:25;T-1346;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-05;13:51;T-1347;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-05;12:49;T-1348;Kir royal;Boissons;1;9.00;9.00
+2026-03-05;22:15;T-1349;Kir royal;Boissons;1;9.00;9.00
+2026-03-05;20:46;T-1350;Kir royal;Boissons;1;9.00;9.00
+2026-03-05;13:35;T-1351;Kir royal;Boissons;1;9.00;9.00
+2026-03-05;12:12;T-1352;Café gourmand;Boissons;1;5.00;5.00
+2026-03-05;20:17;T-1353;Café gourmand;Boissons;1;5.00;5.00
+2026-03-05;22:57;T-1354;Café gourmand;Boissons;1;5.00;5.00
+2026-03-05;20:30;T-1355;Café gourmand;Boissons;1;5.00;5.00
+2026-03-05;13:58;T-1356;Café gourmand;Boissons;1;5.00;5.00
+2026-03-05;20:02;T-1357;Café gourmand;Boissons;1;5.00;5.00
+2026-03-05;14:27;T-1358;Café gourmand;Boissons;1;5.00;5.00
+2026-03-06;12:14;T-1359;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-06;22:38;T-1360;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-06;21:28;T-1361;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-06;21:27;T-1362;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-06;20:59;T-1363;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-06;22:17;T-1364;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-06;21:00;T-1365;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-06;22:55;T-1366;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-06;20:51;T-1367;Coq au vin;Plats;1;22.00;22.00
+2026-03-06;13:00;T-1368;Coq au vin;Plats;1;22.00;22.00
+2026-03-06;21:36;T-1369;Coq au vin;Plats;1;22.00;22.00
+2026-03-06;14:54;T-1370;Coq au vin;Plats;1;22.00;22.00
+2026-03-06;21:34;T-1371;Coq au vin;Plats;1;22.00;22.00
+2026-03-06;14:50;T-1372;Coq au vin;Plats;1;22.00;22.00
+2026-03-06;13:13;T-1373;Coq au vin;Plats;1;22.00;22.00
+2026-03-06;22:02;T-1374;Coq au vin;Plats;1;22.00;22.00
+2026-03-06;21:12;T-1375;Coq au vin;Plats;1;22.00;22.00
+2026-03-06;14:28;T-1376;Coq au vin;Plats;1;22.00;22.00
+2026-03-06;20:37;T-1377;Coq au vin;Plats;1;22.00;22.00
+2026-03-06;11:11;T-1378;Steak tartare;Plats;1;24.00;24.00
+2026-03-06;12:47;T-1379;Steak tartare;Plats;1;24.00;24.00
+2026-03-06;11:22;T-1380;Steak tartare;Plats;1;24.00;24.00
+2026-03-06;12:50;T-1381;Steak tartare;Plats;1;24.00;24.00
+2026-03-06;20:31;T-1382;Steak tartare;Plats;1;24.00;24.00
+2026-03-06;20:05;T-1383;Steak tartare;Plats;1;24.00;24.00
+2026-03-06;12:41;T-1384;Steak tartare;Plats;1;24.00;24.00
+2026-03-06;12:19;T-1385;Formule midi;Plats;1;15.00;15.00
+2026-03-06;12:35;T-1386;Formule midi;Plats;1;15.00;15.00
+2026-03-06;13:09;T-1387;Formule midi;Plats;1;15.00;15.00
+2026-03-06;13:32;T-1388;Formule midi;Plats;1;15.00;15.00
+2026-03-06;11:34;T-1389;Formule midi;Plats;1;15.00;15.00
+2026-03-06;12:39;T-1390;Formule midi;Plats;1;15.00;15.00
+2026-03-06;13:29;T-1391;Formule midi;Plats;1;15.00;15.00
+2026-03-06;13:48;T-1392;Formule midi;Plats;1;15.00;15.00
+2026-03-06;12:22;T-1393;Formule midi;Plats;1;15.00;15.00
+2026-03-06;13:40;T-1394;Formule midi;Plats;1;15.00;15.00
+2026-03-06;13:14;T-1395;Formule midi;Plats;1;15.00;15.00
+2026-03-06;20:06;T-1396;Moules marinières;Plats;1;18.00;18.00
+2026-03-06;20:07;T-1397;Moules marinières;Plats;1;18.00;18.00
+2026-03-06;12:50;T-1398;Moules marinières;Plats;1;18.00;18.00
+2026-03-06;21:39;T-1399;Moules marinières;Plats;1;18.00;18.00
+2026-03-06;13:58;T-1400;Moules marinières;Plats;1;18.00;18.00
+2026-03-06;19:03;T-1401;Moules marinières;Plats;1;18.00;18.00
+2026-03-06;12:02;T-1402;Moules marinières;Plats;1;18.00;18.00
+2026-03-06;14:41;T-1403;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-06;11:14;T-1404;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-06;12:59;T-1405;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-06;13:12;T-1406;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-06;22:12;T-1407;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-06;21:48;T-1408;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-06;21:12;T-1409;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-06;21:04;T-1410;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-06;20:37;T-1411;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-06;14:35;T-1412;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-06;21:21;T-1413;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-06;21:40;T-1414;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-06;13:09;T-1415;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-06;13:57;T-1416;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-06;12:06;T-1417;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-06;12:59;T-1418;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-06;20:11;T-1419;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-06;13:14;T-1420;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-06;13:22;T-1421;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-06;13:46;T-1422;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-06;20:58;T-1423;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-06;12:20;T-1424;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-06;22:29;T-1425;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-06;20:40;T-1426;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-06;21:52;T-1427;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-06;21:46;T-1428;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-06;20:44;T-1429;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-06;12:27;T-1430;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-06;22:53;T-1431;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-06;20:48;T-1432;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-06;12:27;T-1433;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-06;14:20;T-1434;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-06;12:42;T-1435;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-06;20:03;T-1436;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-06;12:12;T-1437;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-06;13:00;T-1438;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-06;21:43;T-1439;Profiteroles;Desserts;1;8.00;8.00
+2026-03-06;21:37;T-1440;Profiteroles;Desserts;1;8.00;8.00
+2026-03-06;21:23;T-1441;Profiteroles;Desserts;1;8.00;8.00
+2026-03-06;20:42;T-1442;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-06;20:56;T-1443;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-06;13:25;T-1444;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-06;21:31;T-1445;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-06;20:40;T-1446;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-06;11:46;T-1447;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-06;19:34;T-1448;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-06;13:14;T-1449;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-06;12:06;T-1450;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-06;21:12;T-1451;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-06;12:38;T-1452;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-06;21:35;T-1453;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-06;21:40;T-1454;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-06;12:00;T-1455;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-06;13:12;T-1456;Kir royal;Boissons;1;9.00;9.00
+2026-03-06;20:20;T-1457;Kir royal;Boissons;1;9.00;9.00
+2026-03-06;20:48;T-1458;Kir royal;Boissons;1;9.00;9.00
+2026-03-06;19:12;T-1459;Kir royal;Boissons;1;9.00;9.00
+2026-03-06;20:23;T-1460;Kir royal;Boissons;1;9.00;9.00
+2026-03-06;21:49;T-1461;Café gourmand;Boissons;1;5.00;5.00
+2026-03-06;11:44;T-1462;Café gourmand;Boissons;1;5.00;5.00
+2026-03-06;19:11;T-1463;Café gourmand;Boissons;1;5.00;5.00
+2026-03-06;22:04;T-1464;Café gourmand;Boissons;1;5.00;5.00
+2026-03-06;20:07;T-1465;Café gourmand;Boissons;1;5.00;5.00
+2026-03-06;21:34;T-1466;Café gourmand;Boissons;1;5.00;5.00
+2026-03-06;21:55;T-1467;Café gourmand;Boissons;1;5.00;5.00
+2026-03-06;12:51;T-1468;Café gourmand;Boissons;1;5.00;5.00
+2026-03-06;22:09;T-1469;Café gourmand;Boissons;1;5.00;5.00
+2026-03-06;21:59;T-1470;Café gourmand;Boissons;1;5.00;5.00
+2026-03-06;14:36;T-1471;Café gourmand;Boissons;1;5.00;5.00
+2026-03-07;21:34;T-1472;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-07;13:25;T-1473;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-07;14:31;T-1474;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-07;21:39;T-1475;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-07;21:42;T-1476;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-07;11:08;T-1477;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-07;12:21;T-1478;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-07;20:26;T-1479;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-07;20:11;T-1480;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-07;20:05;T-1481;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-07;12:47;T-1482;Coq au vin;Plats;1;22.00;22.00
+2026-03-07;20:41;T-1483;Coq au vin;Plats;1;22.00;22.00
+2026-03-07;12:47;T-1484;Coq au vin;Plats;1;22.00;22.00
+2026-03-07;21:06;T-1485;Coq au vin;Plats;1;22.00;22.00
+2026-03-07;22:48;T-1486;Coq au vin;Plats;1;22.00;22.00
+2026-03-07;22:02;T-1487;Coq au vin;Plats;1;22.00;22.00
+2026-03-07;12:29;T-1488;Coq au vin;Plats;1;22.00;22.00
+2026-03-07;11:51;T-1489;Coq au vin;Plats;1;22.00;22.00
+2026-03-07;20:46;T-1490;Coq au vin;Plats;1;22.00;22.00
+2026-03-07;20:57;T-1491;Steak tartare;Plats;1;24.00;24.00
+2026-03-07;11:48;T-1492;Steak tartare;Plats;1;24.00;24.00
+2026-03-07;20:03;T-1493;Steak tartare;Plats;1;24.00;24.00
+2026-03-07;11:13;T-1494;Steak tartare;Plats;1;24.00;24.00
+2026-03-07;13:06;T-1495;Steak tartare;Plats;1;24.00;24.00
+2026-03-07;12:37;T-1496;Steak tartare;Plats;1;24.00;24.00
+2026-03-07;13:08;T-1497;Formule midi;Plats;1;15.00;15.00
+2026-03-07;13:07;T-1498;Formule midi;Plats;1;15.00;15.00
+2026-03-07;13:41;T-1499;Formule midi;Plats;1;15.00;15.00
+2026-03-07;13:32;T-1500;Formule midi;Plats;1;15.00;15.00
+2026-03-07;12:42;T-1501;Formule midi;Plats;1;15.00;15.00
+2026-03-07;14:30;T-1502;Formule midi;Plats;1;15.00;15.00
+2026-03-07;13:45;T-1503;Formule midi;Plats;1;15.00;15.00
+2026-03-07;21:18;T-1504;Moules marinières;Plats;1;18.00;18.00
+2026-03-07;21:53;T-1505;Moules marinières;Plats;1;18.00;18.00
+2026-03-07;22:12;T-1506;Moules marinières;Plats;1;18.00;18.00
+2026-03-07;21:49;T-1507;Moules marinières;Plats;1;18.00;18.00
+2026-03-07;13:23;T-1508;Moules marinières;Plats;1;18.00;18.00
+2026-03-07;21:16;T-1509;Moules marinières;Plats;1;18.00;18.00
+2026-03-07;20:21;T-1510;Moules marinières;Plats;1;18.00;18.00
+2026-03-07;22:36;T-1511;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-07;13:38;T-1512;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-07;11:22;T-1513;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-07;13:52;T-1514;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-07;12:27;T-1515;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-07;20:51;T-1516;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-07;21:29;T-1517;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-07;20:09;T-1518;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-07;20:17;T-1519;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-07;11:48;T-1520;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-07;13:38;T-1521;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-07;11:07;T-1522;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-07;11:14;T-1523;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-07;21:48;T-1524;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-07;22:21;T-1525;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-07;11:59;T-1526;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-07;13:54;T-1527;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-07;11:46;T-1528;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-07;13:02;T-1529;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-07;12:13;T-1530;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-07;14:11;T-1531;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-07;21:08;T-1532;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-07;14:35;T-1533;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-07;21:19;T-1534;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-07;21:38;T-1535;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-07;13:44;T-1536;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-07;22:34;T-1537;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-07;21:24;T-1538;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-07;22:55;T-1539;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-07;13:57;T-1540;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-07;13:48;T-1541;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-07;12:11;T-1542;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-07;22:38;T-1543;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-07;20:53;T-1544;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-07;21:14;T-1545;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-07;20:46;T-1546;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-07;21:52;T-1547;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-07;13:38;T-1548;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-07;13:20;T-1549;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-07;20:38;T-1550;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-07;19:23;T-1551;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-07;20:36;T-1552;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-07;12:17;T-1553;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-07;11:32;T-1554;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-07;13:12;T-1555;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-07;12:25;T-1556;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-07;20:46;T-1557;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-07;12:02;T-1558;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-07;21:08;T-1559;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-07;22:15;T-1560;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-07;13:52;T-1561;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-07;22:49;T-1562;Profiteroles;Desserts;1;8.00;8.00
+2026-03-07;14:21;T-1563;Profiteroles;Desserts;1;8.00;8.00
+2026-03-07;20:44;T-1564;Profiteroles;Desserts;1;8.00;8.00
+2026-03-07;21:12;T-1565;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-07;19:58;T-1566;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;13:53;T-1567;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;12:32;T-1568;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;14:06;T-1569;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;20:33;T-1570;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;22:00;T-1571;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;19:18;T-1572;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;20:17;T-1573;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;12:19;T-1574;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;20:32;T-1575;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;11:27;T-1576;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;21:01;T-1577;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;19:23;T-1578;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;12:07;T-1579;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;11:59;T-1580;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-07;12:05;T-1581;Kir royal;Boissons;1;9.00;9.00
+2026-03-07;13:02;T-1582;Kir royal;Boissons;1;9.00;9.00
+2026-03-07;22:17;T-1583;Kir royal;Boissons;1;9.00;9.00
+2026-03-07;19:49;T-1584;Kir royal;Boissons;1;9.00;9.00
+2026-03-07;21:16;T-1585;Kir royal;Boissons;1;9.00;9.00
+2026-03-07;21:16;T-1586;Café gourmand;Boissons;1;5.00;5.00
+2026-03-07;22:40;T-1587;Café gourmand;Boissons;1;5.00;5.00
+2026-03-07;22:01;T-1588;Café gourmand;Boissons;1;5.00;5.00
+2026-03-07;21:36;T-1589;Café gourmand;Boissons;1;5.00;5.00
+2026-03-07;21:25;T-1590;Café gourmand;Boissons;1;5.00;5.00
+2026-03-07;21:18;T-1591;Café gourmand;Boissons;1;5.00;5.00
+2026-03-07;21:39;T-1592;Café gourmand;Boissons;1;5.00;5.00
+2026-03-07;20:39;T-1593;Café gourmand;Boissons;1;5.00;5.00
+2026-03-07;13:31;T-1594;Café gourmand;Boissons;1;5.00;5.00
+2026-03-07;20:20;T-1595;Café gourmand;Boissons;1;5.00;5.00
+2026-03-07;20:48;T-1596;Café gourmand;Boissons;1;5.00;5.00
+2026-03-07;22:12;T-1597;Café gourmand;Boissons;1;5.00;5.00
+2026-03-07;21:40;T-1598;Café gourmand;Boissons;1;5.00;5.00
+2026-03-07;21:29;T-1599;Café gourmand;Boissons;1;5.00;5.00
+2026-03-09;21:52;T-1600;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-09;20:11;T-1601;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-09;21:13;T-1602;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-09;11:44;T-1603;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-09;21:52;T-1604;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-09;13:21;T-1605;Coq au vin;Plats;1;22.00;22.00
+2026-03-09;21:12;T-1606;Coq au vin;Plats;1;22.00;22.00
+2026-03-09;20:54;T-1607;Coq au vin;Plats;1;22.00;22.00
+2026-03-09;19:26;T-1608;Coq au vin;Plats;1;22.00;22.00
+2026-03-09;12:18;T-1609;Coq au vin;Plats;1;22.00;22.00
+2026-03-09;13:24;T-1610;Steak tartare;Plats;1;24.00;24.00
+2026-03-09;13:18;T-1611;Steak tartare;Plats;1;24.00;24.00
+2026-03-09;12:19;T-1612;Steak tartare;Plats;1;24.00;24.00
+2026-03-09;11:16;T-1613;Steak tartare;Plats;1;24.00;24.00
+2026-03-09;12:04;T-1614;Formule midi;Plats;1;15.00;15.00
+2026-03-09;12:44;T-1615;Formule midi;Plats;1;15.00;15.00
+2026-03-09;13:57;T-1616;Formule midi;Plats;1;15.00;15.00
+2026-03-09;13:55;T-1617;Formule midi;Plats;1;15.00;15.00
+2026-03-09;14:46;T-1618;Formule midi;Plats;1;15.00;15.00
+2026-03-09;13:47;T-1619;Formule midi;Plats;1;15.00;15.00
+2026-03-09;12:28;T-1620;Moules marinières;Plats;1;18.00;18.00
+2026-03-09;21:47;T-1621;Moules marinières;Plats;1;18.00;18.00
+2026-03-09;13:25;T-1622;Moules marinières;Plats;1;18.00;18.00
+2026-03-09;20:19;T-1623;Moules marinières;Plats;1;18.00;18.00
+2026-03-09;20:40;T-1624;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-09;13:51;T-1625;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-09;12:26;T-1626;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-09;14:40;T-1627;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-09;22:49;T-1628;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-09;13:29;T-1629;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-09;13:48;T-1630;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-09;20:25;T-1631;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-09;19:10;T-1632;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-09;21:59;T-1633;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-09;21:11;T-1634;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-09;20:17;T-1635;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-09;21:55;T-1636;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-09;14:46;T-1637;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-09;13:17;T-1638;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-09;19:35;T-1639;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-09;20:33;T-1640;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-09;20:50;T-1641;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-09;22:16;T-1642;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-09;13:21;T-1643;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-09;22:08;T-1644;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-09;11:34;T-1645;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-09;20:00;T-1646;Profiteroles;Desserts;1;8.00;8.00
+2026-03-09;20:14;T-1647;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-09;13:40;T-1648;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-09;22:49;T-1649;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-09;12:29;T-1650;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-09;21:09;T-1651;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-09;21:14;T-1652;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-09;22:03;T-1653;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-09;11:02;T-1654;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-09;12:23;T-1655;Kir royal;Boissons;1;9.00;9.00
+2026-03-09;12:43;T-1656;Kir royal;Boissons;1;9.00;9.00
+2026-03-09;21:31;T-1657;Kir royal;Boissons;1;9.00;9.00
+2026-03-09;11:05;T-1658;Kir royal;Boissons;1;9.00;9.00
+2026-03-09;13:04;T-1659;Café gourmand;Boissons;1;5.00;5.00
+2026-03-09;13:48;T-1660;Café gourmand;Boissons;1;5.00;5.00
+2026-03-09;12:53;T-1661;Café gourmand;Boissons;1;5.00;5.00
+2026-03-09;22:16;T-1662;Café gourmand;Boissons;1;5.00;5.00
+2026-03-09;21:23;T-1663;Café gourmand;Boissons;1;5.00;5.00
+2026-03-09;20:27;T-1664;Café gourmand;Boissons;1;5.00;5.00
+2026-03-10;12:08;T-1665;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-10;13:32;T-1666;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-10;20:07;T-1667;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-10;14:04;T-1668;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-10;20:10;T-1669;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-10;12:55;T-1670;Coq au vin;Plats;1;22.00;22.00
+2026-03-10;13:09;T-1671;Coq au vin;Plats;1;22.00;22.00
+2026-03-10;12:41;T-1672;Coq au vin;Plats;1;22.00;22.00
+2026-03-10;19:31;T-1673;Coq au vin;Plats;1;22.00;22.00
+2026-03-10;13:58;T-1674;Coq au vin;Plats;1;22.00;22.00
+2026-03-10;13:43;T-1675;Coq au vin;Plats;1;22.00;22.00
+2026-03-10;13:26;T-1676;Coq au vin;Plats;1;22.00;22.00
+2026-03-10;21:45;T-1677;Steak tartare;Plats;1;24.00;24.00
+2026-03-10;21:32;T-1678;Steak tartare;Plats;1;24.00;24.00
+2026-03-10;21:27;T-1679;Steak tartare;Plats;1;24.00;24.00
+2026-03-10;12:52;T-1680;Steak tartare;Plats;1;24.00;24.00
+2026-03-10;13:04;T-1681;Formule midi;Plats;1;15.00;15.00
+2026-03-10;13:14;T-1682;Formule midi;Plats;1;15.00;15.00
+2026-03-10;14:34;T-1683;Formule midi;Plats;1;15.00;15.00
+2026-03-10;13:56;T-1684;Formule midi;Plats;1;15.00;15.00
+2026-03-10;13:56;T-1685;Formule midi;Plats;1;15.00;15.00
+2026-03-10;12:53;T-1686;Moules marinières;Plats;1;18.00;18.00
+2026-03-10;20:07;T-1687;Moules marinières;Plats;1;18.00;18.00
+2026-03-10;21:50;T-1688;Moules marinières;Plats;1;18.00;18.00
+2026-03-10;12:55;T-1689;Moules marinières;Plats;1;18.00;18.00
+2026-03-10;14:16;T-1690;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-10;13:11;T-1691;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-10;14:44;T-1692;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-10;13:02;T-1693;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-10;21:04;T-1694;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-10;21:10;T-1695;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-10;22:07;T-1696;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-10;21:10;T-1697;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-10;21:30;T-1698;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-10;12:13;T-1699;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-10;13:34;T-1700;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-10;21:17;T-1701;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-10;12:38;T-1702;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-10;12:33;T-1703;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-10;12:20;T-1704;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-10;12:02;T-1705;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-10;13:05;T-1706;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-10;12:13;T-1707;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-10;19:16;T-1708;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-10;21:53;T-1709;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-10;13:09;T-1710;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-10;21:46;T-1711;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-10;12:13;T-1712;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-10;22:37;T-1713;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-10;13:58;T-1714;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-10;13:20;T-1715;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-10;13:33;T-1716;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-10;22:18;T-1717;Profiteroles;Desserts;1;8.00;8.00
+2026-03-10;12:46;T-1718;Profiteroles;Desserts;1;8.00;8.00
+2026-03-10;13:42;T-1719;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-10;12:08;T-1720;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-10;12:35;T-1721;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-10;12:16;T-1722;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-10;20:52;T-1723;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-10;20:29;T-1724;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-10;21:16;T-1725;Kir royal;Boissons;1;9.00;9.00
+2026-03-10;21:41;T-1726;Kir royal;Boissons;1;9.00;9.00
+2026-03-10;22:48;T-1727;Kir royal;Boissons;1;9.00;9.00
+2026-03-10;12:27;T-1728;Kir royal;Boissons;1;9.00;9.00
+2026-03-10;19:09;T-1729;Café gourmand;Boissons;1;5.00;5.00
+2026-03-10;12:10;T-1730;Café gourmand;Boissons;1;5.00;5.00
+2026-03-10;21:11;T-1731;Café gourmand;Boissons;1;5.00;5.00
+2026-03-10;20:17;T-1732;Café gourmand;Boissons;1;5.00;5.00
+2026-03-10;11:47;T-1733;Café gourmand;Boissons;1;5.00;5.00
+2026-03-10;13:57;T-1734;Café gourmand;Boissons;1;5.00;5.00
+2026-03-10;21:20;T-1735;Café gourmand;Boissons;1;5.00;5.00
+2026-03-10;20:55;T-1736;Café gourmand;Boissons;1;5.00;5.00
+2026-03-11;13:16;T-1737;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-11;13:22;T-1738;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-11;13:50;T-1739;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-11;12:50;T-1740;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-11;11:17;T-1741;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-11;22:47;T-1742;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-11;21:32;T-1743;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-11;21:35;T-1744;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-11;12:35;T-1745;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-11;11:03;T-1746;Coq au vin;Plats;1;22.00;22.00
+2026-03-11;21:54;T-1747;Coq au vin;Plats;1;22.00;22.00
+2026-03-11;12:16;T-1748;Coq au vin;Plats;1;22.00;22.00
+2026-03-11;22:03;T-1749;Coq au vin;Plats;1;22.00;22.00
+2026-03-11;22:31;T-1750;Coq au vin;Plats;1;22.00;22.00
+2026-03-11;11:18;T-1751;Coq au vin;Plats;1;22.00;22.00
+2026-03-11;20:52;T-1752;Steak tartare;Plats;1;24.00;24.00
+2026-03-11;13:58;T-1753;Steak tartare;Plats;1;24.00;24.00
+2026-03-11;14:28;T-1754;Steak tartare;Plats;1;24.00;24.00
+2026-03-11;13:35;T-1755;Steak tartare;Plats;1;24.00;24.00
+2026-03-11;12:23;T-1756;Steak tartare;Plats;1;24.00;24.00
+2026-03-11;12:03;T-1757;Steak tartare;Plats;1;24.00;24.00
+2026-03-11;13:18;T-1758;Formule midi;Plats;1;15.00;15.00
+2026-03-11;13:58;T-1759;Formule midi;Plats;1;15.00;15.00
+2026-03-11;13:25;T-1760;Formule midi;Plats;1;15.00;15.00
+2026-03-11;12:06;T-1761;Formule midi;Plats;1;15.00;15.00
+2026-03-11;11:06;T-1762;Formule midi;Plats;1;15.00;15.00
+2026-03-11;11:27;T-1763;Formule midi;Plats;1;15.00;15.00
+2026-03-11;13:01;T-1764;Formule midi;Plats;1;15.00;15.00
+2026-03-11;13:04;T-1765;Formule midi;Plats;1;15.00;15.00
+2026-03-11;13:15;T-1766;Moules marinières;Plats;1;18.00;18.00
+2026-03-11;21:47;T-1767;Moules marinières;Plats;1;18.00;18.00
+2026-03-11;22:08;T-1768;Moules marinières;Plats;1;18.00;18.00
+2026-03-11;12:37;T-1769;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-11;21:31;T-1770;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-11;13:20;T-1771;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-11;12:13;T-1772;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-11;11:09;T-1773;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-11;12:32;T-1774;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-11;20:44;T-1775;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-11;21:40;T-1776;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-11;21:18;T-1777;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-11;21:20;T-1778;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-11;21:49;T-1779;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-11;21:07;T-1780;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-11;12:54;T-1781;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-11;12:03;T-1782;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-11;12:29;T-1783;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-11;20:34;T-1784;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-11;20:52;T-1785;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-11;21:23;T-1786;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-11;11:49;T-1787;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-11;13:17;T-1788;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-11;19:20;T-1789;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-11;19:39;T-1790;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-11;11:11;T-1791;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-11;20:45;T-1792;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-11;13:19;T-1793;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-11;20:14;T-1794;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-11;22:37;T-1795;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-11;11:20;T-1796;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-11;20:35;T-1797;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-11;21:39;T-1798;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-11;11:52;T-1799;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-11;21:08;T-1800;Profiteroles;Desserts;1;8.00;8.00
+2026-03-11;14:10;T-1801;Profiteroles;Desserts;1;8.00;8.00
+2026-03-11;20:34;T-1802;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-11;12:47;T-1803;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-11;20:32;T-1804;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-11;11:34;T-1805;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-11;20:00;T-1806;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-11;11:04;T-1807;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-11;21:07;T-1808;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-11;22:47;T-1809;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-11;21:43;T-1810;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-11;21:42;T-1811;Kir royal;Boissons;1;9.00;9.00
+2026-03-11;21:42;T-1812;Kir royal;Boissons;1;9.00;9.00
+2026-03-11;21:52;T-1813;Kir royal;Boissons;1;9.00;9.00
+2026-03-11;12:33;T-1814;Kir royal;Boissons;1;9.00;9.00
+2026-03-11;11:21;T-1815;Café gourmand;Boissons;1;5.00;5.00
+2026-03-11;21:58;T-1816;Café gourmand;Boissons;1;5.00;5.00
+2026-03-11;20:15;T-1817;Café gourmand;Boissons;1;5.00;5.00
+2026-03-11;12:03;T-1818;Café gourmand;Boissons;1;5.00;5.00
+2026-03-11;14:21;T-1819;Café gourmand;Boissons;1;5.00;5.00
+2026-03-11;20:01;T-1820;Café gourmand;Boissons;1;5.00;5.00
+2026-03-12;12:50;T-1821;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-12;20:15;T-1822;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-12;14:59;T-1823;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-12;12:03;T-1824;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-12;13:05;T-1825;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-12;21:01;T-1826;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-12;13:37;T-1827;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-12;13:18;T-1828;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-12;13:03;T-1829;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-12;12:02;T-1830;Coq au vin;Plats;1;22.00;22.00
+2026-03-12;13:42;T-1831;Coq au vin;Plats;1;22.00;22.00
+2026-03-12;20:13;T-1832;Coq au vin;Plats;1;22.00;22.00
+2026-03-12;13:17;T-1833;Coq au vin;Plats;1;22.00;22.00
+2026-03-12;21:38;T-1834;Coq au vin;Plats;1;22.00;22.00
+2026-03-12;20:35;T-1835;Coq au vin;Plats;1;22.00;22.00
+2026-03-12;12:23;T-1836;Coq au vin;Plats;1;22.00;22.00
+2026-03-12;20:41;T-1837;Coq au vin;Plats;1;22.00;22.00
+2026-03-12;20:53;T-1838;Coq au vin;Plats;1;22.00;22.00
+2026-03-12;21:22;T-1839;Coq au vin;Plats;1;22.00;22.00
+2026-03-12;12:44;T-1840;Steak tartare;Plats;1;24.00;24.00
+2026-03-12;12:53;T-1841;Steak tartare;Plats;1;24.00;24.00
+2026-03-12;12:17;T-1842;Steak tartare;Plats;1;24.00;24.00
+2026-03-12;20:39;T-1843;Steak tartare;Plats;1;24.00;24.00
+2026-03-12;22:23;T-1844;Steak tartare;Plats;1;24.00;24.00
+2026-03-12;21:14;T-1845;Steak tartare;Plats;1;24.00;24.00
+2026-03-12;21:12;T-1846;Steak tartare;Plats;1;24.00;24.00
+2026-03-12;12:59;T-1847;Formule midi;Plats;1;15.00;15.00
+2026-03-12;13:11;T-1848;Formule midi;Plats;1;15.00;15.00
+2026-03-12;12:47;T-1849;Formule midi;Plats;1;15.00;15.00
+2026-03-12;13:21;T-1850;Formule midi;Plats;1;15.00;15.00
+2026-03-12;13:44;T-1851;Formule midi;Plats;1;15.00;15.00
+2026-03-12;12:45;T-1852;Formule midi;Plats;1;15.00;15.00
+2026-03-12;12:04;T-1853;Moules marinières;Plats;1;18.00;18.00
+2026-03-12;22:31;T-1854;Moules marinières;Plats;1;18.00;18.00
+2026-03-12;20:09;T-1855;Moules marinières;Plats;1;18.00;18.00
+2026-03-12;11:17;T-1856;Moules marinières;Plats;1;18.00;18.00
+2026-03-12;13:27;T-1857;Moules marinières;Plats;1;18.00;18.00
+2026-03-12;20:15;T-1858;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-12;21:26;T-1859;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-12;20:31;T-1860;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-12;11:22;T-1861;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-12;20:57;T-1862;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-12;11:21;T-1863;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-12;11:55;T-1864;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-12;21:17;T-1865;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-12;12:07;T-1866;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-12;12:31;T-1867;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-12;20:13;T-1868;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-12;13:18;T-1869;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-12;22:48;T-1870;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-12;20:38;T-1871;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-12;20:15;T-1872;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-12;13:07;T-1873;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-12;21:16;T-1874;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-12;13:04;T-1875;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-12;12:36;T-1876;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-12;20:34;T-1877;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-12;20:29;T-1878;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-12;12:11;T-1879;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-12;13:37;T-1880;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-12;22:34;T-1881;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-12;21:27;T-1882;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-12;12:57;T-1883;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-12;13:04;T-1884;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-12;12:34;T-1885;Profiteroles;Desserts;1;8.00;8.00
+2026-03-12;13:01;T-1886;Profiteroles;Desserts;1;8.00;8.00
+2026-03-12;21:14;T-1887;Profiteroles;Desserts;1;8.00;8.00
+2026-03-12;13:39;T-1888;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-12;12:37;T-1889;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-12;11:41;T-1890;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-12;20:19;T-1891;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-12;21:11;T-1892;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-12;20:49;T-1893;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-12;13:29;T-1894;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-12;12:39;T-1895;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-12;13:10;T-1896;Kir royal;Boissons;1;9.00;9.00
+2026-03-12;20:10;T-1897;Kir royal;Boissons;1;9.00;9.00
+2026-03-12;13:45;T-1898;Kir royal;Boissons;1;9.00;9.00
+2026-03-12;12:01;T-1899;Kir royal;Boissons;1;9.00;9.00
+2026-03-12;20:18;T-1900;Kir royal;Boissons;1;9.00;9.00
+2026-03-12;12:58;T-1901;Café gourmand;Boissons;1;5.00;5.00
+2026-03-12;21:47;T-1902;Café gourmand;Boissons;1;5.00;5.00
+2026-03-12;21:49;T-1903;Café gourmand;Boissons;1;5.00;5.00
+2026-03-12;12:09;T-1904;Café gourmand;Boissons;1;5.00;5.00
+2026-03-12;12:56;T-1905;Café gourmand;Boissons;1;5.00;5.00
+2026-03-12;12:01;T-1906;Café gourmand;Boissons;1;5.00;5.00
+2026-03-13;12:19;T-1907;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-13;20:58;T-1908;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-13;22:49;T-1909;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-13;14:35;T-1910;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-13;13:08;T-1911;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-13;19:17;T-1912;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-13;20:57;T-1913;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-13;12:20;T-1914;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-13;11:40;T-1915;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-13;19:14;T-1916;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-13;21:12;T-1917;Coq au vin;Plats;1;22.00;22.00
+2026-03-13;20:40;T-1918;Coq au vin;Plats;1;22.00;22.00
+2026-03-13;12:58;T-1919;Coq au vin;Plats;1;22.00;22.00
+2026-03-13;20:45;T-1920;Coq au vin;Plats;1;22.00;22.00
+2026-03-13;21:08;T-1921;Coq au vin;Plats;1;22.00;22.00
+2026-03-13;12:06;T-1922;Coq au vin;Plats;1;22.00;22.00
+2026-03-13;12:22;T-1923;Coq au vin;Plats;1;22.00;22.00
+2026-03-13;11:54;T-1924;Steak tartare;Plats;1;24.00;24.00
+2026-03-13;19:48;T-1925;Steak tartare;Plats;1;24.00;24.00
+2026-03-13;20:13;T-1926;Steak tartare;Plats;1;24.00;24.00
+2026-03-13;20:57;T-1927;Steak tartare;Plats;1;24.00;24.00
+2026-03-13;21:33;T-1928;Steak tartare;Plats;1;24.00;24.00
+2026-03-13;13:05;T-1929;Steak tartare;Plats;1;24.00;24.00
+2026-03-13;20:22;T-1930;Steak tartare;Plats;1;24.00;24.00
+2026-03-13;14:29;T-1931;Formule midi;Plats;1;15.00;15.00
+2026-03-13;12:33;T-1932;Formule midi;Plats;1;15.00;15.00
+2026-03-13;14:17;T-1933;Formule midi;Plats;1;15.00;15.00
+2026-03-13;14:08;T-1934;Formule midi;Plats;1;15.00;15.00
+2026-03-13;12:09;T-1935;Formule midi;Plats;1;15.00;15.00
+2026-03-13;13:32;T-1936;Formule midi;Plats;1;15.00;15.00
+2026-03-13;13:53;T-1937;Formule midi;Plats;1;15.00;15.00
+2026-03-13;12:24;T-1938;Formule midi;Plats;1;15.00;15.00
+2026-03-13;11:24;T-1939;Formule midi;Plats;1;15.00;15.00
+2026-03-13;12:40;T-1940;Formule midi;Plats;1;15.00;15.00
+2026-03-13;13:27;T-1941;Moules marinières;Plats;1;18.00;18.00
+2026-03-13;20:54;T-1942;Moules marinières;Plats;1;18.00;18.00
+2026-03-13;12:48;T-1943;Moules marinières;Plats;1;18.00;18.00
+2026-03-13;20:29;T-1944;Moules marinières;Plats;1;18.00;18.00
+2026-03-13;20:28;T-1945;Moules marinières;Plats;1;18.00;18.00
+2026-03-13;20:08;T-1946;Moules marinières;Plats;1;18.00;18.00
+2026-03-13;21:01;T-1947;Moules marinières;Plats;1;18.00;18.00
+2026-03-13;21:49;T-1948;Moules marinières;Plats;1;18.00;18.00
+2026-03-13;13:09;T-1949;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-13;13:05;T-1950;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-13;21:23;T-1951;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-13;11:43;T-1952;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-13;12:04;T-1953;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-13;13:06;T-1954;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-13;20:42;T-1955;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-13;22:28;T-1956;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-13;14:40;T-1957;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-13;21:14;T-1958;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-13;21:31;T-1959;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-13;12:39;T-1960;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-13;20:42;T-1961;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-13;19:13;T-1962;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-13;21:38;T-1963;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-13;20:33;T-1964;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-13;11:05;T-1965;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-13;13:25;T-1966;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-13;11:39;T-1967;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-13;12:21;T-1968;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-13;11:45;T-1969;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-13;12:38;T-1970;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-13;20:57;T-1971;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-13;21:15;T-1972;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-13;20:24;T-1973;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-13;20:32;T-1974;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-13;14:55;T-1975;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-13;21:51;T-1976;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-13;21:37;T-1977;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-13;21:52;T-1978;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-13;12:01;T-1979;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-13;13:17;T-1980;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-13;20:40;T-1981;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-13;14:35;T-1982;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-13;22:06;T-1983;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-13;12:36;T-1984;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-13;20:04;T-1985;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-13;22:25;T-1986;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-13;11:15;T-1987;Profiteroles;Desserts;1;8.00;8.00
+2026-03-13;19:44;T-1988;Profiteroles;Desserts;1;8.00;8.00
+2026-03-13;13:58;T-1989;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-13;11:13;T-1990;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-13;11:05;T-1991;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-13;11:19;T-1992;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-13;11:53;T-1993;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-13;21:47;T-1994;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-13;21:46;T-1995;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-13;20:31;T-1996;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-13;20:45;T-1997;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-13;20:53;T-1998;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-13;13:20;T-1999;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-13;19:13;T-2000;Kir royal;Boissons;1;9.00;9.00
+2026-03-13;12:29;T-2001;Kir royal;Boissons;1;9.00;9.00
+2026-03-13;20:02;T-2002;Kir royal;Boissons;1;9.00;9.00
+2026-03-13;20:38;T-2003;Kir royal;Boissons;1;9.00;9.00
+2026-03-13;19:34;T-2004;Kir royal;Boissons;1;9.00;9.00
+2026-03-13;12:59;T-2005;Café gourmand;Boissons;1;5.00;5.00
+2026-03-13;20:55;T-2006;Café gourmand;Boissons;1;5.00;5.00
+2026-03-13;22:03;T-2007;Café gourmand;Boissons;1;5.00;5.00
+2026-03-13;11:17;T-2008;Café gourmand;Boissons;1;5.00;5.00
+2026-03-13;19:07;T-2009;Café gourmand;Boissons;1;5.00;5.00
+2026-03-13;13:11;T-2010;Café gourmand;Boissons;1;5.00;5.00
+2026-03-13;13:09;T-2011;Café gourmand;Boissons;1;5.00;5.00
+2026-03-13;21:25;T-2012;Café gourmand;Boissons;1;5.00;5.00
+2026-03-13;13:50;T-2013;Café gourmand;Boissons;1;5.00;5.00
+2026-03-14;20:33;T-2014;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-14;21:28;T-2015;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-14;21:59;T-2016;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-14;12:20;T-2017;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-14;13:59;T-2018;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-14;12:41;T-2019;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-14;20:56;T-2020;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-14;20:01;T-2021;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-14;11:49;T-2022;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-14;11:41;T-2023;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-14;19:34;T-2024;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-14;13:49;T-2025;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-14;14:06;T-2026;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-14;21:59;T-2027;Coq au vin;Plats;1;22.00;22.00
+2026-03-14;13:29;T-2028;Coq au vin;Plats;1;22.00;22.00
+2026-03-14;12:30;T-2029;Coq au vin;Plats;1;22.00;22.00
+2026-03-14;20:36;T-2030;Coq au vin;Plats;1;22.00;22.00
+2026-03-14;20:10;T-2031;Coq au vin;Plats;1;22.00;22.00
+2026-03-14;20:43;T-2032;Coq au vin;Plats;1;22.00;22.00
+2026-03-14;21:46;T-2033;Coq au vin;Plats;1;22.00;22.00
+2026-03-14;20:54;T-2034;Coq au vin;Plats;1;22.00;22.00
+2026-03-14;20:59;T-2035;Coq au vin;Plats;1;22.00;22.00
+2026-03-14;20:21;T-2036;Steak tartare;Plats;1;24.00;24.00
+2026-03-14;13:42;T-2037;Steak tartare;Plats;1;24.00;24.00
+2026-03-14;12:47;T-2038;Steak tartare;Plats;1;24.00;24.00
+2026-03-14;13:37;T-2039;Steak tartare;Plats;1;24.00;24.00
+2026-03-14;20:32;T-2040;Steak tartare;Plats;1;24.00;24.00
+2026-03-14;13:10;T-2041;Steak tartare;Plats;1;24.00;24.00
+2026-03-14;11:13;T-2042;Formule midi;Plats;1;15.00;15.00
+2026-03-14;12:49;T-2043;Formule midi;Plats;1;15.00;15.00
+2026-03-14;12:46;T-2044;Formule midi;Plats;1;15.00;15.00
+2026-03-14;12:05;T-2045;Formule midi;Plats;1;15.00;15.00
+2026-03-14;13:52;T-2046;Formule midi;Plats;1;15.00;15.00
+2026-03-14;12:06;T-2047;Formule midi;Plats;1;15.00;15.00
+2026-03-14;11:09;T-2048;Formule midi;Plats;1;15.00;15.00
+2026-03-14;13:18;T-2049;Formule midi;Plats;1;15.00;15.00
+2026-03-14;13:58;T-2050;Formule midi;Plats;1;15.00;15.00
+2026-03-14;13:21;T-2051;Formule midi;Plats;1;15.00;15.00
+2026-03-14;21:22;T-2052;Moules marinières;Plats;1;18.00;18.00
+2026-03-14;11:08;T-2053;Moules marinières;Plats;1;18.00;18.00
+2026-03-14;20:06;T-2054;Moules marinières;Plats;1;18.00;18.00
+2026-03-14;12:07;T-2055;Moules marinières;Plats;1;18.00;18.00
+2026-03-14;13:28;T-2056;Moules marinières;Plats;1;18.00;18.00
+2026-03-14;21:13;T-2057;Moules marinières;Plats;1;18.00;18.00
+2026-03-14;13:09;T-2058;Moules marinières;Plats;1;18.00;18.00
+2026-03-14;22:13;T-2059;Moules marinières;Plats;1;18.00;18.00
+2026-03-14;11:12;T-2060;Moules marinières;Plats;1;18.00;18.00
+2026-03-14;20:28;T-2061;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-14;21:15;T-2062;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-14;13:21;T-2063;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-14;22:08;T-2064;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-14;12:46;T-2065;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-14;12:49;T-2066;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-14;13:49;T-2067;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-14;22:50;T-2068;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-14;21:07;T-2069;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-14;13:02;T-2070;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-14;13:06;T-2071;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-14;13:11;T-2072;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-14;12:07;T-2073;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-14;21:21;T-2074;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-14;22:41;T-2075;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-14;12:02;T-2076;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-14;14:29;T-2077;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-14;20:03;T-2078;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-14;22:48;T-2079;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-14;21:51;T-2080;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-14;20:17;T-2081;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-14;12:09;T-2082;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-14;12:30;T-2083;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-14;21:07;T-2084;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-14;12:45;T-2085;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-14;14:13;T-2086;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-14;12:34;T-2087;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-14;11:05;T-2088;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-14;12:58;T-2089;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-14;12:44;T-2090;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-14;21:25;T-2091;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-14;20:45;T-2092;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-14;21:56;T-2093;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-14;12:00;T-2094;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-14;14:05;T-2095;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-14;12:59;T-2096;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-14;20:47;T-2097;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-14;21:11;T-2098;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-14;12:37;T-2099;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-14;13:26;T-2100;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-14;14:26;T-2101;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-14;19:54;T-2102;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-14;20:42;T-2103;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-14;12:12;T-2104;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-14;19:21;T-2105;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-14;13:02;T-2106;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-14;14:38;T-2107;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-14;20:43;T-2108;Profiteroles;Desserts;1;8.00;8.00
+2026-03-14;20:11;T-2109;Profiteroles;Desserts;1;8.00;8.00
+2026-03-14;13:51;T-2110;Profiteroles;Desserts;1;8.00;8.00
+2026-03-14;13:59;T-2111;Profiteroles;Desserts;1;8.00;8.00
+2026-03-14;21:50;T-2112;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-14;21:20;T-2113;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;20:22;T-2114;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;19:08;T-2115;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;22:35;T-2116;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;21:12;T-2117;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;20:35;T-2118;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;21:30;T-2119;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;19:03;T-2120;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;21:50;T-2121;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;22:25;T-2122;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;11:12;T-2123;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;12:39;T-2124;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;21:41;T-2125;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;20:56;T-2126;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;21:01;T-2127;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;11:05;T-2128;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;20:03;T-2129;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-14;22:59;T-2130;Kir royal;Boissons;1;9.00;9.00
+2026-03-14;19:37;T-2131;Kir royal;Boissons;1;9.00;9.00
+2026-03-14;12:43;T-2132;Kir royal;Boissons;1;9.00;9.00
+2026-03-14;21:19;T-2133;Kir royal;Boissons;1;9.00;9.00
+2026-03-14;21:21;T-2134;Kir royal;Boissons;1;9.00;9.00
+2026-03-14;21:58;T-2135;Kir royal;Boissons;1;9.00;9.00
+2026-03-14;22:22;T-2136;Café gourmand;Boissons;1;5.00;5.00
+2026-03-14;20:28;T-2137;Café gourmand;Boissons;1;5.00;5.00
+2026-03-14;12:54;T-2138;Café gourmand;Boissons;1;5.00;5.00
+2026-03-14;21:10;T-2139;Café gourmand;Boissons;1;5.00;5.00
+2026-03-14;13:12;T-2140;Café gourmand;Boissons;1;5.00;5.00
+2026-03-14;20:29;T-2141;Café gourmand;Boissons;1;5.00;5.00
+2026-03-14;12:22;T-2142;Café gourmand;Boissons;1;5.00;5.00
+2026-03-14;20:31;T-2143;Café gourmand;Boissons;1;5.00;5.00
+2026-03-14;13:49;T-2144;Café gourmand;Boissons;1;5.00;5.00
+2026-03-14;12:17;T-2145;Café gourmand;Boissons;1;5.00;5.00
+2026-03-14;19:00;T-2146;Café gourmand;Boissons;1;5.00;5.00
+2026-03-14;12:52;T-2147;Café gourmand;Boissons;1;5.00;5.00
+2026-03-16;22:07;T-2148;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-16;20:47;T-2149;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-16;13:44;T-2150;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-16;13:34;T-2151;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-16;13:08;T-2152;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-16;12:46;T-2153;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-16;22:54;T-2154;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-16;12:25;T-2155;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-16;14:29;T-2156;Entrecôte frites;Plats;1;26.00;26.00
+2026-03-16;22:55;T-2157;Coq au vin;Plats;1;22.00;22.00
+2026-03-16;20:04;T-2158;Coq au vin;Plats;1;22.00;22.00
+2026-03-16;20:45;T-2159;Coq au vin;Plats;1;22.00;22.00
+2026-03-16;12:44;T-2160;Coq au vin;Plats;1;22.00;22.00
+2026-03-16;21:47;T-2161;Coq au vin;Plats;1;22.00;22.00
+2026-03-16;13:51;T-2162;Coq au vin;Plats;1;22.00;22.00
+2026-03-16;14:16;T-2163;Coq au vin;Plats;1;22.00;22.00
+2026-03-16;20:42;T-2164;Steak tartare;Plats;1;24.00;24.00
+2026-03-16;20:56;T-2165;Steak tartare;Plats;1;24.00;24.00
+2026-03-16;12:32;T-2166;Steak tartare;Plats;1;24.00;24.00
+2026-03-16;11:45;T-2167;Steak tartare;Plats;1;24.00;24.00
+2026-03-16;21:05;T-2168;Steak tartare;Plats;1;24.00;24.00
+2026-03-16;12:24;T-2169;Formule midi;Plats;1;15.00;15.00
+2026-03-16;11:47;T-2170;Formule midi;Plats;1;15.00;15.00
+2026-03-16;13:19;T-2171;Formule midi;Plats;1;15.00;15.00
+2026-03-16;11:05;T-2172;Formule midi;Plats;1;15.00;15.00
+2026-03-16;20:42;T-2173;Moules marinières;Plats;1;18.00;18.00
+2026-03-16;20:21;T-2174;Moules marinières;Plats;1;18.00;18.00
+2026-03-16;12:22;T-2175;Moules marinières;Plats;1;18.00;18.00
+2026-03-16;20:19;T-2176;Moules marinières;Plats;1;18.00;18.00
+2026-03-16;12:19;T-2177;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-16;19:07;T-2178;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-16;13:25;T-2179;Bavette à l'échalote;Plats;1;21.00;21.00
+2026-03-16;13:54;T-2180;Croque-monsieur;Plats;1;11.00;11.00
+2026-03-16;12:30;T-2181;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-16;12:16;T-2182;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-16;12:03;T-2183;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-16;22:06;T-2184;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-16;21:54;T-2185;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-16;20:56;T-2186;Tartare de bœuf;Entrées;1;16.00;16.00
+2026-03-16;22:43;T-2187;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-16;21:59;T-2188;Soupe à l'oignon;Entrées;1;9.00;9.00
+2026-03-16;20:13;T-2189;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-16;21:23;T-2190;Salade niçoise;Entrées;1;12.00;12.00
+2026-03-16;12:40;T-2191;Terrine du chef;Entrées;1;8.00;8.00
+2026-03-16;11:05;T-2192;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-16;21:22;T-2193;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-16;14:16;T-2194;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-16;13:24;T-2195;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-16;13:23;T-2196;Tarte Tatin;Desserts;1;8.00;8.00
+2026-03-16;13:13;T-2197;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-16;11:29;T-2198;Crème brûlée;Desserts;1;7.00;7.00
+2026-03-16;21:23;T-2199;Profiteroles;Desserts;1;8.00;8.00
+2026-03-16;12:16;T-2200;Mousse au chocolat;Desserts;1;6.00;6.00
+2026-03-16;21:08;T-2201;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-16;12:04;T-2202;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-16;20:04;T-2203;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-16;12:40;T-2204;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-16;22:32;T-2205;Verre de Bordeaux;Boissons;1;7.00;7.00
+2026-03-16;20:45;T-2206;Kir royal;Boissons;1;9.00;9.00
+2026-03-16;13:03;T-2207;Kir royal;Boissons;1;9.00;9.00
+2026-03-16;12:24;T-2208;Café gourmand;Boissons;1;5.00;5.00
+2026-03-16;20:19;T-2209;Café gourmand;Boissons;1;5.00;5.00
+2026-03-16;21:07;T-2210;Café gourmand;Boissons;1;5.00;5.00
+2026-03-16;13:23;T-2211;Café gourmand;Boissons;1;5.00;5.00
+2026-03-16;12:00;T-2212;Café gourmand;Boissons;1;5.00;5.00

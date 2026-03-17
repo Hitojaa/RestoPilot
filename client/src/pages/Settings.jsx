@@ -1,9 +1,25 @@
 import { useState } from 'react';
-import { CheckCircle, RotateCcw, Store, CalendarDays, Info, ChevronDown } from 'lucide-react';
+import { CheckCircle, RotateCcw, Store, CalendarDays, Palette } from 'lucide-react';
 import { useSettings, DEFAULT_SETTINGS } from '../hooks/useSettings';
 
 const DAYS_FR = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'];
-const HOURS = Array.from({ length: 17 }, (_, i) => i + 7); // 7h → 23h
+const HOURS = Array.from({ length: 17 }, (_, i) => i + 7);
+
+const CUISINE_TYPES = [
+  'Français', 'Italien', 'Japonais', 'Mexicain', 'Méditerranéen',
+  'Indien', 'Américain', 'Fusion', 'Végétarien', 'Brasserie', 'Bistrot', 'Autre',
+];
+
+const ACCENT_COLORS = [
+  { label: 'Bleu',   value: '#4F8EF7' },
+  { label: 'Vert',   value: '#22c55e' },
+  { label: 'Violet', value: '#a855f7' },
+  { label: 'Orange', value: '#f97316' },
+  { label: 'Rose',   value: '#ec4899' },
+  { label: 'Ambre',  value: '#f59e0b' },
+];
+
+const EMOJIS = ['🍽️','🥐','🍕','🍜','🍣','🌮','🥗','🍔','🍷','☕','🧑‍🍳','⭐'];
 
 // ── Sous-composants ───────────────────────────────────────────────────────────
 
@@ -54,13 +70,11 @@ function Section({ icon: Icon, title, description, children }) {
   );
 }
 
-// Carte d'un jour avec ses horaires
 function DayCard({ dayName, isOpen, schedule, onToggle, onScheduleChange }) {
   return (
     <div className={`rounded-xl border transition-colors duration-150
       ${isOpen ? 'bg-bg-hover border-bg-border' : 'bg-bg-primary border-bg-border/40 opacity-60'}`}
     >
-      {/* Ligne principale : toggle + nom + badge */}
       <div className="flex items-center justify-between px-4 py-3">
         <div className="flex items-center gap-3">
           <Toggle checked={isOpen} onChange={onToggle} />
@@ -74,11 +88,9 @@ function DayCard({ dayName, isOpen, schedule, onToggle, onScheduleChange }) {
         </span>
       </div>
 
-      {/* Horaires — visible uniquement si le jour est ouvert */}
       {isOpen && (
         <div className="px-4 pb-4 pt-0 border-t border-bg-border/50">
           <div className="flex flex-wrap gap-x-6 gap-y-3 mt-3">
-            {/* Midi */}
             <div className="flex items-center gap-2">
               <span className="text-[10px] font-semibold text-accent-amber w-8">Midi</span>
               <HourSelect
@@ -93,8 +105,6 @@ function DayCard({ dayName, isOpen, schedule, onToggle, onScheduleChange }) {
                 min={schedule.lunchStart + 1} max={17}
               />
             </div>
-
-            {/* Soir */}
             <div className="flex items-center gap-2">
               <span className="text-[10px] font-semibold text-accent-blue w-8">Soir</span>
               <HourSelect
@@ -142,6 +152,8 @@ export default function Settings() {
   }
 
   const openCount = settings.openDays.filter(Boolean).length;
+  const color = settings.color || '#4F8EF7';
+  const emoji = settings.emoji || '🍽️';
 
   return (
     <div className="space-y-4 sm:space-y-5 max-w-2xl">
@@ -149,29 +161,131 @@ export default function Settings() {
       {/* Bandeau confirmation */}
       <div className={`overflow-hidden transition-all duration-300 ${saved ? 'max-h-12 opacity-100' : 'max-h-0 opacity-0'}`}>
         <div className="flex items-center gap-2 bg-accent-green/10 border border-accent-green/30 rounded-xl px-4 py-2.5 text-sm text-accent-green">
-          <CheckCircle size={15} /> Paramètres enregistrés automatiquement
+          <CheckCircle size={15} /> Paramètres enregistrés
         </div>
       </div>
 
-      {/* ── Nom du restaurant ─────────────────────────────────────────────── */}
-      <Section icon={Store} title="Informations du restaurant" description="Nom affiché dans l'en-tête du dashboard">
-        <div className="flex gap-2">
-          <input
-            type="text"
-            value={nameValue}
-            onChange={(e) => setNameValue(e.target.value)}
-            onBlur={handleSaveName}
-            onKeyDown={(e) => e.key === 'Enter' && handleSaveName()}
-            maxLength={50}
-            placeholder="Nom du restaurant"
-            className="flex-1 bg-bg-hover border border-bg-border rounded-lg px-3 py-2.5 text-sm text-text-primary
-                       placeholder:text-text-muted focus:outline-none focus:border-accent-blue/60"
-          />
-          <button onClick={handleSaveName} className="btn-primary px-4 flex-shrink-0">Valider</button>
+      {/* ── Informations du restaurant ───────────────────────────────────── */}
+      <Section icon={Store} title="Informations du restaurant" description="Nom, type de cuisine et capacité">
+        <div className="space-y-4">
+          {/* Nom */}
+          <div>
+            <label className="block text-xs font-medium text-text-secondary mb-1.5">Nom du restaurant</label>
+            <div className="flex gap-2">
+              <input
+                type="text"
+                value={nameValue}
+                onChange={(e) => setNameValue(e.target.value)}
+                onBlur={handleSaveName}
+                onKeyDown={(e) => e.key === 'Enter' && handleSaveName()}
+                maxLength={50}
+                placeholder="Nom du restaurant"
+                className="flex-1 bg-bg-hover border border-bg-border rounded-lg px-3 py-2.5 text-sm text-text-primary
+                           placeholder:text-text-muted focus:outline-none focus:border-accent-blue/60"
+              />
+              <button onClick={handleSaveName} className="btn-primary px-4 flex-shrink-0">Valider</button>
+            </div>
+          </div>
+
+          {/* Type de cuisine */}
+          <div>
+            <label className="block text-xs font-medium text-text-secondary mb-2">Type de cuisine</label>
+            <div className="flex flex-wrap gap-2">
+              {CUISINE_TYPES.map(t => (
+                <button
+                  key={t}
+                  type="button"
+                  onClick={() => { update({ cuisineType: t }); flash(); }}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-medium border transition-all duration-150
+                    ${settings.cuisineType === t
+                      ? 'bg-accent-blue/10 border-accent-blue/40 text-accent-blue'
+                      : 'bg-bg-hover border-bg-border text-text-secondary hover:text-text-primary'
+                    }`}
+                >
+                  {t}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Couverts */}
+          <div>
+            <label className="block text-xs font-medium text-text-secondary mb-1.5">Nombre de couverts</label>
+            <div className="flex items-center gap-3">
+              <input
+                type="number"
+                min={1}
+                max={999}
+                value={settings.covers || 40}
+                onChange={(e) => { update({ covers: Number(e.target.value) }); flash(); }}
+                className="w-24 bg-bg-hover border border-bg-border rounded-lg px-3 py-2 text-sm text-text-primary focus:outline-none focus:border-accent-blue/60"
+              />
+              <span className="text-xs text-text-muted">places assises en salle</span>
+            </div>
+          </div>
         </div>
       </Section>
 
-      {/* ── Jours & Horaires (combinés) ───────────────────────────────────── */}
+      {/* ── Identité visuelle ────────────────────────────────────────────── */}
+      <Section icon={Palette} title="Identité visuelle" description="Couleur et icône affichées dans le header">
+        <div className="space-y-4">
+
+          {/* Preview */}
+          <div className="flex items-center gap-3 p-3 bg-bg-hover rounded-xl border border-bg-border">
+            <div
+              className="w-10 h-10 rounded-xl flex items-center justify-center text-xl flex-shrink-0"
+              style={{ backgroundColor: color + '22', border: `1.5px solid ${color}44` }}
+            >
+              {emoji}
+            </div>
+            <div>
+              <p className="text-sm font-semibold text-text-primary">{settings.restaurantName}</p>
+              <p className="text-xs text-text-muted">{settings.cuisineType || 'Type de cuisine'}</p>
+            </div>
+          </div>
+
+          {/* Couleur */}
+          <div>
+            <label className="block text-xs font-medium text-text-secondary mb-2">Couleur principale</label>
+            <div className="flex gap-2">
+              {ACCENT_COLORS.map(({ label, value }) => (
+                <button
+                  key={value}
+                  type="button"
+                  onClick={() => { update({ color: value }); flash(); }}
+                  title={label}
+                  className={`w-8 h-8 rounded-full transition-all duration-150 border-2
+                    ${settings.color === value ? 'border-white scale-110' : 'border-transparent'}`}
+                  style={{ backgroundColor: value }}
+                />
+              ))}
+            </div>
+          </div>
+
+          {/* Emoji */}
+          <div>
+            <label className="block text-xs font-medium text-text-secondary mb-2">Icône</label>
+            <div className="flex flex-wrap gap-2">
+              {EMOJIS.map(em => (
+                <button
+                  key={em}
+                  type="button"
+                  onClick={() => { update({ emoji: em }); flash(); }}
+                  className={`w-9 h-9 rounded-lg text-lg transition-all duration-150 border
+                    ${settings.emoji === em
+                      ? 'bg-accent-blue/10 border-accent-blue/40'
+                      : 'bg-bg-hover border-bg-border hover:border-bg-border'
+                    }`}
+                >
+                  {em}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      </Section>
+
+      {/* ── Jours & Horaires ─────────────────────────────────────────────── */}
       <Section
         icon={CalendarDays}
         title="Jours & Horaires"
@@ -190,14 +304,6 @@ export default function Settings() {
           ))}
         </div>
       </Section>
-
-      {/* ── Note roadmap ─────────────────────────────────────────────────── */}
-      <div className="flex gap-3 p-4 rounded-xl bg-accent-blue/5 border border-accent-blue/15">
-        <Info size={15} className="text-accent-blue flex-shrink-0 mt-0.5" />
-        <p className="text-xs text-text-secondary leading-relaxed">
-          <span className="font-medium text-text-primary">Roadmap</span> — Ces horaires seront synchronisés avec votre caisse (Lightspeed, Zelty) dans une prochaine version. Les plats seront aussi éditables ici directement.
-        </p>
-      </div>
 
       {/* ── Reset ────────────────────────────────────────────────────────── */}
       <div className="flex justify-end pt-2">

@@ -9,6 +9,7 @@ const PAGE_TITLES = {
   '/schedule':  'Heures & Jours',
   '/pricing':   'Prix & Revenus',
   '/settings':  'Paramètres',
+  '/import':    'Importer des données',
 };
 
 export default function Layout({ children }) {

@@ -1,5 +1,7 @@
-import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { ChefHat, ArrowRight, BarChart2, Zap, TrendingUp } from 'lucide-react';
+import { useAuth } from '../hooks/useAuth';
 
 const FEATURES = [
   {
@@ -20,6 +22,14 @@ const FEATURES = [
 ];
 
 export default function Landing() {
+  const { user, hasOnboarded } = useAuth();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (user && hasOnboarded(user.id)) navigate('/dashboard', { replace: true });
+    else if (user) navigate('/onboarding', { replace: true });
+  }, [user, hasOnboarded, navigate]);
+
   return (
     <div className="min-h-screen bg-bg-primary flex flex-col">
 

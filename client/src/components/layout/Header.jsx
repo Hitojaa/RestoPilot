@@ -1,4 +1,4 @@
-import { MapPin, Calendar, Menu } from 'lucide-react';
+import { Calendar, Menu } from 'lucide-react';
 import { useSettings } from '../../hooks/useSettings';
 
 const MONTHS_FR = [
@@ -17,6 +17,8 @@ function formatDateFr(date) {
 export default function Header({ title, onMenuOpen }) {
   const today = new Date();
   const { settings } = useSettings();
+  const color = settings.color || '#4F8EF7';
+  const emoji = settings.emoji || '🍽️';
 
   return (
     <header className="h-14 border-b border-bg-border bg-bg-primary/80 backdrop-blur-sm flex items-center px-4 sm:px-6 sticky top-0 z-20">
@@ -40,15 +42,19 @@ export default function Header({ title, onMenuOpen }) {
             <Calendar size={13} />
             <span className="whitespace-nowrap">{formatDateFr(today)}</span>
           </div>
-          <div className="flex items-center gap-1.5">
-            <div className="w-1.5 h-1.5 rounded-full bg-accent-green animate-pulse flex-shrink-0" />
-            <div className="flex items-center gap-1 text-xs text-text-secondary">
-              <MapPin size={12} className="flex-shrink-0" />
-              {/* Nom lu depuis les paramètres — se met à jour en temps réel */}
-              <span className="font-medium text-text-primary whitespace-nowrap text-[11px] sm:text-xs">
-                {settings.restaurantName}
-              </span>
+
+          {/* Avatar + nom du restaurant */}
+          <div className="flex items-center gap-2">
+            <div
+              className="w-6 h-6 rounded-md flex items-center justify-center text-sm flex-shrink-0"
+              style={{ backgroundColor: color + '22', border: `1.5px solid ${color}44` }}
+            >
+              {emoji}
             </div>
+            <span className="font-medium text-text-primary whitespace-nowrap text-[11px] sm:text-xs">
+              {settings.restaurantName}
+            </span>
+            <div className="w-1.5 h-1.5 rounded-full bg-accent-green animate-pulse flex-shrink-0" />
           </div>
         </div>
 

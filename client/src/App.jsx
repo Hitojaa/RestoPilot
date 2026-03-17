@@ -12,6 +12,7 @@ import Dishes     from './pages/Dishes';
 import Schedule   from './pages/Schedule';
 import Pricing    from './pages/Pricing';
 import Settings   from './pages/Settings';
+import Import     from './pages/Import';
 
 export default function App() {
   return (
@@ -48,6 +49,11 @@ export default function App() {
           <Route path="/settings" element={
             <ProtectedRoute>
               <Layout><Settings /></Layout>
+            </ProtectedRoute>
+          } />
+          <Route path="/import" element={
+            <ProtectedRoute>
+              <Layout><Import /></Layout>
             </ProtectedRoute>
           } />
 

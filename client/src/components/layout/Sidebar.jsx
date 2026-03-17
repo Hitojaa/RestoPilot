@@ -9,6 +9,7 @@ import {
   ChefHat,
   LogOut,
   X,
+  Upload,
 } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth';
 import { useSettings } from '../../hooks/useSettings';
@@ -21,6 +22,7 @@ const NAV_ITEMS = [
 ];
 
 const BOTTOM_ITEMS = [
+  { to: '/import',   icon: Upload,   label: 'Importer CSV' },
   { to: '/settings', icon: Settings, label: 'Paramètres' },
 ];
 

@@ -34,6 +34,52 @@
   }
 }
 
+/* ── Print / Export PDF ───────────────────────────────────────────────────── */
+@media print {
+  /* Cache tout sauf le dashboard */
+  aside, header, .no-print { display: none !important; }
+
+  body { background: white !important; color: #0f1117 !important; }
+
+  .print-container {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  /* Cartes en blanc sur fond blanc */
+  .card {
+    background: white !important;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+  }
+
+  /* Textes lisibles */
+  .text-text-primary    { color: #0f1117 !important; }
+  .text-text-secondary  { color: #475569 !important; }
+  .text-text-muted      { color: #64748b !important; }
+
+  /* Recharts : fond blanc */
+  .recharts-wrapper, .recharts-surface { background: white !important; }
+  .recharts-cartesian-axis-tick-value  { fill: #475569 !important; }
+  .recharts-legend-item-text           { color: #475569 !important; }
+
+  /* KPI cards sur 2 colonnes */
+  .grid { display: grid !important; }
+
+  /* Titre */
+  .print-title {
+    display: block !important;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f1117;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e2e8f0;
+  }
+}
+
 @layer components {
   .card {
     @apply bg-bg-card rounded-xl border border-bg-border shadow-card;
