@@ -4,7 +4,7 @@ import Sidebar from './Sidebar';
 import Header from './Header';
 
 const PAGE_TITLES = {
-  '/':          'Dashboard',
+  '/dashboard': 'Dashboard',
   '/dishes':    'Mes Plats',
   '/schedule':  'Heures & Jours',
   '/pricing':   'Prix & Revenus',

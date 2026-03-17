@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import {
   LayoutDashboard,
   UtensilsCrossed,
@@ -7,26 +7,28 @@ import {
   TrendingUp,
   Settings,
   ChefHat,
+  LogOut,
   X,
 } from 'lucide-react';
+import { useAuth } from '../../hooks/useAuth';
+import { useSettings } from '../../hooks/useSettings';
 
 const NAV_ITEMS = [
-  { to: '/',          icon: LayoutDashboard, label: 'Dashboard' },
+  { to: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
   { to: '/dishes',    icon: UtensilsCrossed, label: 'Mes Plats' },
   { to: '/schedule',  icon: Clock,           label: 'Heures & Jours' },
   { to: '/pricing',   icon: TrendingUp,      label: 'Prix & Revenus' },
 ];
 
 const BOTTOM_ITEMS = [
-  { to: '/settings',  icon: Settings,        label: 'Paramètres' },
+  { to: '/settings', icon: Settings, label: 'Paramètres' },
 ];
 
-/**
- * Sidebar responsive :
- * - Mobile  : drawer depuis la gauche, contrôlé par isOpen/onClose
- * - Desktop : toujours visible (md:translate-x-0)
- */
 export default function Sidebar({ isOpen, onClose }) {
+  const { user, logout } = useAuth();
+  const { settings } = useSettings();
+  const navigate = useNavigate();
+
   // Ferme le drawer si on appuie sur Escape
   useEffect(() => {
     function onKey(e) { if (e.key === 'Escape') onClose(); }
@@ -39,6 +41,15 @@ export default function Sidebar({ isOpen, onClose }) {
     document.body.style.overflow = isOpen ? 'hidden' : '';
     return () => { document.body.style.overflow = ''; };
   }, [isOpen]);
+
+  function handleLogout() {
+    logout();
+    navigate('/', { replace: true });
+  }
+
+  // Avatar couleur depuis les settings
+  const avatarColor  = settings.color  || '#4F8EF7';
+  const avatarEmoji  = settings.emoji  || '🍽️';
 
   return (
     <>
@@ -83,7 +94,7 @@ export default function Sidebar({ isOpen, onClose }) {
             <NavLink
               key={to}
               to={to}
-              end={to === '/'}
+              end={to === '/dashboard'}
               onClick={onClose}
               className={({ isActive }) =>
                 `flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-150
@@ -99,7 +110,7 @@ export default function Sidebar({ isOpen, onClose }) {
           ))}
         </nav>
 
-        {/* Paramètres en bas */}
+        {/* Bas de sidebar */}
         <div className="px-3 pb-3 space-y-0.5 border-t border-bg-border pt-3">
           {BOTTOM_ITEMS.map(({ to, icon: Icon, label }) => (
             <NavLink
@@ -118,7 +129,32 @@ export default function Sidebar({ isOpen, onClose }) {
               {label}
             </NavLink>
           ))}
-          <p className="text-[10px] text-text-muted text-center pt-2">v0.1.0 — MVP</p>
+
+          {/* User card + logout */}
+          {user && (
+            <div className="mt-2 pt-2 border-t border-bg-border">
+              <div className="flex items-center gap-2.5 px-3 py-2 rounded-lg">
+                {/* Avatar */}
+                <div
+                  className="w-7 h-7 rounded-lg flex items-center justify-center text-sm flex-shrink-0"
+                  style={{ backgroundColor: avatarColor + '22', border: `1.5px solid ${avatarColor}44` }}
+                >
+                  {avatarEmoji}
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-xs font-medium text-text-primary truncate">{user.name}</p>
+                  <p className="text-[10px] text-text-muted truncate">{user.email}</p>
+                </div>
+              </div>
+              <button
+                onClick={handleLogout}
+                className="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-text-muted hover:bg-bg-hover hover:text-accent-red transition-all duration-150"
+              >
+                <LogOut size={15} className="flex-shrink-0" />
+                Déconnexion
+              </button>
+            </div>
+          )}
         </div>
       </aside>
     </>

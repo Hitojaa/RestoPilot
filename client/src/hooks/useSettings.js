@@ -1,21 +1,38 @@
 /**
  * Hook de gestion des paramètres restaurant
- * Persistance via localStorage — fonctionne sans serveur
+ * Persistance via localStorage — clé isolée par utilisateur
  */
 
 import { useState, useCallback } from 'react';
 
-const STORAGE_KEY = 'restopilot_settings';
+const SESSION_KEY = 'restopilot_session';
 
 const DEFAULT_DAY_SCHEDULE = { lunchStart: 11, lunchEnd: 15, dinnerStart: 18, dinnerEnd: 23 };
 
 export const DEFAULT_SETTINGS = {
   restaurantName: 'Brasserie Le Marais',
+  cuisineType: '',
+  covers: 40,
+  color: '#4F8EF7',
+  emoji: '🍽️',
   // true = ouvert, false = fermé (index 0 = Lundi … 6 = Dimanche)
   openDays: [true, true, true, true, true, true, false],
   // Horaires par jour — chaque jour peut avoir ses propres créneaux
   daySchedules: Array.from({ length: 7 }, () => ({ ...DEFAULT_DAY_SCHEDULE })),
 };
+
+function getUserId() {
+  try {
+    const s = localStorage.getItem(SESSION_KEY);
+    const session = s ? JSON.parse(s) : null;
+    return session?.id ?? null;
+  } catch { return null; }
+}
+
+function getStorageKey() {
+  const uid = getUserId();
+  return uid ? `restopilot_settings_${uid}` : 'restopilot_settings';
+}
 
 function migrate(raw) {
   // Migration depuis l'ancien format (lunchService / dinnerService globaux)
@@ -34,10 +51,9 @@ function migrate(raw) {
 
 function load() {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const raw = localStorage.getItem(getStorageKey());
     if (!raw) return DEFAULT_SETTINGS;
     const parsed = migrate(JSON.parse(raw));
-    // Deep merge : daySchedules peut manquer de clés si nouvelles
     const daySchedules = Array.from({ length: 7 }, (_, i) => ({
       ...DEFAULT_DAY_SCHEDULE,
       ...(parsed.daySchedules?.[i] ?? {}),
@@ -49,7 +65,7 @@ function load() {
 }
 
 function save(s) {
-  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); } catch {}
+  try { localStorage.setItem(getStorageKey(), JSON.stringify(s)); } catch {}
 }
 
 export function useSettings() {
@@ -68,7 +84,6 @@ export function useSettings() {
     });
   }, []);
 
-  /** Met à jour les horaires d'un jour précis */
   const updateDaySchedule = useCallback((dayIndex, patch) => {
     setSettings((prev) => {
       const daySchedules = prev.daySchedules.map((s, i) =>
@@ -87,7 +102,6 @@ export function useSettings() {
   return { settings, update, toggleDay, updateDaySchedule, reset };
 }
 
-/** Vérifie si une heure donnée est dans les créneaux d'un jour (inclus) */
 export function isHourInService(hour, schedule) {
   const inLunch  = hour >= schedule.lunchStart  && hour <= schedule.lunchEnd;
   const inDinner = hour >= schedule.dinnerStart && hour <= schedule.dinnerEnd;
