@@ -93,13 +93,25 @@ export default function Waste() {
     setGenerating(dish.id);
     setGenError(null);
     try {
-      const res  = await fetch('/api/generate-ingredients', {
+      const res = await fetch('/api/generate-ingredients', {
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
         body:    JSON.stringify({ dishName: dish.name, category: dish.category }),
       });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || 'Erreur serveur');
+
+      let data;
+      try {
+        data = await res.json();
+      } catch {
+        throw new Error(
+          res.status === 503 || res.status === 404
+            ? 'Serveur inaccessible — lancez `npm run dev` dans le dossier /server'
+            : `Réponse invalide du serveur (HTTP ${res.status})`,
+        );
+      }
+
+      if (!res.ok) throw new Error(data.error || `Erreur serveur (${res.status})`);
+      if (!Array.isArray(data.ingredients)) throw new Error('Format inattendu — réessayez');
       setDishIngredients(dish.id, data.ingredients);
     } catch (err) {
       setGenError(`${dish.name} : ${err.message}`);
