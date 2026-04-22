@@ -97,6 +97,12 @@ const FIELD_ALIASES = {
     'famille', 'categorie', 'type', 'rayon', 'gamme', 'rubrique',
     'sous famille', 'category', 'family', 'group', 'department', 'type produit',
   ],
+  ticket: [
+    'ticket', 'n ticket', 'no ticket', 'n° ticket', 'num ticket', 'numero ticket',
+    'ticket id', 'id ticket', 'check', 'check number', 'check id', 'check no',
+    'order id', 'order number', 'order no', 'commande', 'bon', 'receipt',
+    'note', 'facture', 'invoice', 'sale id', 'transaction id',
+  ],
   qty: [
     'qte', 'quantite', 'nb', 'nombre', 'nb vendu', 'nombre vendu',
     'qty', 'quantity', 'qty sold', 'quantity sold', 'units', 'count',
@@ -142,7 +148,7 @@ function scoreColumn(rawHeader, field) {
  */
 export function detectColumns(headers) {
   // Ordre de priorité pour l'assignation (greedy)
-  const PRIORITY = ['name', 'date', 'category', 'price', 'qty', 'hour'];
+  const PRIORITY = ['name', 'date', 'ticket', 'category', 'price', 'qty', 'hour'];
 
   // Calcule les scores de chaque header pour chaque champ
   const candidates = {};
@@ -197,7 +203,7 @@ export function parseCSVWithMapping(content, colMap) {
 
   const sep = (lines[0].match(/;/g) || []).length >= (lines[0].match(/,/g) || []).length ? ';' : ',';
 
-  const { date: ci_date, hour: ci_hour, name: ci_name, category: ci_cat, qty: ci_qty, price: ci_price } = colMap;
+  const { date: ci_date, hour: ci_hour, name: ci_name, category: ci_cat, qty: ci_qty, price: ci_price, ticket: ci_ticket } = colMap;
 
   if (ci_name === -1) throw new Error('Colonne "nom du plat" non mappée. Vérifiez le mapping des colonnes.');
   if (ci_date === -1) throw new Error('Colonne "date" non mappée. Vérifiez le mapping des colonnes.');
@@ -216,10 +222,13 @@ export function parseCSVWithMapping(content, colMap) {
     const name = (ci_name !== -1 ? row[ci_name] : '').replace(/^"|"$/g, '').trim();
     if (!name) continue;
 
-    const hour  = normalizeHour(ci_hour !== -1 ? row[ci_hour] : '12');
-    const cat   = (ci_cat   !== -1 ? row[ci_cat]   : 'Autres').replace(/^"|"$/g, '').trim() || 'Autres';
-    const qty   = normalizeQty(ci_qty   !== -1 ? row[ci_qty]   : '1');
-    const price = normalizePrice(ci_price !== -1 ? row[ci_price] : '0');
+    const hour     = normalizeHour(ci_hour   !== -1 ? row[ci_hour]   : '12');
+    const cat      = (ci_cat !== -1 ? row[ci_cat] : 'Autres').replace(/^"|"$/g, '').trim() || 'Autres';
+    const qty      = normalizeQty(ci_qty     !== -1 ? row[ci_qty]    : '1');
+    const price    = normalizePrice(ci_price !== -1 ? row[ci_price]  : '0');
+    const ticketId = ci_ticket != null && ci_ticket !== -1
+      ? (row[ci_ticket] || '').replace(/^"|"$/g, '').trim() || null
+      : null;
 
     if (!menuMap.has(name)) {
       menuMap.set(name, {
@@ -236,7 +245,7 @@ export function parseCSVWithMapping(content, colMap) {
 
     const dishId = menuMap.get(name).id;
     for (let q = 0; q < qty; q++) {
-      rawSales.push({ date, dishId, hour, quantity: 1 });
+      rawSales.push({ date, dishId, hour, quantity: 1, ...(ticketId ? { ticketId } : {}) });
     }
   }
 

@@ -84,25 +84,47 @@ export function revenueByDay(sales, menu) {
   return result;
 }
 
-/**
- * Calcule le ticket moyen sur une période
- * Estimation: CA / nombre de couverts (couverts ≈ ventes de plats principaux)
- */
-export function avgTicket(sales, menu) {
-  const priceMap = Object.fromEntries(menu.map((d) => [d.id, d.price]));
-  const totalRevenue = sales.reduce((s, e) => s + e.quantity * (priceMap[e.dishId] || 0), 0);
-  // Couverts = ventes dans la catégorie "plats" uniquement
-  const platIds = new Set(menu.filter((d) => d.category === 'plats').map((d) => d.id));
-  const covers = sales.filter((s) => platIds.has(s.dishId)).reduce((s, e) => s + e.quantity, 0);
-  return covers > 0 ? totalRevenue / covers : 0;
+// Catégories qui ne sont PAS des plats principaux → exclues du comptage de couverts
+const NON_MAIN_CATS = new Set([
+  'boissons', 'boisson', 'drinks', 'drink', 'beverages', 'beverage',
+  'desserts', 'dessert',
+  'sides', 'side', 'accompagnements', 'accompagnement',
+  'extras', 'extra', 'supplements', 'supplement', 'options', 'option',
+]);
+
+function isMainDish(category) {
+  return !NON_MAIN_CATS.has((category || '').toLowerCase().trim());
 }
 
 /**
- * Nombre total de couverts (plats vendus)
+ * Nombre total de couverts.
+ * Si des ticketId sont présents → tickets distincts (précis).
+ * Sinon → ventes de plats principaux (excl. boissons/desserts/sides).
  */
 export function totalCovers(sales, menu) {
-  const platIds = new Set(menu.filter((d) => d.category === 'plats').map((d) => d.id));
-  return sales.filter((s) => platIds.has(s.dishId)).reduce((s, e) => s + e.quantity, 0);
+  const ticketed = sales.filter(s => s.ticketId);
+  if (ticketed.length > 0) {
+    return new Set(ticketed.map(s => `${s.date}|${s.ticketId}`)).size;
+  }
+  const mainIds = new Set(menu.filter(d => isMainDish(d.category)).map(d => d.id));
+  return sales.filter(s => mainIds.has(s.dishId)).reduce((sum, s) => sum + s.quantity, 0);
+}
+
+/**
+ * Ticket moyen.
+ * Si des ticketId sont présents → CA / tickets distincts (précis).
+ * Sinon → CA / couverts estimés.
+ */
+export function avgTicket(sales, menu) {
+  const priceMap = Object.fromEntries(menu.map(d => [d.id, d.price]));
+  const totalRevenue = sales.reduce((s, e) => s + e.quantity * (priceMap[e.dishId] || 0), 0);
+  const ticketed = sales.filter(s => s.ticketId);
+  if (ticketed.length > 0) {
+    const distinct = new Set(ticketed.map(s => `${s.date}|${s.ticketId}`)).size;
+    return distinct > 0 ? totalRevenue / distinct : 0;
+  }
+  const covers = totalCovers(sales, menu);
+  return covers > 0 ? totalRevenue / covers : 0;
 }
 
 /**

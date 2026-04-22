@@ -5,6 +5,11 @@ import { useIngredients } from '../hooks/useIngredients';
 
 const UNITS = ['g', 'kg', 'cl', 'ml', 'L', 'pièce(s)'];
 
+// Catégories exclues de la gestion d'ingrédients (produits finis, pas de recette)
+const NO_RECIPE_CATS = new Set([
+  'boissons', 'boisson', 'drinks', 'drink', 'beverages', 'beverage',
+]);
+
 function computeForecast(sales, menu) {
   if (!sales.length || !menu.length) return {};
 
@@ -63,7 +68,13 @@ export default function Waste() {
     [menu, forecast],
   );
 
-  const coveredDishes = menu.filter(d => ingredients[d.id]?.length > 0).length;
+  // Exclut les boissons (produits finis, aucune recette à gérer)
+  const ingredientMenu = useMemo(
+    () => sortedMenu.filter(d => !NO_RECIPE_CATS.has((d.category || '').toLowerCase())),
+    [sortedMenu],
+  );
+
+  const coveredDishes = ingredientMenu.filter(d => ingredients[d.id]?.length > 0).length;
   const maxForecast   = Math.max(1, ...Object.values(forecast));
 
   const shoppingList = useMemo(() => {
@@ -198,9 +209,10 @@ export default function Waste() {
         <div className="space-y-2">
           <p className="text-xs text-text-muted">
             Cliquez sur un plat pour gérer ses ingrédients. L'IA génère automatiquement la recette via Groq.
+            <span className="ml-1 text-text-muted/60">Les boissons sont exclues (produits finis, pas de recette).</span>
           </p>
 
-          {sortedMenu.map(dish => {
+          {ingredientMenu.map(dish => {
             const items  = ingredients[dish.id] || [];
             const isOpen = expanded === dish.id;
 
@@ -349,13 +361,13 @@ export default function Waste() {
           {/* Forecast bar chart */}
           <div className="card p-4">
             <p className="text-sm font-semibold text-text-primary mb-4">Prévision semaine prochaine</p>
-            {sortedMenu.filter(d => ingredients[d.id]?.length > 0).length === 0 ? (
+            {ingredientMenu.filter(d => ingredients[d.id]?.length > 0).length === 0 ? (
               <p className="text-sm text-text-muted">
                 Aucun plat avec ingrédients. Générez-les dans l'onglet "Ingrédients".
               </p>
             ) : (
               <div className="space-y-2.5">
-                {sortedMenu
+                {ingredientMenu
                   .filter(d => ingredients[d.id]?.length > 0)
                   .slice(0, 10)
                   .map(dish => {

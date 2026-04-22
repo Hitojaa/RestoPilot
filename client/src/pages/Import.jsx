@@ -15,13 +15,14 @@ import { useAuth } from '../hooks/useAuth';
 const FIELD_META = {
   name:     { label: 'Nom du plat',    required: true,  tip: 'Nom de l\'article vendu' },
   date:     { label: 'Date',           required: true,  tip: 'Date de la vente (JJ/MM/AAAA ou AAAA-MM-JJ)' },
+  ticket:   { label: 'N° Ticket',      required: false, tip: 'Numéro de ticket / commande — améliore le calcul du ticket moyen et des couverts' },
   category: { label: 'Catégorie',      required: false, tip: 'Famille / rayon' },
   qty:      { label: 'Quantité',       required: false, tip: 'Nombre d\'articles' },
   price:    { label: 'Prix unitaire',  required: false, tip: 'Prix TTC unitaire (€)' },
   hour:     { label: 'Heure',          required: false, tip: 'Heure de la vente (HH:MM)' },
 };
 
-const FIELD_ORDER = ['name', 'date', 'category', 'qty', 'price', 'hour'];
+const FIELD_ORDER = ['name', 'date', 'ticket', 'category', 'qty', 'price', 'hour'];
 
 function ScoreBadge({ score }) {
   if (score === 0) return (
@@ -47,6 +48,12 @@ function ScoreBadge({ score }) {
 }
 
 const TEST_FILES = [
+  {
+    name: 'test-supergood.csv',
+    label: 'Données test — SuperGood',
+    desc: '6 800+ ventes · 6 semaines · burgers/street food',
+    url: '/data/test-supergood.csv',
+  },
   {
     name: 'test-zelty.csv',
     label: 'Données test — Zelty',
