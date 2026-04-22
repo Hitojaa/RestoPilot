@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { Leaf, ShoppingCart, Sparkles, Plus, Trash2, Copy, Check, ChevronDown, ChevronUp, AlertCircle } from 'lucide-react';
+import { Leaf, ShoppingCart, Sparkles, Plus, Trash2, Copy, Check, ChevronDown, ChevronUp, AlertCircle, TrendingUp } from 'lucide-react';
 import { useData } from '../hooks/useData';
 import { useIngredients } from '../hooks/useIngredients';
 
@@ -9,6 +9,31 @@ const UNITS = ['g', 'kg', 'cl', 'ml', 'L', 'pièce(s)'];
 const NO_RECIPE_CATS = new Set([
   'boissons', 'boisson', 'drinks', 'drink', 'beverages', 'beverage',
 ]);
+
+// Coût d'un ingrédient pour une portion (unitPrice = €/kg, €/L, ou €/pièce)
+function ingredientCost(ing) {
+  if (!ing.unitPrice || !ing.quantity) return 0;
+  const { quantity, unit, unitPrice } = ing;
+  if (unit === 'g')  return (quantity / 1000) * unitPrice;
+  if (unit === 'kg') return quantity * unitPrice;
+  if (unit === 'cl') return (quantity / 100) * unitPrice;
+  if (unit === 'ml') return (quantity / 1000) * unitPrice;
+  if (unit === 'L')  return quantity * unitPrice;
+  return quantity * unitPrice; // pièce(s) et autres
+}
+
+// Coût matière total d'un plat (1 portion)
+function dishCost(items) {
+  if (!items?.length) return 0;
+  return items.reduce((sum, ing) => sum + ingredientCost(ing), 0);
+}
+
+// Label du prix selon l'unité
+function priceLabel(unit) {
+  if (unit === 'g' || unit === 'kg') return '€/kg';
+  if (unit === 'cl' || unit === 'ml' || unit === 'L') return '€/L';
+  return '€/p.';
+}
 
 function computeForecast(sales, menu) {
   if (!sales.length || !menu.length) return {};
@@ -86,19 +111,26 @@ export default function Waste() {
       if (predicted === 0) continue;
       for (const ing of items) {
         const key = ing.name.toLowerCase();
-        if (!agg[key]) agg[key] = { name: ing.name, qty: 0, unit: ing.unit };
+        if (!agg[key]) agg[key] = { name: ing.name, qty: 0, unit: ing.unit, unitPrice: ing.unitPrice || 0 };
         agg[key].qty += ing.quantity * predicted;
       }
     }
     return Object.values(agg)
-      .map(({ name, qty, unit }) => ({
-        name,
-        base:       Math.round(qty * 10) / 10,
-        withMargin: Math.round(qty * (1 + margin / 100) * 10) / 10,
-        unit,
-      }))
+      .map(({ name, qty, unit, unitPrice }) => {
+        const base       = Math.round(qty * 10) / 10;
+        const withMargin = Math.round(qty * (1 + margin / 100) * 10) / 10;
+        const cost       = unitPrice > 0
+          ? ingredientCost({ quantity: withMargin, unit, unitPrice })
+          : null;
+        return { name, base, withMargin, unit, unitPrice, cost };
+      })
       .sort((a, b) => a.name.localeCompare(b.name));
   }, [menu, ingredients, forecast, margin]);
+
+  const totalShoppingCost = useMemo(
+    () => shoppingList.reduce((sum, r) => sum + (r.cost || 0), 0),
+    [shoppingList],
+  );
 
   async function generateIngredients(dish) {
     setGenerating(dish.id);
@@ -213,8 +245,13 @@ export default function Waste() {
           </p>
 
           {ingredientMenu.map(dish => {
-            const items  = ingredients[dish.id] || [];
-            const isOpen = expanded === dish.id;
+            const items   = ingredients[dish.id] || [];
+            const isOpen  = expanded === dish.id;
+            const cost    = dishCost(items);
+            const hasCost = cost > 0;
+            const margin  = hasCost && dish.price > 0
+              ? ((dish.price - cost) / dish.price) * 100
+              : null;
 
             return (
               <div key={dish.id} className="card overflow-hidden">
@@ -238,9 +275,23 @@ export default function Waste() {
                       {forecast[dish.id] || 0} portions prévues
                     </p>
                   </div>
+                  {/* Cost + margin badges */}
                   <div className="flex items-center gap-2 flex-shrink-0">
+                    {hasCost && (
+                      <div className="hidden sm:flex items-center gap-1.5">
+                        <span className="text-xs text-text-muted">{cost.toFixed(2)}€</span>
+                        {margin !== null && (
+                          <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded-md
+                            ${margin >= 70 ? 'bg-green-400/10 text-green-400'
+                            : margin >= 50 ? 'bg-amber-400/10 text-amber-400'
+                            : 'bg-red-400/10 text-red-400'}`}>
+                            {Math.round(margin)}% marge
+                          </span>
+                        )}
+                      </div>
+                    )}
                     {items.length > 0 && (
-                      <div className="w-2 h-2 rounded-full bg-green-400" title="Ingrédients définis" />
+                      <div className="w-2 h-2 rounded-full bg-green-400" />
                     )}
                     {isOpen
                       ? <ChevronUp   size={16} className="text-text-muted" />
@@ -253,17 +304,18 @@ export default function Waste() {
                   <div className="border-t border-bg-border px-4 pb-4 pt-3 space-y-3">
                     {/* Column labels */}
                     {items.length > 0 && (
-                      <div className="grid grid-cols-[1fr,80px,96px,32px] gap-2 text-[10px] text-text-muted px-0.5">
+                      <div className="grid grid-cols-[1fr,72px,88px,72px,32px] gap-2 text-[10px] text-text-muted px-0.5">
                         <span>Ingrédient</span>
-                        <span>Quantité</span>
+                        <span>Qté</span>
                         <span>Unité</span>
+                        <span>Prix gros</span>
                         <span />
                       </div>
                     )}
 
                     {/* Ingredient rows */}
                     {items.map((ing, idx) => (
-                      <div key={idx} className="grid grid-cols-[1fr,80px,96px,32px] gap-2 items-center">
+                      <div key={idx} className="grid grid-cols-[1fr,72px,88px,72px,32px] gap-2 items-center">
                         <input
                           className="bg-bg-hover text-text-primary rounded-lg px-2.5 py-1.5 text-sm border border-transparent focus:border-accent-blue/40 focus:outline-none w-full"
                           value={ing.name}
@@ -275,9 +327,7 @@ export default function Waste() {
                           }}
                         />
                         <input
-                          type="number"
-                          min="0"
-                          step="any"
+                          type="number" min="0" step="any"
                           className="bg-bg-hover text-text-primary rounded-lg px-2.5 py-1.5 text-sm border border-transparent focus:border-accent-blue/40 focus:outline-none w-full"
                           value={ing.quantity}
                           onChange={e => {
@@ -297,6 +347,21 @@ export default function Waste() {
                         >
                           {UNITS.map(u => <option key={u} value={u}>{u}</option>)}
                         </select>
+                        {/* Unit price (wholesale) */}
+                        <div className="relative">
+                          <input
+                            type="number" min="0" step="0.01"
+                            className="bg-bg-hover text-text-primary rounded-lg pl-2 pr-1 py-1.5 text-xs border border-transparent focus:border-accent-blue/40 focus:outline-none w-full"
+                            value={ing.unitPrice ?? ''}
+                            placeholder={priceLabel(ing.unit)}
+                            title={`Prix grossiste ${priceLabel(ing.unit)}`}
+                            onChange={e => {
+                              const updated = [...items];
+                              updated[idx] = { ...updated[idx], unitPrice: parseFloat(e.target.value) || 0 };
+                              setDishIngredients(dish.id, updated);
+                            }}
+                          />
+                        </div>
                         <button
                           onClick={() => setDishIngredients(dish.id, items.filter((_, i) => i !== idx))}
                           className="p-1.5 rounded-lg text-text-muted hover:text-red-400 hover:bg-red-400/10 transition-colors"
@@ -305,6 +370,25 @@ export default function Waste() {
                         </button>
                       </div>
                     ))}
+
+                    {/* Cost summary */}
+                    {hasCost && (
+                      <div className="flex items-center gap-3 pt-1 border-t border-bg-border/50 text-xs">
+                        <TrendingUp size={12} className="text-text-muted flex-shrink-0" />
+                        <span className="text-text-muted">Coût matière :</span>
+                        <span className="font-semibold text-text-primary">{cost.toFixed(2)} €</span>
+                        {margin !== null && dish.price > 0 && (
+                          <>
+                            <span className="text-text-muted">·</span>
+                            <span className="text-text-muted">Vente : {dish.price.toFixed(2)} €</span>
+                            <span className="text-text-muted">·</span>
+                            <span className={`font-bold ${margin >= 70 ? 'text-green-400' : margin >= 50 ? 'text-amber-400' : 'text-red-400'}`}>
+                              Marge {Math.round(margin)}%
+                            </span>
+                          </>
+                        )}
+                      </div>
+                    )}
 
                     {/* Actions */}
                     <div className="flex items-center gap-2 flex-wrap pt-1">
@@ -414,15 +498,16 @@ export default function Waste() {
               </div>
 
               {/* Header row */}
-              <div className="grid grid-cols-[1fr,auto,auto] gap-x-6 text-[10px] text-text-muted pb-2 border-b border-bg-border">
+              <div className="grid grid-cols-[1fr,auto,auto,auto] gap-x-4 text-[10px] text-text-muted pb-2 border-b border-bg-border">
                 <span>Ingrédient</span>
                 <span className="text-right">Base</span>
                 <span className="text-right text-accent-blue">+{margin}% marge</span>
+                <span className="text-right text-green-400">Coût est.</span>
               </div>
 
               <div className="divide-y divide-bg-border/50">
-                {shoppingList.map(({ name, base, withMargin, unit }) => (
-                  <div key={name} className="grid grid-cols-[1fr,auto,auto] gap-x-6 items-center py-2">
+                {shoppingList.map(({ name, base, withMargin, unit, cost }) => (
+                  <div key={name} className="grid grid-cols-[1fr,auto,auto,auto] gap-x-4 items-center py-2">
                     <span className="text-sm text-text-primary capitalize">{name}</span>
                     <span className="text-sm text-text-muted text-right tabular-nums">
                       {base} {unit}
@@ -430,9 +515,22 @@ export default function Waste() {
                     <span className="text-sm font-semibold text-text-primary text-right tabular-nums">
                       {withMargin} {unit}
                     </span>
+                    <span className="text-sm text-right tabular-nums text-text-muted">
+                      {cost != null ? `${cost.toFixed(2)} €` : '—'}
+                    </span>
                   </div>
                 ))}
               </div>
+
+              {/* Total cost */}
+              {totalShoppingCost > 0 && (
+                <div className="flex items-center justify-between pt-3 mt-2 border-t border-bg-border">
+                  <span className="text-sm font-semibold text-text-primary">Total estimé (semaine)</span>
+                  <span className="text-sm font-bold text-green-400 tabular-nums">
+                    {totalShoppingCost.toFixed(2)} €
+                  </span>
+                </div>
+              )}
             </div>
           ) : (
             <div className="card p-8 flex flex-col items-center text-center gap-3">

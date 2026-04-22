@@ -116,7 +116,14 @@ app.post('/api/generate-ingredients', async (req, res) => {
           },
           {
             role: 'user',
-            content: `Donne les ingrédients pour 1 portion de "${dishName}" (catégorie: ${category || 'plat'}). JSON exact attendu: {"ingredients":[{"name":"farine","quantity":150,"unit":"g"}]}. Unités autorisées: g, kg, cl, ml, L, pièce(s). Entre 4 et 10 ingrédients.`,
+            content: `Donne les ingrédients pour 1 portion de "${dishName}" (catégorie: ${category || 'plat'}) avec les quantités ET le prix grossiste indicatif France (type Metro/Promocash) en euros.
+JSON exact attendu: {"ingredients":[{"name":"bœuf haché","quantity":180,"unit":"g","unitPrice":8.50}]}
+Règles unitPrice:
+- ingrédients en g ou kg → prix par kg (ex: bœuf 8-12€/kg, farine 0.8€/kg, beurre 7€/kg)
+- ingrédients en cl, ml ou L → prix par litre (ex: crème 2.5€/L, huile olive 4€/L, vin 3€/L)
+- ingrédients en pièce(s) → prix par pièce (ex: œuf 0.20€, citron 0.30€)
+Utiliser des prix grossiste France réalistes (Metro, Promocash, Transgourmet), pas grande surface.
+Unités autorisées: g, kg, cl, ml, L, pièce(s). Entre 4 et 10 ingrédients.`,
           },
         ],
         temperature: 0.2,
