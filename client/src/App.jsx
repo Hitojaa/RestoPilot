@@ -13,6 +13,7 @@ import Schedule   from './pages/Schedule';
 import Pricing    from './pages/Pricing';
 import Settings   from './pages/Settings';
 import Import     from './pages/Import';
+import Waste      from './pages/Waste';
 
 export default function App() {
   return (
@@ -54,6 +55,11 @@ export default function App() {
           <Route path="/import" element={
             <ProtectedRoute>
               <Layout><Import /></Layout>
+            </ProtectedRoute>
+          } />
+          <Route path="/waste" element={
+            <ProtectedRoute>
+              <Layout><Waste /></Layout>
             </ProtectedRoute>
           } />
 

@@ -3,6 +3,7 @@
  * Sert les données mock JSON via une API REST simple
  */
 
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
@@ -81,6 +82,62 @@ app.get('/api/stats', (req, res) => {
       avgTicket: totalCovers > 0 ? Math.round(totalRevenue / totalCovers) : 0,
       period: { start: '2026-02-16', end: '2026-03-15', days: 28 },
     });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// POST /api/generate-ingredients — Génère les ingrédients d'un plat via Groq
+app.post('/api/generate-ingredients', async (req, res) => {
+  const { dishName, category } = req.body;
+  if (!dishName) return res.status(400).json({ error: 'dishName requis' });
+
+  const apiKey = process.env.GROQ_API_KEY;
+  if (!apiKey) {
+    return res.status(503).json({
+      error: 'GROQ_API_KEY non configurée. Ajoutez GROQ_API_KEY=sk-... dans server/.env puis redémarrez le serveur.',
+    });
+  }
+
+  try {
+    const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'llama-3.3-70b-versatile',
+        messages: [
+          {
+            role: 'system',
+            content:
+              'Tu es un chef cuisinier professionnel français. Réponds UNIQUEMENT avec un objet JSON valide, sans markdown ni texte autour.',
+          },
+          {
+            role: 'user',
+            content: `Donne les ingrédients pour 1 portion de "${dishName}" (catégorie: ${category || 'plat'}). JSON exact attendu: {"ingredients":[{"name":"farine","quantity":150,"unit":"g"}]}. Unités autorisées: g, kg, cl, ml, L, pièce(s). Entre 4 et 10 ingrédients.`,
+          },
+        ],
+        temperature: 0.2,
+        max_tokens: 600,
+      }),
+    });
+
+    if (!response.ok) {
+      const text = await response.text();
+      return res.status(502).json({ error: `Groq API ${response.status}`, details: text.slice(0, 300) });
+    }
+
+    const data = await response.json();
+    const content = (data.choices?.[0]?.message?.content || '').trim();
+    const match = content.match(/\{[\s\S]*\}/);
+    if (!match) throw new Error(`Réponse non parseable: ${content.slice(0, 100)}`);
+
+    const parsed = JSON.parse(match[0]);
+    if (!Array.isArray(parsed.ingredients)) throw new Error('Format inattendu (ingredients manquant)');
+
+    res.json(parsed);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

@@ -10,6 +10,7 @@ import {
   LogOut,
   X,
   Upload,
+  Leaf,
 } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth';
 import { useSettings } from '../../hooks/useSettings';
@@ -19,6 +20,7 @@ const NAV_ITEMS = [
   { to: '/dishes',    icon: UtensilsCrossed, label: 'Mes Plats' },
   { to: '/schedule',  icon: Clock,           label: 'Heures & Jours' },
   { to: '/pricing',   icon: TrendingUp,      label: 'Prix & Revenus' },
+  { to: '/waste',     icon: Leaf,            label: 'Gaspillage' },
 ];
 
 const BOTTOM_ITEMS = [
