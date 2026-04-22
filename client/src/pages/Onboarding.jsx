@@ -332,7 +332,7 @@ export default function Onboarding() {
       openDays: data.openDays,
       daySchedules: data.daySchedules,
     };
-    const key = `restopilot_settings_${user.id}`;
+    const key = `cleanplate_settings_${user.id}`;
     localStorage.setItem(key, JSON.stringify(settings));
     markOnboarded(user.id);
     navigate('/dashboard', { replace: true });
@@ -353,7 +353,7 @@ export default function Onboarding() {
         <div className="w-9 h-9 rounded-xl bg-accent-blue flex items-center justify-center">
           <ChefHat size={18} className="text-white" />
         </div>
-        <span className="text-base font-bold text-text-primary">RestoPilot</span>
+        <span className="text-base font-bold text-text-primary">CleanPlate</span>
       </div>
 
       {/* Card */}

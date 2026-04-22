@@ -55,7 +55,7 @@ export default function Register() {
           <ChefHat size={18} className="text-white" />
         </div>
         <span className="text-base font-bold text-text-primary group-hover:text-accent-blue transition-colors">
-          RestoPilot
+          CleanPlate
         </span>
       </Link>
 

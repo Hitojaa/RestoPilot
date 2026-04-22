@@ -95,7 +95,7 @@ export default function Dashboard() {
   return (
     <div className="space-y-4 sm:space-y-6 max-w-[1400px] print-container">
       {/* Titre visible uniquement à l'impression */}
-      <span className="print-title hidden">Rapport RestoPilot — {new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+      <span className="print-title hidden">Rapport CleanPlate — {new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
 
       {/* Bouton export */}
       <div className="flex justify-end no-print">

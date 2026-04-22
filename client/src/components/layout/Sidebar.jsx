@@ -79,7 +79,7 @@ export default function Sidebar({ isOpen, onClose }) {
               <ChefHat size={16} className="text-white" />
             </div>
             <div>
-              <p className="text-sm font-bold text-text-primary leading-none">RestoPilot</p>
+              <p className="text-sm font-bold text-text-primary leading-none">CleanPlate</p>
               <p className="text-[10px] text-text-muted mt-0.5">Analytics</p>
             </div>
           </div>

@@ -5,7 +5,7 @@
 
 import { useState, useCallback } from 'react';
 
-const SESSION_KEY = 'restopilot_session';
+const SESSION_KEY = 'cleanplate_session';
 
 const DEFAULT_DAY_SCHEDULE = { lunchStart: 11, lunchEnd: 15, dinnerStart: 18, dinnerEnd: 23 };
 
@@ -31,7 +31,7 @@ function getUserId() {
 
 function getStorageKey() {
   const uid = getUserId();
-  return uid ? `restopilot_settings_${uid}` : 'restopilot_settings';
+  return uid ? `cleanplate_settings_${uid}` : 'cleanplate_settings';
 }
 
 function migrate(raw) {

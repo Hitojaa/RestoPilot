@@ -2,11 +2,11 @@ import { useState, useEffect, useCallback } from 'react';
 
 function getStorageKey() {
   try {
-    const s = localStorage.getItem('restopilot_session');
+    const s = localStorage.getItem('cleanplate_session');
     const session = s ? JSON.parse(s) : null;
-    return `restopilot_ingredients_${session?.id || 'guest'}`;
+    return `cleanplate_ingredients_${session?.id || 'guest'}`;
   } catch {
-    return 'restopilot_ingredients_guest';
+    return 'cleanplate_ingredients_guest';
   }
 }
 

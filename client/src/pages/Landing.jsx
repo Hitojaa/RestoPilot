@@ -39,7 +39,7 @@ export default function Landing() {
           <div className="w-8 h-8 rounded-lg bg-accent-blue flex items-center justify-center">
             <ChefHat size={16} className="text-white" />
           </div>
-          <span className="text-sm font-bold text-text-primary">RestoPilot</span>
+          <span className="text-sm font-bold text-text-primary">CleanPlate</span>
         </div>
         <div className="flex items-center gap-3">
           <Link
@@ -77,7 +77,7 @@ export default function Landing() {
             </h1>
 
             <p className="text-sm sm:text-base text-text-secondary max-w-sm sm:max-w-md mx-auto mb-8 leading-relaxed">
-              RestoPilot analyse vos ventes, identifie vos opportunités et vous aide à prendre
+              CleanPlate analyse vos ventes, identifie vos opportunités et vous aide à prendre
               les bonnes décisions — en quelques secondes.
             </p>
 
@@ -119,7 +119,7 @@ export default function Landing() {
 
       {/* Footer */}
       <footer className="py-5 text-center border-t border-bg-border flex-shrink-0">
-        <p className="text-xs text-text-muted">© 2026 RestoPilot — Tous droits réservés</p>
+        <p className="text-xs text-text-muted">© 2026 CleanPlate — Tous droits réservés</p>
       </footer>
 
     </div>

@@ -1,5 +1,5 @@
 /**
- * Moteur d'insights IA — RestoPilot
+ * Moteur d'insights IA — CleanPlate
  *
  * Règles métier :
  * - Bestseller     : plat représentant >20% du CA total sur 4 semaines

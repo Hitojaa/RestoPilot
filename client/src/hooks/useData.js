@@ -2,7 +2,7 @@
  * Hook central de chargement des données.
  *
  * Priorité :
- * 1. Données importées via CSV (localStorage restopilot_imported_{userId})
+ * 1. Données importées via CSV (localStorage cleanplate_imported_{userId})
  * 2. Données statiques (VITE_STATIC_DATA=true → Vercel)
  * 3. API Express (développement)
  */
@@ -16,7 +16,7 @@ const USE_STATIC = import.meta.env.VITE_STATIC_DATA === 'true';
 
 function getSession() {
   try {
-    const s = localStorage.getItem('restopilot_session');
+    const s = localStorage.getItem('cleanplate_session');
     return s ? JSON.parse(s) : null;
   } catch { return null; }
 }
@@ -25,7 +25,7 @@ function getImportedData() {
   try {
     const session = getSession();
     if (!session) return null;
-    const raw = localStorage.getItem(`restopilot_imported_${session.id}`);
+    const raw = localStorage.getItem(`cleanplate_imported_${session.id}`);
     return raw ? JSON.parse(raw) : null;
   } catch { return null; }
 }
@@ -41,8 +41,8 @@ export function useData() {
   const [importVersion, setImportVersion] = useState(0);
   useEffect(() => {
     function onImport() { setImportVersion(v => v + 1); }
-    window.addEventListener('restopilot:imported', onImport);
-    return () => window.removeEventListener('restopilot:imported', onImport);
+    window.addEventListener('cleanplate:imported', onImport);
+    return () => window.removeEventListener('cleanplate:imported', onImport);
   }, []);
 
   useEffect(() => {

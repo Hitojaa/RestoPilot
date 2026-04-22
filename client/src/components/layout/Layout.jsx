@@ -14,7 +14,7 @@ const PAGE_TITLES = {
 
 export default function Layout({ children }) {
   const { pathname } = useLocation();
-  const title = PAGE_TITLES[pathname] || 'RestoPilot';
+  const title = PAGE_TITLES[pathname] || 'CleanPlate';
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (

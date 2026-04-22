@@ -1,5 +1,5 @@
 /**
- * RestoPilot — Serveur Express
+ * CleanPlate — Serveur Express
  * Sert les données mock JSON via une API REST simple
  */
 
@@ -159,6 +159,6 @@ app.get('/api/health', (req, res) => {
 
 // ── Start ─────────────────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`🍽️  RestoPilot API → http://localhost:${PORT}`);
+  console.log(`🍽️  CleanPlate API → http://localhost:${PORT}`);
   console.log(`   Données: ${DATA_DIR}`);
 });

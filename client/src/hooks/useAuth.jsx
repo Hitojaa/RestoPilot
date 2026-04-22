@@ -5,8 +5,8 @@
 
 import { createContext, useContext, useState } from 'react';
 
-const USERS_KEY   = 'restopilot_users';
-const SESSION_KEY = 'restopilot_session';
+const USERS_KEY   = 'cleanplate_users';
+const SESSION_KEY = 'cleanplate_session';
 
 const AuthContext = createContext(null);
 
@@ -20,11 +20,11 @@ export function AuthProvider({ children }) {
 
   /** Renvoie true si l'utilisateur a terminé l'onboarding */
   function hasOnboarded(userId) {
-    return localStorage.getItem(`restopilot_onboarded_${userId}`) === 'true';
+    return localStorage.getItem(`cleanplate_onboarded_${userId}`) === 'true';
   }
 
   function markOnboarded(userId) {
-    localStorage.setItem(`restopilot_onboarded_${userId}`, 'true');
+    localStorage.setItem(`cleanplate_onboarded_${userId}`, 'true');
   }
 
   function register(email, password, name) {

@@ -278,12 +278,12 @@ export function parseCSV(content) {
 /** Sauvegarde les données parsées dans localStorage */
 export function saveImportedData(userId, { menu, sales, startDate }) {
   const payload = JSON.stringify({ menu, sales, startDate, importedAt: new Date().toISOString() });
-  localStorage.setItem(`restopilot_imported_${userId}`, payload);
-  window.dispatchEvent(new CustomEvent('restopilot:imported'));
+  localStorage.setItem(`cleanplate_imported_${userId}`, payload);
+  window.dispatchEvent(new CustomEvent('cleanplate:imported'));
 }
 
 /** Supprime les données importées (retour aux données mock) */
 export function clearImportedData(userId) {
-  localStorage.removeItem(`restopilot_imported_${userId}`);
-  window.dispatchEvent(new CustomEvent('restopilot:imported'));
+  localStorage.removeItem(`cleanplate_imported_${userId}`);
+  window.dispatchEvent(new CustomEvent('cleanplate:imported'));
 }
